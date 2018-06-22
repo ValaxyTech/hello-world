@@ -1,1 +1,1 @@
-Hello, Valaxy !!
+Welcome to Valaxy Technologies!!
