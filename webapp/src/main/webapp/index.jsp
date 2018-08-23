@@ -1,1 +1,1 @@
-Hello, Welcome to Wipro COC !!
+Hello, Welcome to Valaxy Technologies !!
