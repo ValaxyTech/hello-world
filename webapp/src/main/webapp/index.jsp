@@ -8,3 +8,4 @@
 <h2> This 2nd line has been added to test CICD automatation again </h2>
 <h2> test auto build from github every 2 minutes
 <h2> test auto build from git client this time
+<h2> deploy using ansible server playbook
