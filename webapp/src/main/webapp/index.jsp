@@ -9,3 +9,4 @@
 <h2> test auto build from github every 2 minutes
 <h2> test auto build from git client this time
 <h2> deploy using ansible server playbook
+<h2> deploy using docker containers
