@@ -216,6 +216,20 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-
+         
+ <distributionManagement>
+	<repository>
+		<id>deploymentRepo</id>
+		<name>Internal Releases</name>
+		<url>http://104.196.31.135:8081//repository/maven-releases/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>deploymentRepo</id>
+		<name>Internal Releases</name>
+		<url>http://104.196.31.135:8081//repository/maven-snapshots/</url>
+	</snapshotRepository>
+   </distributionManagement>
+         
          
 </project>
