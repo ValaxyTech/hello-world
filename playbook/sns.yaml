@@ -1,0 +1,14 @@
+---
+
+- name: Creating SNS topic
+  hosts: localhost
+  become: true
+  tasks:
+  sns_topic:
+    name: "{{ ROLE }}-{{ PROJECT }}-{{ ENVIRONMENT }}-{{PURPOSE }}-alarm"
+    state: present
+    display_name: "{{ ROLE }}-{{ APPLICATION }}-{{PROJECT}}-{{ ENVIRONMENT }} - {{ PURPOSE }}-alarm"
+    subscriptions:
+      - endpoint: "sohail.yu@gmail.com"
+        protocol: "email"
+  when: PURPOSE == "cpu" 
