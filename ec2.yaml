@@ -1,0 +1,16 @@
+---
+
+- name: Launching an EC2 machine
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Launching an EC2 Machine for Nginx Loadbalancer    
+      ec2:
+        aws_region: us-west-2
+        key_name: knife
+        instance_type: t2.micro
+        image: ami-009307dd5dee4e17b
+        wait: yes
+        count: 1
+        vpc_subnet_id: subnet-4737543e
+        assign_public_ip: yes 
