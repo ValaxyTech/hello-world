@@ -8,3 +8,10 @@
 <h2>DevOps Project - 3 Done! </h3>
 <p> GitHub --> Jenkins -->(SSH)--> Docker-server{Dockerfile-->deploy-->tomcat_container}</p>
 <p>--------------------------------------------------------------------------------------------------------------</p>
+
+
+
+<h2>DevOps Project - 4 Done! </h3>
+<p> GitHub --> Jenkins -->(SSH)--> (Ansible-Server -->push--> Docker_hub)
+               Jenkins -->(SSH)--> (Docker-Server <--pull <-- Docker_hub)</p>
+<p>--------------------------------------------------------------------------------------------------------------</p>
