@@ -15,3 +15,5 @@
 <p> GitHub --> Jenkins -->(SSH)--> (Ansible-Server -->push--> Docker_hub)<p>
 <p >           Jenkins -->(SSH)--> (Docker-Server <--pull <-- Docker_hub)</p>
 <p>--------------------------------------------------------------------------------------------------------------</p>
+
+Check1
