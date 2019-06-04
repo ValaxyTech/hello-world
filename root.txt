@@ -1,5 +1,7 @@
+adding one line from ec2-user
 adding one more line from root user
 
 
 
 this is root user modified with fetch
+adding one mroe line form ec2-user in git fetch command
