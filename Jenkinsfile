@@ -6,8 +6,13 @@ node{
      sh 'mvn package'
  }
    stage ('Deploy to tomcat-server'){
-   sshagent (['tomcat-dev']) {
-      sh 'scp -r StrictHostKeyChecking=no /var/lib/jenkins/workspace/cicd-pipeline/webapp/target/*.war sai@10.128.0.22:/opt/apache-tomcat-8.5.41/webapps'
+   sshagent(['tomcat-dev']) {
+      sh 'scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/cicd-pipeline/webapp/target/*.war sai@10.128.0.22:/opt/apache-tomcat-8.5.41/webapps'
 }
 }
+  stage ('Deploy to server'){
+   sshagent(['tomcat-dev']) {
+   sh 'rsync -avz -e 'ssh'  /var/lib/jenkins/workspace/cicd-pipeline/webapp/target/*.war sai@10.128.0.22:/opt/apache-tomcat-8.5.41/webapps'
+}
+ }
  }
