@@ -1,7 +1,7 @@
 pipeline {
    
    agent any
-   
+stages {   
    stage('Checkout form SCM'){
    git 'https://github.com/saikrishna86/hello-world.git'
  }
@@ -16,3 +16,4 @@ pipeline {
 }
 }
  }
+}
