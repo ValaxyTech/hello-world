@@ -6,7 +6,7 @@ node{
      sh 'mvn package'
  }
    sshagent(['tomcat-dev']) {
-      sh 'scp StrictHostKeyChecking=no /var/lib/jenkins/sai sai@10.128.0.22:/opt'
+      sh 'scp  /var/lib/jenkins/sai sai@10.128.0.22:/opt'
 }
 
  }
