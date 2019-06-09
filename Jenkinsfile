@@ -10,9 +10,4 @@ node{
       sh 'scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/cicd-pipeline/webapp/target/*.war sai@10.128.0.22:/opt/apache-tomcat-8.5.41/webapps'
 }
 }
-  stage ('Deploy to server'){
-   sshagent(['tomcat-dev']) {
-   sh 'rsync -avz -e 'ssh'  /var/lib/jenkins/workspace/cicd-pipeline/webapp/target/*.war sai@10.128.0.22:/opt/apache-tomcat-8.5.41/webapps'
-}
- }
  }
