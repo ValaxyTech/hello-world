@@ -6,7 +6,7 @@ node{
      sh 'mvn package'
  }
    sshagent(['tomcat-dev']) {
-      sh 'scp StrictHostKeyChecking=no /var/lib/jenkins/workspace/cicd-pipeline/webapp/target/*.war sai@10.128.0.22:/opt/apache-tomcat-8.5.41/webapp'
+      sh 'scp StrictHostKeyChecking=no /var/lib/jenkins/workspace/cicd-pipeline/webapp/target/*.war sai@10.128.0.22:/opt/apache-tomcat-8.5.41/webapps'
 }
 
  }
