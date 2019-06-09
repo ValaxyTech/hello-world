@@ -6,7 +6,7 @@ node{
      sh 'mvn package'
  }
    sshagent(['tomcat-dev']) {
-      sh 'ls'
+      sh 'ifconfig'
 }
 
  }
