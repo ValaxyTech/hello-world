@@ -5,8 +5,9 @@ node{
    stage ('Build -Package'){
      sh 'mvn package'
  }
+   stage ('Deploy to tomcat-server'){
    sshagent(['tomcat-dev']) {
-      sh 'ifconfig'
+      sh 'scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/cicd-pipeline/webapp/target/*.war sai@10.128.0.22:/opt/apache-tomcat-8.5.41/webapps'
 }
-
+}
  }
