@@ -12,7 +12,7 @@ variables:
   azureSubscription: 'a386aafe-8a96-48b4-a225-2f4d950940cc'
   
   # Web app name
-  webAppName: ''
+  webAppName: 'saijava-webapp'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
