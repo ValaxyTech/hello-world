@@ -1,2 +1,2 @@
-<h1> WELCOME TO JENKINS !!! </h1>
+<h1> WELCOME TO FRIDAY !!! </h1>
 
