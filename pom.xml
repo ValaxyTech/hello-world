@@ -27,30 +27,7 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
-     <repository>
-  <id>dev-azure-com-saikrishnadevops17-testfeed</id>
-  <url>https://pkgs.dev.azure.com/saikrishnadevops17/_packaging/testfeed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>      
   </distributionManagement>
-         <repository>
-  <id>dev-azure-com-saikrishnadevops17-testfeed</id>
-  <url>https://pkgs.dev.azure.com/saikrishnadevops17/_packaging/testfeed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-         
-         
-         
 
   <build>
     <plugins>
