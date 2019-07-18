@@ -28,7 +28,7 @@ public class guru_register extends HttpServlet {
 		if(first_name.isEmpty() || last_name.isEmpty() || username.isEmpty() || 
 				password.isEmpty() || address.isEmpty() || contact.isEmpty())
 		{
-			RequestDispatcher req = request.getRequestDispatcher("register_1.jsp");
+			RequestDispatcher req = request.getRequestDispatcher("index.jsp");
 			req.include(request, response);
 		}
 		else
