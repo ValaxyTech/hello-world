@@ -1,4 +1,4 @@
-package com.candidjava;
+package com.example;
 
 import java.io.IOException;
 import java.io.PrintWriter;
