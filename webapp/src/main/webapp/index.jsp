@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Guru Registration Form</title>
+<title>Devops Registration Form</title>
 </head>
 <body>
-<h1>Guru Register Form</h1>
+<h1>Devops Registration Form</h1>
 <form>
 			<table style="with: 50%">
 				<tr>
@@ -27,8 +27,8 @@
 					<td><input type="password" name="password" /></td>
 				</tr>
 				<tr>
-					<td>Address</td>
-					<td><input type="text" name="address" /></td>
+					<td>Company Id</td>
+					<td><input type="text" name="Company id" /></td>
 				</tr>
 				<tr>
 					<td>Contact No</td>
