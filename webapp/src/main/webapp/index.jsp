@@ -4,7 +4,7 @@
     </HEAD>
  
     <BODY>
-        <H1>DEVOPS LOGIN FORM</H1>
+        <H1>DEVOPS TEAM LOGIN FORM</H1>
         <%
         String myname =  (String)session.getAttribute("username");
         
