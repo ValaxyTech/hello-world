@@ -30,7 +30,7 @@ pipeline {
 		      cd $WORKSPACE
 		      sudo cp $WORKSPACE/webapp/target/webapp.war $WORKSPACE
 		      sudo docker build -t "tomcat:1.0" .
-		      #sudo docker rm -f webapp
+		      sudo docker rm -f webapp
 		      sudo docker run --name webapp -d -p 80:8080 tomcat:1.0
 			  
 			  
