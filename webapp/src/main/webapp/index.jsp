@@ -1,2 +1,2 @@
-<h1> Hello, Welcome Jenkinsfile CI/CD pipeline Demo2 !!! </h1>
+<h1> Hello, Welcome to the Jenkins CI/CD pipeline Demo2 !!! </h1>
 
