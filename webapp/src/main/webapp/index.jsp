@@ -10,6 +10,6 @@
 <br>
 <a href="http://hakersparadise.blogspot.com/">Please visit my blog for more projects.</a>
 <br>
-<p> Current time: <%= (new java.util.Date()).toLocaleString()%>
+<h2> Current time: <%= (new java.util.Date()).toLocaleString()%> </h2>
 </body>
 </html>
