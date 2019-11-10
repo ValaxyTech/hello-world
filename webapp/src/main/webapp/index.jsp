@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>Test november batch </h1>
+<h1>Thank you </h1>
 
 <p>Auto Deployment</p>
 
