@@ -8,6 +8,8 @@
   <li>Ansible Setup</li>
   <li>Write a Ansible Playbook</li>
 </ol>
+<h4> Your Time Starts Now ........  <%= LocalDateTime.now() %></h4>
+<h5> Follow me on WhatsApp +91-8600993137</h5>
 </body>  
 
 
