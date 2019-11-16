@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>Testing auto deployment..... </h1>
+<h1>Auto eployment..... </h1>
 
 <p>Auto Deployment</p>
 
