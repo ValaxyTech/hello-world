@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
-<BODY background="car.jpg"; 
+<style>
+body {
+      background: url('img_girl.jpg'); 
       background-repeat: no-repeat;
-      background-size: cover>
-
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+      }
+</style>
+<body>
 <h1>Hello Team!</h1>
 <h1> Welcome to DevOps Technologies !!! </h1>
 <h2> Auto deploying on Apache tomcat using Jenkins-Maven-Ansible pipeline </h2>
