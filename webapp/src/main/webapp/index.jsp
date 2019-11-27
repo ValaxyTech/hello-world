@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body background="w3s.png">
+<body background="car.jpg">
 
 <h1>Hello Team!</h1>
 <h1> Welcome to DevOps Technologies !!! </h1>
