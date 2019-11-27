@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<BODY background="car.jpg">
+<BODY background="car.jpg"; 
+      background-repeat: no-repeat;
+      background-size: cover>
 
 <h1>Hello Team!</h1>
 <h1> Welcome to DevOps Technologies !!! </h1>
