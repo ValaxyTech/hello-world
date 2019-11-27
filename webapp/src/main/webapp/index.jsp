@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body background="webapp/src/main/webapp/car.jpg">
+<body background="https://github.com/suhasdevops/hello-world/blob/master/webapp/src/main/webapp/car.jpg">
 
 <h1>Hello Team!</h1>
 <h1> Welcome to DevOps Technologies !!! </h1>
