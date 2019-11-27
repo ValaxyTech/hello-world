@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<img src="*/car.jpg" style="width: 400px; height: 300px;">
+<BODY background="car.jpg">
 
 <h1>Hello Team!</h1>
 <h1> Welcome to DevOps Technologies !!! </h1>
