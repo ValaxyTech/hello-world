@@ -5,7 +5,7 @@
 <ol> 
   <li>Deployment Using Ansible</li> 
   <li>Ansible Installation</li>
-  <li>Ansible Setup</li>
+  <li>Ansible Setup.</li>
   <li>Write a Ansible Playbook</li>
 </ol>
 <h4> If You Like this Demo and wanted to Learn Further .....???? </h4>  
