@@ -10,7 +10,7 @@
 </ol>
 <h4> If You Like this Demo and wanted to Learn Further .....???? </h4>  
 <h5> FOLLOW ME On WHATSAPP +91-8600993137</h5>
- <h1> THANK you DEAR PRAVITHA For your Support</h1>
+ <h1> This Code Created My Wife and Time to say thanks to her </h1>
  <p>Date/Time: <span id="datetime"></span></p>
 <script>
 var dt = new Date();
