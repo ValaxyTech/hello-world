@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>Welcome to Jenkins - WebHook </h1>py 
+<h1>Thank you and wish you good luck for DevOps roles</h1>py 
 
 <p>Weekend Final Session </p>
 
