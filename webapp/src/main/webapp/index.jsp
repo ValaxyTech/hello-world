@@ -2,9 +2,9 @@
 <html>
 <body>
 
-<h1>Saturday18th Test</h1>py 
+<h1>Sunday 19th Test</h1>py 
 
-<p>Weekend Final Session </p>
+<p>Weekend Session </p>
 
 </body>
 </html>
