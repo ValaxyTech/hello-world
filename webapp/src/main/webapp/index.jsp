@@ -9,7 +9,7 @@
 <p> Testing the successful creation and deployment of latest container.</p>
 <p><a href="https://www.linkedin.com/in/saurabhbadhwar/">My LinkedIn Profile</a></p>
 <br>
-<a href="http://hakersparadise.blogspot.com/">Please visit my blog for more projects.</a>
+<a href="http://hakersparadise.blogspot.com/2019/09/glimpse-of-docker.html">Please visit my blog for more info related to Docker.</a>
 <br>
 <h2> Current time: <%= (new java.util.Date()).toLocaleString()%> </h2>
 </body>
