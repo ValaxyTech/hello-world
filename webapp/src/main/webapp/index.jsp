@@ -1,3 +1,16 @@
-<h1> Hello, Welcome to Valaxy Technologies !!! </h1>
-<h2> Deploying on Kubernetes </h2>
-<h3> One last test </h3>
+<html>
+<head>
+<meta http-equiv="refresh" content="10">
+</head>
+<body>
+<h1> Hello world !!! </h1><br>
+<h2> Build successfully deployed on Docker Tomcat container</h2>
+
+<p> Testing the successful creation and deployment of latest container.</p>
+<p><a href="https://www.linkedin.com/in/saurabhbadhwar/">My LinkedIn Profile</a></p>
+<br>
+<a href="http://hakersparadise.blogspot.com/2019/09/glimpse-of-docker.html">Please visit my blog for more info related to Docker.</a>
+<br>
+<h2> Current time: <%= (new java.util.Date()).toLocaleString()%> </h2>
+</body>
+</html>
