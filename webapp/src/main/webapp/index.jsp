@@ -2,9 +2,9 @@
 <html>
 <body>
 
-<h1>Sunday - Thank you All </h1>py 
+<h1>Welcome to DevOps </h1>py 
 
-<p>Bye </p>
+<p>Thank you </p>
 
 </body>
 </html>
