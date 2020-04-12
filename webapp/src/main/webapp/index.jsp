@@ -2,9 +2,9 @@
 <html>
 <body>
 
-<h1>Welcome to DevOps </h1>py 
+<h1>Welcome to AWS & DevOps </h1>py 
 
-<p>Thank you </p>
+<p>Thank you all </p>
 
 </body>
 </html>
