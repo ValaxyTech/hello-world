@@ -1,3 +1,3 @@
 <h1> Hello World!! </h1>
 <h2>Hosting web app using Jenkins and Docker</h2>
-<h3>Hosting webapp using Jenkins, Docker and Ansible</h3
+<h3>Hosting webapp using Jenkins, Docker and Ansible</h3>
