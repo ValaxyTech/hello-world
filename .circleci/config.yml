@@ -23,7 +23,7 @@ jobs:
       - run: 
           name: build docker image for api
           command: |
-                   sudo service docker start
+                   
                    echo Building the Docker image for file-management-service
                    docker build  -t myimage .
                   
