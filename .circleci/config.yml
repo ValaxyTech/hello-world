@@ -2,7 +2,7 @@ orbs:
   java-build: expi/java-build@1.0.0
   aws-ecr: circleci/aws-ecr@6.7.1
   node: circleci/node@1.1.6
-version: 2.1
+version: 2.1 
 jobs:
   build-and-test:
     docker:
