@@ -1,0 +1,35 @@
+orbs:
+  java-build: expi/java-build@1.0.0
+  aws-ecr: circleci/aws-ecr@6.7.1
+  node: circleci/node@1.1.6
+version: 2.1
+jobs:
+  build-and-test:
+    docker:
+      - image: 'expi/java-build:latest'
+    working_directory: ~/file-management-service
+    steps:
+      - checkout
+      - run:
+          name: build source code
+          command: mvn clean install
+      - run:
+          name: install aws
+          command: |
+            curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+            unzip awscli-bundle.zip
+            sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+      - run: 
+          name: build docker image for api
+          command: |
+                   echo Building the Docker image for file-management-service
+                   docker build  -t IMAGE_REPO_NAME:IMAGE_TAG .
+                  
+workflows:
+  version: 2.1
+  dev_stage_pre-prod:
+    jobs:
+      - build-and-test:
+          filters:
+            branches:
+              only: master
