@@ -4,7 +4,7 @@ version: 2.1
 jobs:
   build-and-test:
     docker:
-      - image: 'circleci/openjdk:latest'
+      - image: 'circleci/openjdk:8-jdk'
     working_directory: ~/hello-world
     steps:
       - checkout
