@@ -10,7 +10,9 @@ jobs:
       - checkout
       - run:
           name: build source code
-          command: mvn clean install
+          command: |
+                   mvn clean install
+                   docker build  -t myimage .
       - run:
           name: install aws
           command: |
