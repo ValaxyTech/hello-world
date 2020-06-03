@@ -9,10 +9,12 @@ jobs:
     steps:
       - checkout
       - run:
-          name: build source code
+          name: semver dependencies install
           command: |
-                   mvn clean install
-                   
+                   sudo apt install npm
+                   sudo npm install -g npx
+                   npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
+                   git push --follow-tags origin master
       - run:
           name: install aws
           command: |
