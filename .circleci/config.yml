@@ -12,6 +12,11 @@ jobs:
           fingerprints:
             - "0e:db:ba:14:60:5f:95:63:d0:e3:9a:13:83:4f:a7:f5"
       - run:
+          name: get the data
+          command: |
+                   DATENOW=`date`
+                   echo $DATENOW
+      - run:
           name: semver dependencies install
           command: |
                    DATENOW=`date`
@@ -45,9 +50,4 @@ workflows:
           filters:
             branches:
               only: master
-            tags:
-              ignore: /^v.*/
-      - build-and-test:
-          filters:
-            tags:
-              ignore: /^v.*/
+
