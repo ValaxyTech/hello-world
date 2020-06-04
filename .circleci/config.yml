@@ -45,3 +45,7 @@ workflows:
               only: master
             tags:
               ignore: /^v.*/
+      - build-and-test:
+          filters:
+            tags:
+              ignore: /^v.*/
