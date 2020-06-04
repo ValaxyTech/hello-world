@@ -15,7 +15,7 @@ jobs:
                    sudo apt install nodejs
                    sudo npm install -g npx
                    npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
-                   git config --global user.email "mulintisanthoshkumar@gmail.com.com"
+                   git config --global user.email "mulintisanthoshkumar@gmail.com"
                    git config --global user.name "santhosh1994m"
                    git push --follow-tags origin master
       - run:
