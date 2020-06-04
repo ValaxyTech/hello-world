@@ -14,7 +14,7 @@ jobs:
       - run:
           name: get the data
           command: |
-                   DATENOW=`date`
+                   DATENOW=`date | cut -c 2-6`
                    echo $DATENOW
       - run:
           name: semver dependencies install
