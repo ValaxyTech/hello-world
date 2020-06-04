@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/santhosh1994m/hello-world/compare/v0.1.2...v0.1.3) (2020-06-04)
+
+
+### Bug Fixes
+
+* add ([b988358](https://github.com/santhosh1994m/hello-world/commit/b9883587c0bd27904c3c332e8986887b3ae08923))
+* update the fiel ([558c21a](https://github.com/santhosh1994m/hello-world/commit/558c21a46413ea9bc27bd820cbf59fd672f52914))
+* update the file ([7dfe31e](https://github.com/santhosh1994m/hello-world/commit/7dfe31eb37fda6f32cfece9200afbc4367cba6e5))
+* update the file ([05309de](https://github.com/santhosh1994m/hello-world/commit/05309de2db58771fbd65096f1abcfce272cfca72))
+* update the file ([cfd3848](https://github.com/santhosh1994m/hello-world/commit/cfd3848c88cbf5906757b764f1ba739c300841f9))
+* update the file ([8428207](https://github.com/santhosh1994m/hello-world/commit/84282071edb992089d671950831f8a3570333622))
+* update the file ([62c463f](https://github.com/santhosh1994m/hello-world/commit/62c463f88f1c65f556e8b7b1289805940905516b))
+* update the file ([7930991](https://github.com/santhosh1994m/hello-world/commit/7930991e8cc4be04157280ef38a8e44fdc5c280e))
+* update the file ([0187213](https://github.com/santhosh1994m/hello-world/commit/018721325ff0e08eee2a1581f81d937953e2aab9))
+* update the file ([b9baadc](https://github.com/santhosh1994m/hello-world/commit/b9baadc22f13bf5b4d184d1c3f5cadea39344f03))
+* update the file ([05901a0](https://github.com/santhosh1994m/hello-world/commit/05901a021134d2cc309bc6b284a67f54815b97cf))
+* update the file ([017b71f](https://github.com/santhosh1994m/hello-world/commit/017b71fc648d8bddc4aad90decc70adf917f6fee))
+* update the file ([fc4b983](https://github.com/santhosh1994m/hello-world/commit/fc4b9835c6be66014e0773210a33a70f87b06496))
+* update the file ([9cf2711](https://github.com/santhosh1994m/hello-world/commit/9cf2711cd49bea6e2e0da11078594a78b86c7515))
+* update the file ([f53fe97](https://github.com/santhosh1994m/hello-world/commit/f53fe973f9cc790ea48c8fc459e8b42ea85c7ab0))
+* update the file ([6cca73d](https://github.com/santhosh1994m/hello-world/commit/6cca73d5f23fe099a52c61a2220e92f2a6bc7aa1))
+* update the file name ([3f38ac0](https://github.com/santhosh1994m/hello-world/commit/3f38ac0f7586bd8eb3e4bc5c82b094d0610d93d4))
+* update the file name ([5e290e1](https://github.com/santhosh1994m/hello-world/commit/5e290e163b807ce3abab4afd5ade7b077deb834e))
+* update the file nme ([bb22f98](https://github.com/santhosh1994m/hello-world/commit/bb22f98024fa10cd9120f93835f83a8948811804))
+* update the keys ([fa708da](https://github.com/santhosh1994m/hello-world/commit/fa708daa061f642ced20c72a193bb43a9a430d52))
+
 ### [0.1.2](https://github.com/santhosh1994m/hello-world/compare/v0.1.1...v0.1.2) (2020-06-03)
 
 ### 0.1.1 (2020-06-03)
