@@ -14,7 +14,7 @@ jobs:
       - run:
           name: get the data
           command: |
-                   DATENOW=`date +'%d/%m/%Y-%H:%M:%S`
+                   DATENOW=`date +%d/%m/%Y-%H:%M:%S`
                    echo $DATENOW
       - run:
           name: semver dependencies install
