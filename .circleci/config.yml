@@ -17,11 +17,10 @@ jobs:
                    curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
                    sudo apt install nodejs
                    sudo npm install -g npx --force
-                   npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
                    git config --global user.email "mulintisanthoshkumar@gmail.com"
                    git config --global user.name "santhosh1994m"
                    git checkout master
-                   git commit --allow-empty -am "Automatic commit from CircleCI [skip ci]"
+                   npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
                    git push origin master
                  
       - run:
