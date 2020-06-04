@@ -16,9 +16,8 @@ jobs:
                    sudo npm install -g npx --force
                    npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
                    npx semantic-release
-                   git config --global user.email "mulintisanthoshkumar@gmail.com"
-                   git config --global user.name "santhosh1994m"
-                   git push --follow-tags origin master
+                   go get github.com/tcnksm/ghr
+                   ghr -t ${GH_TOKEN}
       - run:
           name: install aws
           command: |
