@@ -8,6 +8,9 @@ jobs:
     working_directory: ~/hello-world
     steps:
       - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "0e:db:ba:14:60:5f:95:63:d0:e3:9a:13:83:4f:a7:f5"
       - run:
           name: semver dependencies install
           command: |
@@ -15,8 +18,7 @@ jobs:
                    sudo apt install nodejs
                    sudo npm install -g npx --force
                    npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
-                   go get github.com/tcnksm/ghr
-                   ghr -t ${GH_TOKEN}
+                   git push --flow-tags origin master
       - run:
           name: install aws
           command: |
