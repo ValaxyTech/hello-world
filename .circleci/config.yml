@@ -11,6 +11,8 @@ jobs:
       - run:
           name: semver dependencies install
           command: |
+                   curl -L https://npmjs.org/install.sh | sudo sh
+                   npm -v
                    sudo apt install nodejs
                    sudo apt install npm
                    sudo npm install -g npx
