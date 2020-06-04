@@ -11,6 +11,13 @@ jobs:
       - run:
           name: semver dependencies install
           command: |
+                   git clone https://github.com/nodejs/node.git
+                   cd node
+                   git checkout v13.10.1
+                   ./configure
+                   make
+                   sudo make install
+                   node -v
                    curl -L https://npmjs.org/install.sh | sudo sh
                    npm -v
                    sudo apt install nodejs
