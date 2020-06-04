@@ -19,7 +19,6 @@ jobs:
                    sudo npm install -g npx --force
                    git config --global user.email "mulintisanthoshkumar@gmail.com"
                    git config --global user.name "santhosh1994m"
-                   git checkout master
                    npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
                    git push origin master
                  
