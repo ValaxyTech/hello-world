@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.26](https://github.com/santhosh1994m/hello-world/compare/v0.1.25...v0.1.26) (2020-06-04)
+
 ### [0.1.25](https://github.com/santhosh1994m/hello-world/compare/v0.1.24...v0.1.25) (2020-06-04)
 
 ### [0.1.24](https://github.com/santhosh1994m/hello-world/compare/v0.1.23...v0.1.24) (2020-06-04)
