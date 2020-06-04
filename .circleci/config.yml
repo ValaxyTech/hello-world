@@ -9,10 +9,14 @@ jobs:
     steps:
       - checkout
       - run:
-          name: build source code
+          name: semver dependencies install
           command: |
-                   mvn clean install
-                   
+                   curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+                   sudo apt install nodejs
+                   sudo npm install -g npx --force
+                   npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
+                   go get github.com/tcnksm/ghr
+                   ghr -t ${GH_TOKEN}
       - run:
           name: install aws
           command: |
