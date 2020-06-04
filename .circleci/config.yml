@@ -20,7 +20,7 @@ jobs:
                    git config --global user.email "mulintisanthoshkumar@gmail.com"
                    git config --global user.name "santhosh1994m"
                    npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
-                 
+                   git push --follow-tags origin master
       - run:
           name: install aws
           command: |
