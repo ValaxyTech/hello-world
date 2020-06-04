@@ -20,7 +20,10 @@ jobs:
                    npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
                    git config user.email "mulintisanthoshkumar@gmail.com"
                    git config user.name "santhosh1994m"
-                   git push  origin master
+                   git checkout master
+                   git commit --allow-empty -am "Automatic commit from CircleCI [skip ci]"
+                   git push origin master
+                 
       - run:
           name: install aws
           command: |
