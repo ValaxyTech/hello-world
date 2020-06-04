@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.18](https://github.com/santhosh1994m/hello-world/compare/v0.1.17...v0.1.18) (2020-06-04)
+
+
+### Features
+
+* update the file name ([99ebd49](https://github.com/santhosh1994m/hello-world/commit/99ebd494c38f26c2ade1ce9053cad0c6c2cfc60d))
+* update the file name ([73dcd48](https://github.com/santhosh1994m/hello-world/commit/73dcd481944b9fcd6178cb58e574a3c6e586d1c1))
+
+
+### Bug Fixes
+
+* update the commite ([c2924e3](https://github.com/santhosh1994m/hello-world/commit/c2924e3a0ba08869647815fc8a86813269d38148))
+* update the yag ([e8b841b](https://github.com/santhosh1994m/hello-world/commit/e8b841b274d1695b09af883ed6eaae8388a1a1a0))
+
 ### [0.1.17](https://github.com/santhosh1994m/hello-world/compare/v0.1.16...v0.1.17) (2020-06-04)
 
 ### [0.1.16](https://github.com/santhosh1994m/hello-world/compare/v0.1.15...v0.1.16) (2020-06-04)
