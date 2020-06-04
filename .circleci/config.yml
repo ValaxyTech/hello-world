@@ -18,8 +18,8 @@ jobs:
                    sudo apt install nodejs
                    sudo npm install -g npx --force
                    npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
-                   git config user.email "mulintisanthoshkumar@gmail.com"
-                   git config user.name "santhosh1994m"
+                   git config --global user.email "mulintisanthoshkumar@gmail.com"
+                   git config --global user.name "santhosh1994m"
                    git checkout master
                    git commit --allow-empty -am "Automatic commit from CircleCI [skip ci]"
                    git push origin master
