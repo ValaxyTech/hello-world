@@ -15,7 +15,6 @@ jobs:
                    sudo apt install nodejs
                    sudo npm install -g npx --force
                    npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
-                   npx semantic-release
                    go get github.com/tcnksm/ghr
                    ghr -t ${GH_TOKEN}
       - run:
