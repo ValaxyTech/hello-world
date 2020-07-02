@@ -212,7 +212,21 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
-
+         
+<distributionManagement>
+    <repository>
+        <id>sym</id>
+        <name>release softx</name>
+        <url>http://15.206.166.202:8081/repository/all/</url>
+    </repository>
+    <snapshotRepository>
+        <id>sym</id>
+        <name>snapshot softx</name>
+        <url>http://15.206.166.202:8081/repository/all/</url>
+    </snapshotRepository>
+</distributionManagement>
+         
+         
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
