@@ -207,19 +207,7 @@
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
          
-<distributionManagement>
-    <repository>
-        <id>sym</id>
-        <name>release softx</name>
-        <url>http://35.239.91.50:8081/repository/devopsschool-release/</url>
-    </repository>
-    <snapshotRepository>
-        <id>sym</id>
-        <name>snapshot softx</name>
-        <url>http://35.239.91.50:8081/repository/devopsschool-snapshot/</url>
-    </snapshotRepository>
-</distributionManagement>
-         
+
          
   <prerequisites>
     <maven>3.0.3</maven>
