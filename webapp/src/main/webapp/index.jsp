@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1> TAS - Weekend Session Thank you All</h1>py 
+<h1> Wekly Session Thank you All</h1>py 
 
 <p>Regards - Raghu </p>
 
