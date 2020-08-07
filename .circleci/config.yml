@@ -105,6 +105,6 @@ workflows:
             branches:
               only: feature-11
       - build-qa:
-          filters:
-            branches:
-              only: master
+         filters:
+           branches:
+             only: master
