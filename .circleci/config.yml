@@ -19,6 +19,9 @@ jobs:
             curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
             unzip awscli-bundle.zip
             sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+      - run: 
+          name: Logging in to Amazon ECR
+          command: $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)            
       - setup_remote_docker
       - run: 
           name: build docker image for api
@@ -47,6 +50,9 @@ jobs:
             curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
             unzip awscli-bundle.zip
             sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+      - run: 
+          name: Logging in to Amazon ECR
+          command: $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)             
       - setup_remote_docker
       - run: 
           name: build docker image for api
