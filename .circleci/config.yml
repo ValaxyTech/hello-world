@@ -102,8 +102,9 @@ workflows:
     jobs:
       - build-dev:
           filters:
-            branches:
-              only: feature-11
+            branches: 
+              ignore: 
+                - master
       - build-qa:
          filters:
            branches:
