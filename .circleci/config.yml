@@ -108,5 +108,10 @@ workflows:
           filters:
             branches:
               only: master
+      - build-test:
+           filters:
+            branches: 
+              ignore: 
+                - master        
 
 
