@@ -103,7 +103,7 @@ workflows:
       - build-dev:
           filters:
             branches:
-              only: feature
+              only: /^feature.*$/
       - build-qa:
           filters:
             branches:
