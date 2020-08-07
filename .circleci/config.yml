@@ -2,32 +2,17 @@ orbs:
   aws-ecr: circleci/aws-ecr@6.7.1
 version: 2.1 
 jobs:
-  build-and-test:
+  build-qa:
     docker:
       - image: 'circleci/openjdk:8-jdk'
     working_directory: ~/hello-world
     steps:
       - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - "0e:db:ba:14:60:5f:95:63:d0:e3:9a:13:83:4f:a7:f5"
       - run:
           name: get the data
           command: |
                    DATENOW=`date +%d/%m/%Y-%H:%M:%S`
                    echo $DATENOW
-      - run:
-          name: semver dependencies install
-          command: |
-                   DATENOW=`date`
-                   echo $DATENOW
-                   curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-                   sudo apt install nodejs
-                   sudo npm install -g npx --force
-                   git config --global user.email "mulintisanthoshkumar@gmail.com"
-                   git config --global user.name "santhosh1994m"
-                   npx @dwmkerr/standard-version --packageFiles pom.xml --bumpFiles pom.xml
-                   
       - run:
           name: install aws
           command: |
@@ -38,9 +23,41 @@ jobs:
       - run: 
           name: build docker image for api
           command: |
-                   ls
-                   echo Building the Docker image for file-management-service
-                   docker build  -t myimage .
+                   DATENOW=`date +%d%m%Y.%H.%M.%S`
+                   echo Building the Docker image for 
+                   docker build  -t $IMAGE_REPO_NAME:$DATENOW .
+                   echo tag image to ecr repo
+                   docker tag $IMAGE_REPO_NAME:$IMAGE_TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$DATENOW
+                   echo Pushing the Docker image to ECR.
+                   docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$DATENOW
+  build-dev:
+    docker:
+      - image: 'circleci/openjdk:8-jdk'
+    working_directory: ~/hello-world
+    steps:
+      - checkout
+      - run:
+          name: get the data
+          command: |
+                   DATENOW=`date +%d/%m/%Y-%H:%M:%S`
+                   echo $DATENOW
+      - run:
+          name: install aws
+          command: |
+            curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+            unzip awscli-bundle.zip
+            sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+      - setup_remote_docker
+      - run: 
+          name: build docker image for api
+          command: |
+                   DATENOW=`date +%d%m%Y.%H.%M.%S`
+                   echo Building the Docker image for 
+                   docker build  -t $IMAGE_REPO_NAME:$DATENOW .
+                   echo tag image to ecr repo
+                   docker tag $IMAGE_REPO_NAME:$IMAGE_TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$DATENOW
+                   echo Pushing the Docker image to ECR.
+                   docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$DATENOW                   
                   
 workflows:
   version: 2.1
