@@ -63,7 +63,7 @@ workflows:
   version: 2.1
   dev_stage_pre-prod:
     jobs:
-      - build-and-test:
+      - build-dev:
           filters:
             branches:
               only: master
