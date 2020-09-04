@@ -9,6 +9,11 @@ resources:
 - repo: self
 
 variables:
+- task: Docker@2
+  inputs:
+    repository: 'azuredockerazure'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
   tag: '$(Build.BuildId)'
 
 stages:
