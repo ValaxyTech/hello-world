@@ -17,7 +17,7 @@ pipeline {
             steps {
                
              bat '''
-               copy \webapp\\target\\webapp.war C:\\apache-tomcat-8.5.50\\webapps\\
+               copy \\webapp\\target\\webapp.war "C:\\apache-tomcat-8.5.50\\webapps\\"
                 '''
             }
         }
