@@ -17,7 +17,7 @@ pipeline {
             steps {
                
              bat '''
-               copy C:\\Program Files (x86)\\Jenkins\\workspace\\Maven-pipeline\\webapp\\target\\webapp.war C:\\apache-tomcat-8.5.50\\webapps
+               copy C:\\Program Files (x86)\\Jenkins\\workspace\\Maven-pipeline\\webapp\\target\\webapp.war C:\\apache-tomcat-8.5.50\\webapps\\
                 '''
             }
         }
