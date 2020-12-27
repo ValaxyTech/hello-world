@@ -4,10 +4,6 @@ pipeline {
         stage('Build') { 
             steps {
 		bat '''
-<<<<<<< HEAD
-=======
-            
->>>>>>> c8ff9c304415463a3a0b8a34515786407bdddf0c
              mvn clean install 
              '''
             }
