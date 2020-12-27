@@ -3,7 +3,9 @@ pipeline {
 	stages {
         stage('Build') { 
             steps {
-              sh 'mvn clean install' 
+		bat '''
+             mvn clean install 
+             '''
             }
         }
         stage('Test') { 
@@ -13,8 +15,13 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                echo 'this is Deploying application'
+               
+             bat '''
+               copy C:\\Program Files (x86)\\Jenkins\\workspace\\Maven-pipeline\\webapp\\target\webapp.war C:\\apache-tomcat-8.5.50\\webapps
+                '''
             }
         }
+        
+        
     }
 }
