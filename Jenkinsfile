@@ -3,6 +3,9 @@ pipeline {
 	stages {
         stage('Build') { 
             steps {
+		  sh '''
+                cd C:\Program Files (x86)\Jenkins\workspace\Maven-pipeline
+                '''
               sh 'mvn clean install' 
             }
         }
