@@ -4,7 +4,6 @@ pipeline {
         stage('Build') { 
             steps {
 		bat '''
-             cd C:\Program Files (x86)\Jenkins\workspace\Maven-pipeline
             
              mvn clean install 
              '''
