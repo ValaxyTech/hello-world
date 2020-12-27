@@ -17,7 +17,7 @@ pipeline {
             steps {
                
              bat '''
-               copy //webapp//target//*.war C://apache-tomcat-8.5.50//webapps//
+              bat label: '', script: 'copy C:\\Program Files (x86)\\Jenkins\\workspace\\Maven-pipeline\\webapp\\target\\webapp.war C:\\apache-tomcat-8.5.50\\webapps'
                 '''
             }
         }
