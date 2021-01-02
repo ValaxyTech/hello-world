@@ -2,53 +2,19 @@
 
 /* Pipeline */
 pipeline {
-  agent any 
-    
-  environment {
-    HOME           = "${WORKSPACE}"
-  }
-
-  stages {
-    stage ('cleanWs & checkout scm') {
-      steps {
-        script {
-          deleteDir()
-          cleanWs()
-          checkout scm
-        }
-      }
-    }
-    stage ('preparation') {
-      steps {
-        script {
-          env.DOCKERFILES        = dockerfiles
-          env.GITHUB_REPO        = github_repo.toLowerCase()
-          env.DOCKER_TAG         = docker_tag.toLowerCase()
-        }
-      }
-    }
-    stage('Container build') {
-        when {
-            allOf {
-            expression { dockerfiles }
-            branch "master"
+  agent { docker { image 'maven:3.6.3' } }
+    stages {
+        stage('build') {
+            steps {
+                sh 'mvn --version'
             }
-        }
-        steps {
+         }
+          steps {
             script {
                 dockerBuild.login()
-                dockerBuild.build(env.DOCKER_TAG)
-                dockerBuild.push(env.DOCKER_TAG)
+                dockerBuild.build("padmajakonduru/hello:latest")
+                dockerBuild.push("padmajakonduru/hello:latest")
             }
         }
     }
   }
-  post { 
-    always {
-      script {
-        cleanWs()
-      }
-    }
-  }
-}
-
