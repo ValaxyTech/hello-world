@@ -9,6 +9,7 @@ pipeline {
                 sh 'mvn --version'
             }
          }
+      stage('Push into registry'){
           steps {
             script {
                 dockerBuild.login()
@@ -16,5 +17,7 @@ pipeline {
                 dockerBuild.push("padmajakonduru/hello:latest")
             }
         }
+      }
     }
+      
   }
