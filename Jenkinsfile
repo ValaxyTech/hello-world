@@ -2,7 +2,7 @@
 
 /* Pipeline */
 pipeline {
-  agent  any{ 
+  agent none{ 
     
   environment {
     HOME           = "${WORKSPACE}"
