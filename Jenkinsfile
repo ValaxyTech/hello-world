@@ -4,11 +4,17 @@
 pipeline {
   agent { docker { image 'maven:latest' } }
     stages {
-        stage('build') {
+        stage('Git Checkout') {
+        gitCheckout(
+           branch: "master",
+           url: "https://github.com/padmajakonduru/hello-world.git"
+           )
+      }
+      stage('build') {
             steps {
                 sh 'mvn --version'
             }
-         }
+      }
       stage('Push into registry'){
           steps {
             script {
