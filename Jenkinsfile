@@ -2,13 +2,8 @@
 
 /* Pipeline */
 pipeline {
-  agent { label "containerBuilds" }
-  options { 
-    ansiColor('xterm') 
-    disableConcurrentBuilds()
-    skipDefaultCheckout true
-  }
-
+  agent  any{ 
+    
   environment {
     HOME           = "${WORKSPACE}"
   }
@@ -55,4 +50,5 @@ pipeline {
       }
     }
   }
+}
 }
