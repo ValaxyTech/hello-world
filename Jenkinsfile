@@ -5,10 +5,12 @@ pipeline {
   agent { docker { image 'maven:latest' } }
     stages {
         stage('Git Checkout') {
+          steps{
         gitCheckout(
            branch: "master",
            url: "https://github.com/padmajakonduru/hello-world.git"
            )
+          }
       }
       stage('build') {
             steps {
