@@ -1,3 +1,5 @@
-<h1> Hello, Welcome to Valaxy Technologies !!! </h1>
-<h2> Deploying on Kubernetes </h2>
-<h3> One last test </h3>
+<h1>Welcome to New AWS World!!!</h1>
+<h2>New World</h2>
+<h3>Hello New Devops User and Learner</h3>
+<h1>Devops Users in New World!!!!</h1>
+<h2>Welcome to Padmaja World!!!</h2>
