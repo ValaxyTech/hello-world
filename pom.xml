@@ -27,6 +27,19 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+    
+    <repository>
+      <id>nexus</id>
+      <name>Test Repo</name>
+      <url>http://34.206.123.43:8081/repository/test-release-repo/</url>
+    </repository>
+
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Test Repo</name>
+      <url>http://34.206.123.43:8081/repository/test-snapshot-repo/</url>
+    </snapshotRepository>
+
   </distributionManagement>
 
   <build>
