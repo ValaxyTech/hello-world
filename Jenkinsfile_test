@@ -1,0 +1,38 @@
+pipeline {
+    agent any
+    
+    tools { 
+        maven 'Maven_3.8.1'
+    }
+
+        stage ('Clean') {
+            steps {
+                sh 'mvn clean'
+            }
+        }
+
+        stage ('Install') {
+            steps {
+                sh 'mvn install'
+            }
+        }
+
+        stage ('Deploy') {
+            steps {
+                sh 'mvn deploy'
+            }
+        }
+
+        stage ('Checkstyle Analysis') {
+            steps {
+                sh 'mvn checkstyle:checkstyle'
+            }
+        }
+
+        stage ('Sonarqube Analysis') {
+            steps {
+                sh 'mvn sonar:sonar -Dsonar.login=2c7c762b4396a75b11148e2512ef9bab2c2b4303'
+            }
+        }
+    }
+}
