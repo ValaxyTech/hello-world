@@ -4,7 +4,7 @@ pipeline {
     tools { 
         maven 'Maven_3.8.1'
     }
-    
+
     stages {
         stage ('Clean') {
             steps {
@@ -27,6 +27,7 @@ pipeline {
         stage ('Checkstyle Analysis') {
             steps {
                 sh 'mvn checkstyle:checkstyle'
+                recordIssues(tools: [checkStyle(pattern: '**/checkstyle-result.xml')])
             }
         }
 
@@ -36,4 +37,12 @@ pipeline {
             }
         }
     }
+
+    post{
+	always {
+		emailext body: "STATUS: ${currentBuild.currentResult}\nJob: ${JOB_NAME}\nMore info at: ${BUILD_URL}console\n\nCheckstyle analysis: ${BUILD_URL}checkstyle\n\nRegards\nRelease Team",
+            subject: "${JOB_NAME} :Build ${BUILD_NUMBER} :${currentBuild.currentResult}",
+            to: 'saurabh.badhwar@gspann.com'
+		}
+	}    
 }
