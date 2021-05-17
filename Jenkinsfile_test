@@ -4,7 +4,8 @@ pipeline {
     tools { 
         maven 'Maven_3.8.1'
     }
-
+    
+    stages {
         stage ('Clean') {
             steps {
                 sh 'mvn clean'
