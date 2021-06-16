@@ -1,0 +1,6 @@
+projectKey=sonar
+serverUrl=http://52.91.146.4:9000
+serverVersion=8.9.0.43852
+dashboardUrl=http://52.91.146.4:9000/dashboard?id=sonar
+ceTaskId=AXmPLGOvDMjGDd6vIBmg
+ceTaskUrl=http://52.91.146.4:9000/api/ce/task?id=AXmPLGOvDMjGDd6vIBmg
