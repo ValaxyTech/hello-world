@@ -4,8 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>webapp</artifactId>
+  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
