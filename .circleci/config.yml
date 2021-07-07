@@ -1,0 +1,112 @@
+orbs:
+  aws-ecr: circleci/aws-ecr@6.7.1
+version: 2.1 
+jobs:
+  build-qa:
+    docker:
+      - image: 'circleci/openjdk:8-jdk'
+    working_directory: ~/hello-world
+    steps:
+      - checkout
+      - run:
+          name: get the data
+          command: |
+                   DATENOW=`date +%d/%m/%Y-%H:%M:%S`
+                   echo $DATENOW
+      - run:
+          name: install aws
+          command: |
+            curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+            unzip awscli-bundle.zip
+            sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+      - run: 
+          name: Logging in to Amazon ECR
+          command: $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)            
+      - setup_remote_docker
+      - run: 
+          name: build docker image for api
+          command: |
+                   DATENOW=`date +%d%m%Y.%H.%M.%S`
+                   echo Building the Docker image for 
+                   docker build  -t $IMAGE_REPO_NAME:$DATENOW .
+                   echo tag image to ecr repo
+                   docker tag $IMAGE_REPO_NAME:$DATENOW $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$DATENOW
+                   echo Pushing the Docker image to ECR.
+                   docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$DATENOW
+  build-test:
+    docker:
+      - image: 'circleci/openjdk:8-jdk'
+    working_directory: ~/hello-world
+    steps:
+      - checkout
+      - run:
+          name: get the data
+          command: |
+                   DATENOW=`date +%d/%m/%Y-%H:%M:%S`
+                   echo $DATENOW
+      - run:
+          name: install aws
+          command: |
+            curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+            unzip awscli-bundle.zip
+            sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+      - run: 
+          name: Logging in to Amazon ECR
+          command: $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)            
+      - setup_remote_docker
+      - run: 
+          name: build docker image for api
+          command: |
+                   DATENOW=`date +%d%m%Y.%H.%M.%S`
+                   echo Building the Docker image for 
+                   docker build  -t $IMAGE_REPO_NAME:$DATENOW .
+                   echo tag image to ecr repo
+                   docker tag $IMAGE_REPO_NAME:$DATENOW $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$DATENOW
+                   echo Pushing the Docker image to ECR.
+                   docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$DATENOW                   
+  build-dev:
+    docker:
+      - image: 'circleci/openjdk:8-jdk'
+    working_directory: ~/hello-world
+    steps:
+      - checkout
+      - run:
+          name: get the data
+          command: |
+                   DATENOW=`date +%d/%m/%Y-%H:%M:%S`
+                   echo $DATENOW
+      - run:
+          name: install aws
+          command: |
+            curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+            unzip awscli-bundle.zip
+            sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+      - run: 
+          name: Logging in to Amazon ECR
+          command: $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)             
+      - setup_remote_docker
+      - run: 
+          name: build docker image for api
+          command: |
+                   DATENOW=`date +%d%m%Y.%H.%M.%S`
+                   echo Building the Docker image for 
+                   docker build  -t $IMAGE_REPO_NAME:$DATENOW .
+                   echo tag image to ecr repo
+                   docker tag $IMAGE_REPO_NAME:$DATENOW $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$DATENOW
+                   echo Pushing the Docker image to ECR.
+                   docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$DATENOW                   
+                  
+workflows:
+  version: 2.1
+  dev_stage_pre-prod:
+    jobs:
+      - build-dev:
+          filters:
+            branches: 
+              ignore: 
+                - master
+      - build-qa:
+         filters:
+           branches:
+             only: master
+
