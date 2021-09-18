@@ -1,1350 +1,790 @@
 
-    
 <!DOCTYPE html>
-<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
-  <head>
-    <meta charset="utf-8" />
-<link rel="shortlink" href="https://www.societegenerale.com/en" />
-<meta name="description" content="A European leader in financial services forover 150 years, Societe Generale is built onthree complementary businesses: French Retail Banking, International Retail Banking and Financial Services and Global Banking and Investor Solutions." />
-<meta property="fb:app_id" content="1434998976734373" />
-<meta property="og:site_name" content="Société Générale" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.societegenerale.com/en" />
-<meta property="og:title" content="Société Générale" />
-<meta property="og:description" content="A European leader in financial services forover 150 years, Societe Generale is built onthree complementary businesses: French Retail Banking, International Retail Banking and Financial Services and Global Banking and Investor Solutions." />
-<meta property="og:updated_time" content="2021-09-17T09:28:31+02:00" />
-<meta property="article:published_time" content="2020-05-05T18:15:09+02:00" />
-<meta property="article:modified_time" content="2021-09-17T09:28:31+02:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="page_entity_type" content="node" />
-<meta name="page_entity_id" content="157" />
-<meta name="page_language" content="en" />
-<meta name="page_publication_date" content="2020-05-05T18:15:09+02:00" />
-<meta name="page_month" content="05" />
-<meta name="page_year" content="2020" />
-<meta name="page_type" content="page" />
-<meta name="page_url" content="{&quot;sg_default&quot;:&quot;\/node\/157&quot;}" />
-<meta name="MobileOptimized" content="width" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="preload" href="/themes/custom/sg_refonte/assets/font/woff/SourceSansPro-Regular.woff2" as="font" crossorigin="" />
-<link rel="preload" href="/themes/custom/sg_refonte/assets/font/woff/SourceSansPro-Bold.woff2" as="font" crossorigin="" />
-<link rel="preload" href="/themes/custom/sg_refonte/assets/font/woff/Montserrat-ExtraBold.woff2" as="font" crossorigin="" />
-<link rel="preload" href="/themes/custom/sg_refonte/assets/font/woff/Montserrat-SemiBold.woff2" as="font" crossorigin="" />
-<script>
-        var dataLayer = [{
-          domain: "about",
-          env_work: "prod",
-          pagename: "about::accueil",
-          env_language: "en",
-        }];
-      </script>
-<link rel="shortcut icon" href="/themes/custom/sg_refonte/favicon.ico" type="image/vnd.microsoft.icon" />
-<link rel="alternate" hreflang="fr" href="https://www.societegenerale.com/fr" />
-<link rel="alternate" hreflang="en" href="https://www.societegenerale.com/en" />
+<html lang="en">
+<head>
 
-    <title>Societe Generale Group</title>
-    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_sHXjHWjmEdgCa-ojYZN00JNlYkytpJB9KYY3qPJCK60.css" />
-<link rel="stylesheet" media="screen" href="/sites/default/files/css/css_RgezCOLHzXCcOWwkqbVz8wcLzZBj9UgWXTsq42Qe76g.css" />
+<meta charset="utf-8">
 
-    
 
-    <!-- Google Tag Manager -->
-    <!-- End Google Tag Manager -->
-  </head>
-  <body class="path-frontpage page-node-type-page-edito">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRBXF8P"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-        <a href="#main-content" class="focusable skip-link">
-      Go to main content
-    </a>
+<base href="https://www.societegenerale.asia/">
 
-    
-      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
-    <div class="layout-container is-front-page">
 
-      <header role="banner" id="header" class="header-home header-home-top">
-  <div class="header-search-menu">
-    
-<div id="block-search-form" class="settings-tray-editable js-hide" data-drupal-settingstray="editable" aria-hidden="true" role="dialog" aria-label="search form">
-      <form action="/en/recherche" method="GET" autocomplete="off" role="search">
-      <label for="block-search-form-text" class="sr-only">Search</label>
-      <input class="form-autocomplete" data-autocomplete-path="/en/autocomplete" autocomplete="off" id="block-search-form-text" type="text" name="search" placeholder="Search"
-      value="">
-      <input name="page" type="hidden" value="0">
-      <input type="submit" value="Validate">
-      <button class="close-block-search-form" type="button"><span class="sr-only">Close search form</span></button>
-    </form>
-  </div>
 
-  </div>
-  <div class="header-inner">
-    <div class="header-logo">
-              <div class="logo">
-          <img src="/themes/custom/sg_refonte/assets/images/logos/logo-en.svg" alt="C'est vous l'avenir, Société Générale">
-        </div>
-                </div>
-    <div class="header-actions">
-      <div class="language-list desktop-only">
-      <button aria-controls="language-list-expand-desktop" aria-expanded="false" class="language-list-button" aria-label="Languages selection">En</button>
-    <div id="language-list-expand-desktop" class="language-list-expand js-hide">
-      <ul class="links">        <li data-drupal-link-system-path="&lt;front&gt;" class="fr is-active"><a href="/fr" class="language-link" aria-label="French" lang="fr" data-tag="event=click;id_composant=header;n1=header;n2=langue;n3=fr" hreflang="fr" data-drupal-link-system-path="&lt;front&gt;">Fr</a></li>
-      </ul>
-    </div>
-  </div>
-                          <div class="header-cibles desktop-only">
-          <button aria-controls="header-cibles-expand" aria-expanded="false" class="header-cibles-button" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;">
-            You are
-          </button>
-          <div id="header-cibles-expand" class="header-cibles-expand js-hide">
-                        <ul>
-                  <li>
-            <a href="https://investors.societegenerale.com/en" target="_blank" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;n3=Investor" rel="noopener">Investor</a>
-          </li>
-                  <li>
-            <a href="https://societegenerale.com/en/press-release?type=151&amp;theme=All&amp;activity=All&amp;month=All&amp;year=All" target="_blank" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;n3=Journalist" rel="noopener">Journalist</a>
-          </li>
-                  <li>
-            <a href="https://careers.societegenerale.com/en/" target="_blank" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;n3=Candidate" rel="noopener">Candidate</a>
-          </li>
-                  <li>
-            <a href="https://www.societegenerale.com/en/all-sites" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;n3=Client">Client</a>
-          </li>
-                  <li>
-            <a href="https://societegenerale.com/en/responsability/purchases-and-suppliers/work-with-societe-generale" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;n3=Supplier">Supplier</a>
-          </li>
-                </ul>
-      </div>
-    </div>
-    
+<meta name="viewport" content="user-scalable=no, user-scalable=no, initial-scale=1.0, maximum-scale=1, width=device-width" />
+<meta name="format-detection" content="telephone=no" />
 
-      <div class="header-search-menu">
-        <button class="header-search-button mobile" aria-expanded="false" aria-controls="block-search-form" data-tag="event=click;id_composant=browser;n1=header;n2=Search;">
-          <span class="header-search-label">Search</span>
-        </button>
-      </div>
-      <div class="header-menu-burger mobile-only">
-        <button class="header-menu-burger-button" aria-expanded="false" aria-controls="header-menu-wrapper">
-          <span class="header-menu-burger-label sr-only">Open main menu</span>
-        </button>
-      </div>
-    </div>
-  </div>
-  <div id="header-menu-wrapper" class="hide">
-          <div class="logo-sticky">
-        <img src="/themes/custom/sg_refonte/assets/images/logos/logo-simple.svg" alt="C'est vous l'avenir, Société Générale">
-      </div>
-                <nav id="header-menu" class="header-menu" role="navigation" aria-label="Main menu">
-  <ul data-region="header">
-      <li>
-              <button aria-expanded="false" aria-controls="societe_generale_group" class="header-menu-wrapper-n2-button">Societe Generale group</button>
-                    <div id="societe_generale_group" class="header-menu-wrapper-n2-wrapper js-hide">
-          <div class="header-menu-wrapper-n2">
-                                        <div class="paragraph desktop-only push-expand paragraph--type--push-menu-expand-texte">
-      <strong class="push-expand-title">Societe Generale group</strong>
-        <p class="push-expand-desc">Building together, with our clients, a better and sustainable future through responsible and innovative financial solutions.</p>
-    </div>
 
-                        <div class="wrapper-column">
-              <ul class="column">
-                                                    <li> 
-                                          <button aria-expanded="false" aria-controls="identity" class="header-menu-wrapper-n3-button">
-                        Identity
-                      </button>
-                                                              <ul id="identity" class="header-menu-wrapper-n3-wrapper js-hide">
-                                              <li>
-                          <a href="/en/societe-generale-group/identity/identity" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Identity;n4=Presentation" data-drupal-link-system-path="node/3351">Presentation</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/identity/purpose" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Identity;n4=Purpose" data-drupal-link-system-path="node/6607">Purpose</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/identity/values" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Identity;n4=Values" data-drupal-link-system-path="node/6600">Values</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/identity/history" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Identity;n4=History" data-drupal-link-system-path="node/3360">History</a>
-                        </li>
-                                              <li>
-                          <a href="/en/responsability/csr-ambition/csr-commitments" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Identity;n4=CSR commitments" data-drupal-link-system-path="node/6609">CSR commitments</a>
-                        </li>
-                                            </ul>
-                                      </li>
-                                                    <li> 
-                                          <button aria-expanded="false" aria-controls="strategy" class="header-menu-wrapper-n3-button">
-                        Strategy
-                      </button>
-                                                              <ul id="strategy" class="header-menu-wrapper-n3-wrapper js-hide">
-                                              <li>
-                          <a href="/en/societe-generale-group/strategy/model-of-value-creation" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Strategy;n4=Model of value creation" data-drupal-link-system-path="node/6602">Model of value creation</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/strategy/innovation-and-digital" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Strategy;n4=Innovation and digital" data-drupal-link-system-path="node/5398">Innovation and digital</a>
-                        </li>
-                                              <li>
-                          <a href="/en/responsability/csr-ambition/csr-commitments" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Strategy;n4=CSR commitments" data-drupal-link-system-path="node/6609">CSR commitments</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/strategy/integrated-report" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Strategy;n4=Integrated Report" data-drupal-link-system-path="node/3367">Integrated Report</a>
-                        </li>
-                                            </ul>
-                                      </li>
-                                                    <li> 
-                                          <a href="/en/societe-generale-group/activities" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Activities" data-drupal-link-system-path="node/6605">Activities</a>
-                                                          </li>
-                                                    <li> 
-                                          <button aria-expanded="false" aria-controls="governance" class="header-menu-wrapper-n3-button">
-                        Governance
-                      </button>
-                                                              <ul id="governance" class="header-menu-wrapper-n3-wrapper js-hide">
-                                              <li>
-                          <a href="/en/societe-generale-group/governance/board-of-directors" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Governance;n4=Board of Directors" data-drupal-link-system-path="node/3348">Board of Directors</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/governance/general-management" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Governance;n4=General Management" data-drupal-link-system-path="node/3350">General Management</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/governance/group-management-committee" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Governance;n4=Group Management Committee" data-drupal-link-system-path="node/3347">Group Management Committee</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/governance/organisation" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Governance;n4=Structure" data-drupal-link-system-path="node/3343">Structure</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/governance/annual-general-meeting" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Governance;n4=Annual General Meeting " data-drupal-link-system-path="node/3346">Annual General Meeting </a>
-                        </li>
-                                            </ul>
-                                      </li>
-                                                    <li> 
-                                          <button aria-expanded="false" aria-controls="ethics_and_compliance" class="header-menu-wrapper-n3-button">
-                        Ethics and Compliance
-                      </button>
-                                                              <ul id="ethics_and_compliance" class="header-menu-wrapper-n3-wrapper js-hide">
-                                              <li>
-                          <a href="/en/societe-generale-group/ethics-and-compliance/code-of-conduct" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Ethics and Compliance;n4=Code of conduct " data-drupal-link-system-path="node/6660">Code of conduct </a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/ethics-and-compliance/compliance" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Ethics and Compliance;n4=Compliance" data-drupal-link-system-path="node/3368">Compliance</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/ethics-and-compliance/risk-management" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Ethics and Compliance;n4=Risk management" data-drupal-link-system-path="node/3370">Risk management</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/ethics-and-compliance/fatca-foreign-account-tax-compliance-act" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Ethics and Compliance;n4=FATCA (Foreign Account Tax Compliance Act)" data-drupal-link-system-path="node/5542">FATCA (Foreign Account Tax Compliance Act)</a>
-                        </li>
-                                              <li>
-                          <a href="/en/societe-generale-group/ethics-and-compliance/common-reporting-standard-csr" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Ethics and Compliance;n4=Common Reporting Standard" data-drupal-link-system-path="node/5466">Common Reporting Standard</a>
-                        </li>
-                                            </ul>
-                                      </li>
-                                                      </ul>
-                    <ul class="column">
-                                    <li> 
-                                          <a href="/en/societe-generale-group/locations" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=Societe Generale group;n3=Locations" data-drupal-link-system-path="node/6626">Locations</a>
-                                                          </li>
-                              </ul>
-            </div>
-          </div>
-        </div>
-          </li>
-      <li>
-              <button aria-expanded="false" aria-controls="responsibility" class="header-menu-wrapper-n2-button">Responsibility</button>
-                    <div id="responsibility" class="header-menu-wrapper-n2-wrapper js-hide">
-          <div class="header-menu-wrapper-n2">
-                                        <div class="paragraph desktop-only push-expand paragraph--type--push-menu-expand-texte">
-      <strong class="push-expand-title">Responsibility</strong>
-        <p class="push-expand-desc">We are determined to contribute to building a better and more sustainable world.</p>
-    </div>
 
-                        <div class="wrapper-column">
-              <ul class="column">
-                                                    <li> 
-                                          <button aria-expanded="false" aria-controls="corporate_social_responsibility_ambition" class="header-menu-wrapper-n3-button">
-                        Corporate Social Responsibility ambition
-                      </button>
-                                                              <ul id="corporate_social_responsibility_ambition" class="header-menu-wrapper-n3-wrapper js-hide">
-                                              <li>
-                          <a href="/en/responsability/csr-ambition/csr-commitments" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Corporate Social Responsibility ambition;n4=CSR commitments" data-drupal-link-system-path="node/6609">CSR commitments</a>
-                        </li>
-                                              <li>
-                          <a href="/en/responsibility/csr-ambition/dialogue-transparency" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Corporate Social Responsibility ambition;n4=Dialogue and transparency" data-drupal-link-system-path="node/5819">Dialogue and transparency</a>
-                        </li>
-                                            </ul>
-                                      </li>
-                                                    <li> 
-                                          <a href="/en/responsability/ecological-transition" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Ecological transition" data-drupal-link-system-path="node/6610">Ecological transition</a>
-                                                          </li>
-                                                    <li> 
-                                          <a href="/en/responsibility/social-innovations" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Social innovations" data-drupal-link-system-path="node/5555">Social innovations</a>
-                                                          </li>
-                                                    <li> 
-                                          <a href="/en/responsability/sustainable-development-in-africa" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Sustainable development of Africa" data-drupal-link-system-path="node/6611">Sustainable development of Africa</a>
-                                                          </li>
-                                                    <li> 
-                                          <button aria-expanded="false" aria-controls="responsible_employer" class="header-menu-wrapper-n3-button">
-                        Responsible employer
-                      </button>
-                                                              <ul id="responsible_employer" class="header-menu-wrapper-n3-wrapper js-hide">
-                                              <li>
-                          <a href="/en/responsability/responsible-employer/corporate-culture-and-ethics-pinciples" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Responsible employer;n4=Corporate culture and ethics principles" data-drupal-link-system-path="node/6569">Corporate culture and ethics principles</a>
-                        </li>
-                                              <li>
-                          <a href="/en/responsability/responsible-employer/professions-and-skills" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Responsible employer;n4=Professions and skills" data-drupal-link-system-path="node/6563">Professions and skills</a>
-                        </li>
-                                              <li>
-                          <a href="/en/responsability/responsible-employer/diversity-and-inclusion" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Responsible employer;n4=Diversity and inclusion" data-drupal-link-system-path="node/6566">Diversity and inclusion</a>
-                        </li>
-                                              <li>
-                          <a href="/en/responsability/responsible-employer/performance-and-compensation" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Responsible employer;n4=Performance and  compensation" data-drupal-link-system-path="node/6564">Performance and  compensation</a>
-                        </li>
-                                              <li>
-                          <a href="/en/responsability/responsible-employer/occupational-health-and-safety" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Responsible employer;n4=Occupational health and safety " data-drupal-link-system-path="node/6565">Occupational health and safety </a>
-                        </li>
-                                            </ul>
-                                      </li>
-                                                      </ul>
-                    <ul class="column">
-                                    <li> 
-                                          <a href="/en/responsability/customer-satisfaction-and-protection" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Customer satisfaction and protection " data-drupal-link-system-path="node/6612">Customer satisfaction and protection </a>
-                                                          </li>
-                                                    <li> 
-                                          <a href="/en/responsability/ethics-and-governance" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Ethics and governance" data-drupal-link-system-path="node/6613">Ethics and governance</a>
-                                                          </li>
-                                                    <li> 
-                                          <a href="/en/responsability/dialogue-with-our-stakeholders" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Dialogue with our stakeholders" data-drupal-link-system-path="node/5552">Dialogue with our stakeholders</a>
-                                                          </li>
-                                                    <li> 
-                                          <a href="/en/publications-documents?search=&amp;theme=rse&amp;category=&amp;year=&amp;op=Filtrer" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=CSR publications " data-drupal-link-query="{&quot;category&quot;:&quot;&quot;,&quot;op&quot;:&quot;Filtrer&quot;,&quot;search&quot;:&quot;&quot;,&quot;theme&quot;:&quot;rse&quot;,&quot;year&quot;:&quot;&quot;}" data-drupal-link-system-path="node/6654">CSR publications </a>
-                                                          </li>
-                                                    <li> 
-                                          <button aria-expanded="false" aria-controls="sourcing_and_suppliers" class="header-menu-wrapper-n3-button">
-                        Sourcing and suppliers
-                      </button>
-                                                              <ul id="sourcing_and_suppliers" class="header-menu-wrapper-n3-wrapper js-hide">
-                                              <li>
-                          <a href="/en/responsability/sourcing-and-suppliers/our-commitments" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Sourcing and suppliers;n4=Our commitments" data-drupal-link-system-path="node/5952">Our commitments</a>
-                        </li>
-                                              <li>
-                          <a href="/en/responsability/purchases-and-suppliers/work-with-societe-generale" data-tag="event=click;id_composant=header_expand;n1=header;n2=Responsibility;n3=Sourcing and suppliers;n4=Work with Societe Generale" data-drupal-link-system-path="node/5953">Work with Societe Generale</a>
-                        </li>
-                                            </ul>
-                                      </li>
-                              </ul>
-            </div>
-          </div>
-        </div>
-          </li>
-      <li>
-              <button aria-expanded="false" aria-controls="news" class="header-menu-wrapper-n2-button">News</button>
-                    <div id="news" class="header-menu-wrapper-n2-wrapper js-hide">
-          <div class="header-menu-wrapper-n2">
-                                        <div class="paragraph desktop-only push-expand paragraph--type--push-menu-expand-texte">
-      <strong class="push-expand-title">News</strong>
-        <p class="push-expand-desc">All our latest news, press releases, articles and economic analysis.</p>
-    </div>
 
-                        <div class="wrapper-column">
-              <ul class="column">
-                                                    <li> 
-                                          <a href="/en/news/newsroom" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=News;n3=All news" data-drupal-link-system-path="node/6616">All news</a>
-                                                          </li>
-                                                    <li> 
-                                          <a href="/en/press-release" target="_self" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=News;n3=Press releases" data-drupal-link-system-path="node/6728">Press releases</a>
-                                                          </li>
-                                                    <li> 
-                                          <a href="/en/economic-research" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=News;n3=Economic research " data-drupal-link-system-path="node/6729">Economic research </a>
-                                                          </li>
-                                                    <li> 
-                                          <a href="/en/news/statements" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=News;n3=Statements" data-drupal-link-system-path="node/5639">Statements</a>
-                                                          </li>
-                                                    <li> 
-                                          <a href="/en/news/press-contacts" class="header-menu-n2-link" data-tag="event=click;id_composant=header_expand;n1=header;n2=News;n3=Press contacts" data-drupal-link-system-path="node/6727">Press contacts</a>
-                                                          </li>
-                              </ul>
-            </div>
-          </div>
-        </div>
-          </li>
-      <li>
-              <button aria-expanded="false" aria-controls="patronage_sponsoring" class="header-menu-wrapper-n2-button">Patronage &amp; sponsoring</button>
-                    <div id="patronage_sponsoring" class="header-menu-wrapper-n2-wrapper js-hide">
-          <div class="header-menu-wrapper-n2">
-                                        <div class="paragraph desktop-only push-expand paragraph--type--push-menu-expand-texte">
-      <strong class="push-expand-title">Patronage &amp; sponsoring</strong>
-        <p class="push-expand-desc">Beyond our business activites and through a range of actions carried out over the long term, we express one of the Group’s core values: commitment.</p>
-    </div>
 
-                        <div class="wrapper-column">
-              <ul class="column">
-                                                    <li> 
-                                          <button aria-expanded="false" aria-controls="sport_sponsorship" class="header-menu-wrapper-n3-button">
-                        Sport sponsorship
-                      </button>
-                                                              <ul id="sport_sponsorship" class="header-menu-wrapper-n3-wrapper js-hide">
-                                              <li>
-                          <a href="/en/patronage-and-sponsorhip/sports/rugby" data-tag="event=click;id_composant=header_expand;n1=header;n2=Patronage &amp; sponsoring;n3=Sport sponsorship;n4=Rugby" data-drupal-link-system-path="node/3340">Rugby</a>
-                        </li>
-                                              <li>
-                          <a href="/en/patronage-and-sponsorhip/sports/handisport" data-tag="event=click;id_composant=header_expand;n1=header;n2=Patronage &amp; sponsoring;n3=Sport sponsorship;n4=Parasport">Parasport</a>
-                        </li>
-                                              <li>
-                          <a href="/en/patronage-and-sponsorhip/sports/esport" data-tag="event=click;id_composant=header_expand;n1=header;n2=Patronage &amp; sponsoring;n3=Sport sponsorship;n4=Esport" data-drupal-link-system-path="node/6587">Esport</a>
-                        </li>
-                                            </ul>
-                                      </li>
-                                                    <li> 
-                                          <button aria-expanded="false" aria-controls="supporting_the_arts" class="header-menu-wrapper-n3-button">
-                        Supporting the Arts
-                      </button>
-                                                              <ul id="supporting_the_arts" class="header-menu-wrapper-n3-wrapper js-hide">
-                                              <li>
-                          <a href="/en/patronage-and-sponsorhip/supporting-the-arts-and-music/contemporary-art" data-tag="event=click;id_composant=header_expand;n1=header;n2=Patronage &amp; sponsoring;n3=Supporting the Arts;n4=Contemporary Art " data-drupal-link-system-path="node/6614">Contemporary Art </a>
-                        </li>
-                                            </ul>
-                                      </li>
-                                                    <li> 
-                                          <button aria-expanded="false" aria-controls="social_solidarity" class="header-menu-wrapper-n3-button">
-                        Social solidarity
-                      </button>
-                                                              <ul id="social_solidarity" class="header-menu-wrapper-n3-wrapper js-hide">
-                                              <li>
-                          <a href="https://fondation-solidarite.societegenerale.com/en" target="_blank" data-tag="event=click;id_composant=header_expand;n1=header;n2=Patronage &amp; sponsoring;n3=Social solidarity;n4=The Societe Generale Corporate Foundation" rel="noopener">The Societe Generale Corporate Foundation</a>
-                        </li>
-                                              <li>
-                          <a href="/en/patronage-and-sponsorhip/social-solidarity/commitment-programmes" data-tag="event=click;id_composant=header_expand;n1=header;n2=Patronage &amp; sponsoring;n3=Social solidarity;n4=Commitment programmes">Commitment programmes</a>
-                        </li>
-                                            </ul>
-                                      </li>
-                              </ul>
-            </div>
-          </div>
-        </div>
-          </li>
-      <li>
-              <a href="/en/publications-documents" target="_self" data-drupal-link-system-path="node/6654">Publications &amp; documents</a>
-                </li>
-      <li>
-              <a href="https://investors.societegenerale.com/en" target="_blank" rel="noopener">Investors</a>
-                </li>
-    </ul>
-</nav>
 
-                    <div class="header-cibles mobile-only">
-      <button aria-controls="header-cibles-expand-mobile" aria-expanded="false" class="header-cibles-button" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;">
-        You are
-      </button>
-      <div id="header-cibles-expand-mobile" class="header-cibles-expand js-hide">
-                <ul>
-                  <li>
-            <a href="https://investors.societegenerale.com/en" target="_blank" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;n3=Investor" rel="noopener">Investor</a>
-          </li>
-                  <li>
-            <a href="https://societegenerale.com/en/press-release?type=151&amp;theme=All&amp;activity=All&amp;month=All&amp;year=All" target="_blank" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;n3=Journalist" rel="noopener">Journalist</a>
-          </li>
-                  <li>
-            <a href="https://careers.societegenerale.com/en/" target="_blank" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;n3=Candidate" rel="noopener">Candidate</a>
-          </li>
-                  <li>
-            <a href="https://www.societegenerale.com/en/all-sites" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;n3=Client">Client</a>
-          </li>
-                  <li>
-            <a href="https://societegenerale.com/en/responsability/purchases-and-suppliers/work-with-societe-generale" data-tag="event=click;id_composant=profile_list;n1=header;n2=You are;n3=Supplier">Supplier</a>
-          </li>
-                </ul>
-      </div>
-    </div>
-    
 
-    <div class="header-search-menu header-search-menu-sticky">
-      <button class="header-search-button desktop-only" aria-expanded="false" aria-controls="block-search-form" data-tag="event=click;id_composant=browser;n1=header;n2=Search;">
-        <span class="header-search-label">Search</span>
-      </button>
-    </div>
-    <div class="header-menu-wrapper__menu-bottom">
-      <div id="block-share-price" class="settings-tray-editable" data-drupal-settingstray="editable">
-    <a class="cote-bourse" href="https://investors.societegenerale.com//en/financial-and-extra-financial-information/share/share-price-and-performance" data-url="/getvalue.php" aria-label="The stock market price is: @ price € with a @trend of @ diff%" data-tag="event=click;id_composant=cote_bourse;n1=header;n2=stock_quotation">
-    <span class="cote-bourse-picto"></span>
-    <div class="cote-bourse-text"><strong class="cote-bourse-price">26.36</strong><strong>€</strong> (<span class="cote-bourse-diff">+0.06</span>%)</div>
-  </a>
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/bi_template/themes/default/res/css/styles.1631548706.css" media="all"><link rel="stylesheet" type="text/css" href="typo3temp/themecolorcss/5813-inline210916.css" media="all"><title>India  - Societe Generale Asia Pacific</title><meta name="title" content="India" />
+<!-- HrefLang&Canonic -->
+<link rel="alternate" hreflang="en" href="https://www.societegenerale.asia/en/country-details/country/india-2/" />
+<link rel="alternate" hreflang="ja" href="https://www.societegenerale.asia/jp/country-details/country/%E3%82%A4%E3%83%B3%E3%83%89/" />
+<link rel="canonical" href="https://www.societegenerale.asia/en/country-details/country/india-2/"  />
+<!-- SocialsMetas -->
+<meta property="og:title" content="India"/>
+<meta property="og:site_name" content="Société Générale"/>
+<meta property="og:image" content="https://www.societegenerale.asia//typo3temp/assets/_processed_/1/9/csm_network-desat_db8c84ff26_optimized.jpg"/>
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="twitter:title" content="India"/>
+<meta property="twitter:image" content="https://www.societegenerale.asia//typo3temp/assets/_processed_/1/9/csm_network-desat_db8c84ff26_optimized.jpg"/>
+<meta property="og:url" content="https://www.societegenerale.asia/en/country-details/country/india-2/"/>
+<meta property="twitter:url" content="https://www.societegenerale.asia/en/country-details/country/india-2/"/>		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="msapplication-config" content="none" /><link rel="author" href="https://plus.google.com/108633454649832462728" />		<link rel="shortcut icon" href="typo3conf/ext/bi_template/themes/default/res/favicon/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="typo3conf/ext/bi_template/themes/default/res/favicon/favicon.png" type="image/png">
+		<link rel="icon" sizes="32x32" href="typo3conf/ext/bi_template/themes/default/res/favicon/favicon-32.png" type="image/png">
+		<link rel="icon" sizes="64x64" href="typo3conf/ext/bi_template/themes/default/res/favicon/favicon-64.png" type="image/png">
+		<link rel="icon" sizes="96x96" href="typo3conf/ext/bi_template/themes/default/res/favicon/favicon-96.png" type="image/png">
+		<link rel="icon" sizes="196x196" href="typo3conf/ext/bi_template/themes/default/res/favicon/favicon-196.png" type="image/png">
+		<meta name="msapplication-TileImage" content="typo3conf/ext/bi_template/themes/default/res/favicon/favicon-144.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF"><script data-move="0">var GBIS = JSON.parse('{"tracking":{"pageType":false},"frontend_editing":false}');</script>
+
+</head>
+<body class="design2015 implantationsSingle page6128">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7VV6PR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- _header.tmpl -->
+<div id="menu_accessible">
+<ul>
+    <li><a href="#main">Go to content</a></li>
+    <li><a href="#menu-header">Go to menu</a></li>
+    <li><a href="#form-search">Go to search</a></li>
+</ul>
 </div>
 
-      <div class="language-list mobile-only">
-      <button aria-controls="language-list-expand" aria-expanded="false" class="language-list-button" aria-label="Languages selection">En</button>
-    <div id="language-list-expand" class="language-list-expand js-hide">
-      <ul class="links">        <li data-drupal-link-system-path="&lt;front&gt;" class="fr is-active"><a href="/fr" class="language-link" aria-label="French" lang="fr" data-tag="event=click;id_composant=header;n1=header;n2=langue;n3=fr" hreflang="fr" data-drupal-link-system-path="&lt;front&gt;">Fr</a></li>
-      </ul>
-    </div>
-  </div>
-
-    </div>
-  </div>
-</header>
-
-  
-  
-
-  
-
-  
-
-  <main role="main" id="main">
-    <a id="main-content" tabindex="-1"></a>
-    <div class="layout-content">
-        <div data-drupal-messages-fallback class="hidden"></div>
-<div id="block-sg-refonte-content">
-  
-    
-      
-    <article role="article" about="/en/node/157" class="node node--type-page-edito node--view-mode-full">
-  
-  
-  
-              <div class="paragraph paragraph--type--banniere-principale">
-          
-<div class="media media-image">
-                <picture>
-                  <source srcset="/sites/default/files/styles/banniere_principale_desktop/public/image/2021-09/Move-for-Youth_1920x1067.jpg?h=1241a7e9&amp;itok=htLOrmGM 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/banniere_principale_desktop/public/image/2021-09/Move-for-Youth_1920x1067.jpg?h=1241a7e9&amp;itok=htLOrmGM 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/banniere_principale_mobile/public/image/2021-09/Move-for-Youth_1920x1067.jpg?h=1241a7e9&amp;itok=_yOyiNE4 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/banniere_principale_mobile/public/image/2021-09/Move-for-Youth_1920x1067.jpg?h=1241a7e9&amp;itok=_yOyiNE4 1x" type="image/jpeg"/>
-                    <img src="/sites/default/files/styles/banniere_principale_desktop/public/image/2021-09/Move-for-Youth_1920x1067.jpg?h=1241a7e9&amp;itok=htLOrmGM" alt="Move for youth" typeof="foaf:Image" />
-
-  </picture>
-
-
-  
-  </div>
-
-    <div class="content">
-          <h1 class="title">A connected international charity challenge<span class="moving-line moving-line-auto"></span></h1>
-              <div class="wrapper-cta">
-                            <a class="cta cta-white" href="/en/over-10000-employees-stepping-support-young-people"  target="_self" data-tag="event=click;id_composant=hero_banner;n1=[pageName];n2=hero_banner;n3=Over 10,000 employees stepping up to support young people;">Over 10,000 employees stepping up to support young people</a>
-                      </div>
-      </div>
+<div id="nocss">!css</div>
+<div class="navmobile" id="navmobile">
+	<div class="navmobileSearch"></div>
+	<div class="navmobileMenu"></div>
+	<div class="navmobileLang" data-label="OTHER LANGUAGES"></div>
 </div>
 
-                
 
-<div class="paragraph paragraph--type--push-blocs">
-        <h2 class="title">Latest news</h2>
-    <div class="item-wrapper">
-      
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
-
-
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALD_Electricite2_692x411.jpg?h=cb93dabd&amp;itok=wRWUCBYA 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALD_Electricite2_692x411.jpg?h=cb93dabd&amp;itok=wRWUCBYA 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALD_Electricite2_692x411.jpg?h=cb93dabd&amp;itok=wRWUCBYA 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/ALD_Electricite2_692x411.jpg?h=cb93dabd&amp;itok=oEmweaen 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/ALD_Electricite2_692x411.jpg?h=cb93dabd&amp;itok=oEmweaen" typeof="foaf:Image" alt=""/>
-
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALD_Electricite2_692x411.jpg?h=cb93dabd&amp;itok=wRWUCBYA 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALD_Electricite2_692x411.jpg?h=cb93dabd&amp;itok=wRWUCBYA 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALD_Electricite2_692x411.jpg?h=cb93dabd&amp;itok=wRWUCBYA 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/ALD_Electricite2_692x411.jpg?h=cb93dabd&amp;itok=oEmweaen 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/ALD_Electricite2_692x411.jpg?h=cb93dabd&amp;itok=oEmweaen" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" typeof="foaf:Image" alt=""/>
-
-  </picture>
-
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
-
-
-
-          <h3 class="h4 item-title">Ready to switch to electric?</h3>
-            <a class="link" href="/en/ready-switch-electric"  target="_self" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=Ready to switch to electric?;">Let’s move on with ALD Automotive</a>
-  </div>
-
-  
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
-
-
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/20210914_Global-Finance_692x411.jpg?h=cb93dabd&amp;itok=jJLyg9or 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/20210914_Global-Finance_692x411.jpg?h=cb93dabd&amp;itok=jJLyg9or 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/20210914_Global-Finance_692x411.jpg?h=cb93dabd&amp;itok=jJLyg9or 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/20210914_Global-Finance_692x411.jpg?h=cb93dabd&amp;itok=XpEpkdu4 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/20210914_Global-Finance_692x411.jpg?h=cb93dabd&amp;itok=XpEpkdu4" alt="Sustainable FIannce Awards 2021 - Global Finance" typeof="foaf:Image" />
-
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/20210914_Global-Finance_692x411.jpg?h=cb93dabd&amp;itok=jJLyg9or 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/20210914_Global-Finance_692x411.jpg?h=cb93dabd&amp;itok=jJLyg9or 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/20210914_Global-Finance_692x411.jpg?h=cb93dabd&amp;itok=jJLyg9or 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/20210914_Global-Finance_692x411.jpg?h=cb93dabd&amp;itok=XpEpkdu4 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/20210914_Global-Finance_692x411.jpg?h=cb93dabd&amp;itok=XpEpkdu4" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" alt="Sustainable FIannce Awards 2021 - Global Finance" typeof="foaf:Image" />
-
-  </picture>
-
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
-
-
-
-          <h3 class="h4 item-title">Taking the lead in expanding the reach of sustainable finance</h3>
-            <a class="link" href="/en/taking-lead-expanding-reach-sustainable-finance"  target="_self" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=Taking the lead in expanding the reach of sustainable finance;">7 awards by Global Finance</a>
-  </div>
-
-  
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
-
-
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/PFPP_692x411.jpg?h=cb93dabd&amp;itok=mg1iNl6j 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/PFPP_692x411.jpg?h=cb93dabd&amp;itok=mg1iNl6j 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/PFPP_692x411.jpg?h=cb93dabd&amp;itok=mg1iNl6j 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/PFPP_692x411.jpg?h=cb93dabd&amp;itok=QBsuyFHT 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/PFPP_692x411.jpg?h=cb93dabd&amp;itok=QBsuyFHT" typeof="foaf:Image" alt=""/>
-
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/PFPP_692x411.jpg?h=cb93dabd&amp;itok=mg1iNl6j 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/PFPP_692x411.jpg?h=cb93dabd&amp;itok=mg1iNl6j 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/PFPP_692x411.jpg?h=cb93dabd&amp;itok=mg1iNl6j 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/PFPP_692x411.jpg?h=cb93dabd&amp;itok=QBsuyFHT 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/PFPP_692x411.jpg?h=cb93dabd&amp;itok=QBsuyFHT" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" typeof="foaf:Image" alt=""/>
-
-  </picture>
-
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
-
-
-
-          <h3 class="h4 item-title">Playing for Philharmonie</h3>
-            <a class="link" href="/en/playing-philharmonie-de-paris-music-brings-us-together"  target="_self" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=Playing for Philharmonie;">Music brings us together</a>
-  </div>
-
-
-  </div>
-  <div class="slide-controls"></div>
+<div class="topLink">
+	<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
 </div>
 
-                
+<div class="mainContainer ">
 
-<div class="paragraph paragraph--type--push-blocs">
-      <div class="item-wrapper">
-      
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
+		<div class="clientAccessHeader visible-xs-block "></div>
 
+		<header class="mainHeader" role="banner">
 
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/IA_Finance_1206796363_692x411.jpg?h=cb93dabd&amp;itok=YFR2r1YH 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/IA_Finance_1206796363_692x411.jpg?h=cb93dabd&amp;itok=YFR2r1YH 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/IA_Finance_1206796363_692x411.jpg?h=cb93dabd&amp;itok=YFR2r1YH 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/IA_Finance_1206796363_692x411.jpg?h=cb93dabd&amp;itok=SVPqMlXm 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/IA_Finance_1206796363_692x411.jpg?h=cb93dabd&amp;itok=SVPqMlXm" typeof="foaf:Image" alt=""/>
+			<div class="topHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-xs-9">
+							<div class="mainLogo" itemscope itemtype="http://schema.org/Organization" >
+								<a href="en/" itemprop="url" class="my-svg-container "><img itemprop="logo"  src="./fileadmin/user_upload/logos/Group-Futur-en.svg" onerror="this.src='./fileadmin/user_upload/logos/Group-Futur-en.gif';this.onerror=null;" height="42" alt=""/><div class="mainLogoBaseline"></div></a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-3">
+							<div class="clientBtn"><div class="mobileBaseline"></div><div id="clientBtnDropDown">		<a 
+									href="https://ebanking.societegenerale.in/corp/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&__FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=01" 
+									target="_blank" 
+									onclick='ga("send", {"hitType" : "event","eventCategory" : "Client button","eventAction" : "click","eventLabel" : "Ebanking India"});'
+									title="Client access to : Ebanking India " 
+									class="btn btn-primary"><span>Ebanking India</span></a></div></div>
+							<div class="baseline">Societe Generale Asia Pacific</div>
+							
+							<div class="menuButton visible-xs-block visible-sm-block">
+								<button class="bt-menu-trigger" aria-expanded="false" aria-controls="navmobile"><strong class="accessi">menu</strong><span></span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/IA_Finance_1206796363_692x411.jpg?h=cb93dabd&amp;itok=YFR2r1YH 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/IA_Finance_1206796363_692x411.jpg?h=cb93dabd&amp;itok=YFR2r1YH 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/IA_Finance_1206796363_692x411.jpg?h=cb93dabd&amp;itok=YFR2r1YH 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/IA_Finance_1206796363_692x411.jpg?h=cb93dabd&amp;itok=SVPqMlXm 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/IA_Finance_1206796363_692x411.jpg?h=cb93dabd&amp;itok=SVPqMlXm" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" typeof="foaf:Image" alt=""/>
+			<div class="subHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<nav role="navigation">
+								<ul class="mainMenu" id="menu-header">
+									<li class="homeLink"><a href="en/"><span class="label">home</span><span class="picto"><i class="fa fa-home"></i></span><span class="logo"></span></a></li>
+									<li id="itemMenu5827" class="lvl1 theme0"><a href="en/about-asia-pacific/"><span>About us<br>
+in Asia Pacific</span></a><div class="mainMenuSub container"><div class="row"><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu6110" class="theme0"><a href="en/about-asia-pacific/societe-generale-group/"><span>Societe Generale Group</span><div class="desc"></div></a></li><li  id="itemMenu15441" class="theme0"><a href="en/about-asia-pacific/our-values/"><span>Our values</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu11051" class="theme0"><a href="en/about-asia-pacific/corporate-video/"><span>Watch our video</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu6111" class="theme0"><a href="en/about-asia-pacific/corporate-social-responsibility/"><span>Corporate Social Responsibility</span><div class="desc"></div></a></li><li  id="itemMenu15438" class="theme0"><a href="en/about-asia-pacific/commitments/"><span>Commitments</span><div class="desc"></div></a><ul class="lvl3"><li id="itemMenu15444"><a href="en/about-asia-pacific/rugby/">Rugby</a></li><li id="itemMenu15439"><a href="en/about-asia-pacific/commitments/contemporary-art-and-classical-music/">Contemporary art and classical music</a></li><li id="itemMenu15440"><a href="en/about-asia-pacific/corporate-social-responsibility/charity-partners-asia/">Charity Partners in Asia</a></li></ul></li></ul></div></div></div></li><li id="itemMenu5826" class="lvl1 theme0"><a href="en/our-offering/"><span>Our<br>
+Offering</span></a><div class="mainMenuSub container"><div class="row"><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu6114" class="theme0"><a href="en/our-offering/asset-management/"><span>Asset Management</span><div class="desc"></div></a></li><li  id="itemMenu25420" class="theme"><a href="en/our-offering/investment-banking/"><span>Investment Banking</span><div class="desc"></div></a></li><li  id="itemMenu25422" class="theme"><a href="en/our-offering/global-markets/"><span>Global Markets</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu25421" class="theme"><a href="en/our-offering/financing/"><span>Financing</span><div class="desc"></div></a></li><li  id="itemMenu6118" class="theme0"><a href="en/our-offering/global-transaction-banking/"><span>Global Transaction Banking</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu8927" class="theme0"><a href="en/our-offering/equipment-finance/"><span>Equipment Finance</span><div class="desc"></div></a></li><li  id="itemMenu8885" class="theme0"><a href="en/our-offering/mobility-and-fleet-management/"><span>Mobility and Fleet Management</span><div class="desc"></div></a></li></ul></div></div></div></li><li id="itemMenu6120" class="lvl1 theme0"><a href="en/solutions-for-our-clients/"><span>Solutions<br>
+for our clients</span></a><div class="mainMenuSub container"><div class="row"><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu6121" class="theme0"><a href="en/solutions-for-our-clients/corporates/"><span>Corporates</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu6122" class="theme0"><a href="en/solutions-for-our-clients/financial-institutions/"><span>Financial institutions</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu6124" class="theme0"><a href="en/solutions-for-our-clients/public-sector/"><span>Public sector</span><div class="desc"></div></a></li></ul></div></div></div></li><li id="itemMenu6126" class="lvl1 theme0"><a href="en/offices/" title="Our network in Asia Pacific"><span>Our network<br>
+in Asia Pacific</span></a><div class="mainMenuSub container"><div class="row"><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu8932" class="theme0"><a href="https://www.societegenerale.asia/en/worldwide-details/office/sydney-1/"><span>Australia</span><div class="desc"></div></a></li><li  id="itemMenu8933" class="theme0"><a href="https://www.societegenerale.asia/en/country-details/country/china-1/"><span>Mainland China</span><div class="desc"></div></a></li><li  id="itemMenu8934" class="theme0"><a href="https://www.societegenerale.asia/en/worldwide-details/office/hong-kong-2/"><span>Hong Kong SAR</span><div class="desc"></div></a></li><li  id="itemMenu8936" class="theme0"><a href="https://www.societegenerale.asia/en/country-details/country/india-2/"><span>India</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu8937" class="theme0"><a href="https://www.societegenerale.asia/en/worldwide-details/office/jakarta-representative-office-1/"><span>Indonesia</span><div class="desc"></div></a></li><li  id="itemMenu8938" class="theme0"><a href="https://www.societegenerale.asia/en/worldwide-details/office/tokyo-1/"><span>Japan</span><div class="desc"></div></a></li><li  id="itemMenu8939" class="theme0"><a href="https://www.societegenerale.asia/en/worldwide-details/office/seoul-1/"><span>South Korea</span><div class="desc"></div></a></li><li  id="itemMenu8941" class="theme0"><a href="https://www.societegenerale.asia/en/worldwide-details/office/kuala-lumpur-representative-office-1/"><span>Malaysia</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu8942" class="theme0"><a href="https://www.societegenerale.asia/en/worldwide-details/office/singapore-1/"><span>Singapore</span><div class="desc"></div></a></li><li  id="itemMenu8943" class="theme0"><a href="https://www.societegenerale.asia/en/worldwide-details/office/taipei-1/"><span>Taiwan</span><div class="desc"></div></a></li><li  id="itemMenu11580" class="theme0"><a href="https://www.societegenerale.asia/en/worldwide-details/office/bangkok-1/"><span>Thailand</span><div class="desc"></div></a></li><li  id="itemMenu8944" class="theme0"><a href="https://www.societegenerale.asia/en/worldwide-details/office/hanoi-representative-office-1/"><span>Vietnam</span><div class="desc"></div></a></li></ul></div></div></div></li><li id="itemMenu6130" class="lvl1 theme0"><a href="en/newsroom/news-press-releases/"><span>Newsroom</span></a><div class="mainMenuSub container"><div class="row"><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu6131" class="theme0"><a href="en/newsroom/news-press-releases/"><span>News & Press Releases</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu6749" class="theme0"><a href="en/newsroom/awards/"><span>Awards</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu8640" class="theme0"><a href="en/newsroom/success-stories/"><span>Success Stories</span><div class="desc"></div></a></li></ul></div></div></div></li><li id="itemMenu6135" class="lvl1 theme0"><a href="en/careers/"><span>Careers</span></a><div class="mainMenuSub container"><div class="row"><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu8085" class="theme0"><a href="en/careers/work-diverse-international-workplace/"><span>Work in a diverse, international workplace</span><div class="desc"></div></a></li><li  id="itemMenu22632" class="theme0"><a href="en/careers/meet-our-people-asia/"><span>Meet our people</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu12226" class="theme0"><a href="en/careers/diversity-inclusion/"><span>Diversity & Inclusion</span><div class="desc"></div></a></li><li  id="itemMenu8086" class="theme0"><a href="en/careers/career-development/"><span>Career development</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"><li  id="itemMenu10913" class="theme0"><a href="en/careers/graduates-and-students/"><span>Graduates and students</span><div class="desc"></div></a></li><li  id="itemMenu8087" class="theme0"><a href="https://careers.societegenerale.com/en/search"><span>Apply here!</span><div class="desc"></div></a></li></ul></div><div class="mainMenuCol col-md-4"><ul class="lvl2"></ul></div></div></div></li>
+								</ul>
+							</nav>
 
-  </picture>
+							<div class="actionsMenu">
+								<div class="siteList actionsMenuItem">
+									
+								</div>
 
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
+								<div class="langList actionsMenuItem" aria-haspopup="true"><div id="langueSwitcherForm"><ul><li><a lang="en" data-idlang="0" title="English" href="en/country-details/country/india-2/" class="anim__underline act">EN</a></li><li><a lang="jp" data-idlang="6" title="Japan" href="jp/country-details/country/%E3%82%A4%E3%83%B3%E3%83%89/" class="anim__underline">JP</a></li></ul></div></div>
 
-
-
-          <h3 class="h4 item-title">AI is no longer just an option in finance</h3>
-            <a class="link" href="https://www.societegenerale.com/en/ai-no-longer-just-option-finance"  target="_self" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=AI is no longer just an option in finance;">A tool that boosts the digital value proposition </a>
-  </div>
-
-  
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
-
-
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALDAutomotive-Skipr_692x411.jpg?h=cb93dabd&amp;itok=VKt6Ef0k 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALDAutomotive-Skipr_692x411.jpg?h=cb93dabd&amp;itok=VKt6Ef0k 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALDAutomotive-Skipr_692x411.jpg?h=cb93dabd&amp;itok=VKt6Ef0k 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/ALDAutomotive-Skipr_692x411.jpg?h=cb93dabd&amp;itok=QcNzZ-XZ 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/ALDAutomotive-Skipr_692x411.jpg?h=cb93dabd&amp;itok=QcNzZ-XZ" typeof="foaf:Image" alt=""/>
-
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALDAutomotive-Skipr_692x411.jpg?h=cb93dabd&amp;itok=VKt6Ef0k 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALDAutomotive-Skipr_692x411.jpg?h=cb93dabd&amp;itok=VKt6Ef0k 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-09/ALDAutomotive-Skipr_692x411.jpg?h=cb93dabd&amp;itok=VKt6Ef0k 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/ALDAutomotive-Skipr_692x411.jpg?h=cb93dabd&amp;itok=QcNzZ-XZ 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-09/ALDAutomotive-Skipr_692x411.jpg?h=cb93dabd&amp;itok=QcNzZ-XZ" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" typeof="foaf:Image" alt=""/>
-
-  </picture>
-
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
+								<div class="search actionsMenuItem" id="form-search"  role="search">
+															<div id="sb-search" class="sb-search sb-search--qwant">
+							<form action="en/search-results/" method="get" name="tx_indexedsearch"  id="tx_indexedsearch">
+								<label for="searchForm">Search</label>
+								<input class="formCheck" type="text" name="tx_psqwantsearch_pi1[check]" />
+								<input class="sb-search-input" placeholder="Search with Qwant" type="search" name="tx_psqwantsearch_pi1[q]" id="searchForm" />
+								<input class="sb-search-submit" type="submit" value="Search" />
+								<button aria-expanded="false"  aria-controls="searchForm" class="sb-icon-search"><span class="accessi">Search</span><span class="fa fa-search"></span></button>
+							</form>
+						</div>
+								</div>
 
 
+								<button class="contrastBtn actionsMenuItem">
+									<span class="accessi">contrast</span>
+									<span class="fa fa-adjust"></span>
+								</button>
 
-          <h3 class="h4 item-title">ALD acquires share capital in MaaS startup, Skipr</h3>
-            <a class="link" href="https://www.societegenerale.com/en/news/press-release/ald-acquires-share-capital-maas-startup-skipr"  target="_self" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=ALD acquires share capital in MaaS startup, Skipr;">Towards more sustainable mobility solutions in companies</a>
-  </div>
+							</div>
 
-  
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
-
-
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Esport%235_1920x533.jpg?itok=D4tWovpZ 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Esport%235_1920x533.jpg?itok=D4tWovpZ 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Esport%235_1920x533.jpg?itok=D4tWovpZ 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_Esport%235_1920x533.jpg?itok=9R-Nrj8c 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_Esport%235_1920x533.jpg?itok=9R-Nrj8c" typeof="foaf:Image" alt=""/>
-
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Esport%235_1920x533.jpg?itok=D4tWovpZ 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Esport%235_1920x533.jpg?itok=D4tWovpZ 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Esport%235_1920x533.jpg?itok=D4tWovpZ 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_Esport%235_1920x533.jpg?itok=9R-Nrj8c 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_Esport%235_1920x533.jpg?itok=9R-Nrj8c" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" typeof="foaf:Image" alt=""/>
-
-  </picture>
-
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
+						</div>
 
 
+					</div>
+				</div>
+			</div>
 
-          <h3 class="h4 item-title">Why so few women in esports?</h3>
-            <a class="link" href="/en/news/all-news/why-so-few-women-esports"  target="_self" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=Why so few women in esports?;">A paradox when we know that one amateur player out of two is a woman</a>
-  </div>
-
-
-  </div>
-  <div class="slide-controls"></div>
-</div>
-
-                
-
-<div class="paragraph paragraph--type--push-blocs">
-        <h2 class="title">Our latest financial results</h2>
-    <div class="item-wrapper">
-      
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
+		</header>
 
 
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-02/T4_2020_Societe_Generale.jpg?h=a228113a&amp;itok=iVZqU6qd 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-02/T4_2020_Societe_Generale.jpg?h=a228113a&amp;itok=iVZqU6qd 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-02/T4_2020_Societe_Generale.jpg?h=a228113a&amp;itok=iVZqU6qd 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-02/T4_2020_Societe_Generale.jpg?h=a228113a&amp;itok=Ah_YcCU- 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-02/T4_2020_Societe_Generale.jpg?h=a228113a&amp;itok=Ah_YcCU-" alt="Resultats financiers Societe Generale" typeof="foaf:Image" />
+		<div class="fixedheader">
+			<div class="fixedheaderContent">
+				<div class="container">
+					<div class="fakeh1"></div>
+					<div class="addthis_toolbox addthis_default_style "><ul><li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.societegenerale.asia/en/country-details/country/india-2/" class="addthis_button_facebook" target="_blank"><span class="accessi" title="facebook">facebook</span><div class="btnWrap"><span class="normal"><strong class="fa fa-facebook"></strong></span><span class="active"><strong class="fa fa-facebook"></strong></span></div></a></li><li><a  href="https://twitter.com/share?url=https%3A%2F%2Fwww.societegenerale.asia%2Fen%2Fcountry-details%2Fcountry%2Findia-2%2F&text=Country+details" class="addthis_button_twitter" target="_blank"><span class="accessi" title="twitter">twitter</span><div class="btnWrap"><span class="normal"><strong class="fa fa-twitter"></strong></span><span class="active"><strong class="fa fa-twitter"></strong></span></div></a></li><li><a  href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.societegenerale.asia/en/country-details/country/india-2/" class="addthis_button_linkedin" target="_blank"><span class="accessi" title="linkedin">linkedin</span><div class="btnWrap"><span class="normal"><strong class="fa fa-linkedin"></strong></span><span class="active"><strong class="fa fa-linkedin"></strong></span></div></a></li></ul></div>
+				</div>
+			</div>
+		</div>
+<!-- fullwide.withheader.tmpl -->
+<main id="main" role="main" class="###mainClasses###">
 
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-02/T4_2020_Societe_Generale.jpg?h=a228113a&amp;itok=iVZqU6qd 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-02/T4_2020_Societe_Generale.jpg?h=a228113a&amp;itok=iVZqU6qd 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-02/T4_2020_Societe_Generale.jpg?h=a228113a&amp;itok=iVZqU6qd 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-02/T4_2020_Societe_Generale.jpg?h=a228113a&amp;itok=Ah_YcCU- 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-02/T4_2020_Societe_Generale.jpg?h=a228113a&amp;itok=Ah_YcCU-" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" alt="Resultats financiers Societe Generale" typeof="foaf:Image" />
+	
+	
+	<div class="contentHeader" >
+		<div class="container"><div  class="ttcContent" >
+<div id="c27708" class="frame frame-default frame-type-list frame-layout-0"><!--
 
-  </picture>
+		BEGIN: Content of extension "bi_sg_implantations", plugin "tx_bisgimplantations_pi1"
 
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
+	--><div class="tx-bisgimplantations-pi1"><!--
 
+		BEGIN: Content of extension "bi_sg_implantations", plugin "tx_bisgimplantations_pi1"
 
+	--><div class="tx-bisgimplantations-pi1"><!-- Template gmap --><div class="mainGmapContainer noboxed "><div class="mainGmap" id="mainGmap" aria-hidden="true"></div><div class="mainGmapSquare"><span class="sep"></span><h1 class="accessi">Our office locations</h1><h2>Our office locations</h2><div class="mainGmapSquareAction"><a href="en/offices/" class="mainGmapSquareBtn"><i class="fa fa-globe"></i> Locations map</a></div><div class="mainGmapMenuWrap"><ul class="mainGmapMenu"><li class="firstLvl"><span class="firstLvl" tabindex="0">Asia</span><ul id="continent-97"><li><a href="javascript:void(0);" id="country291">Australia</a><ul class="country-291"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/australia/" id="imp652">Sydney</a></li></ul></li><li><a href="javascript:void(0);" id="country285">Hong Kong SAR</a><ul class="country-285"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/hong-kong-2/" id="imp645">Hong Kong</a></li></ul></li><li><a href="javascript:void(0);" id="country290">India</a><ul class="country-290"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/bangalore-global-solution-centre-1/" id="imp676">Bangalore</a></li><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/delhi-1/" id="imp661">New Delhi</a></li><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/mumbai-2/" id="imp651">Mumbai</a></li></ul></li><li><a href="javascript:void(0);" id="country293">Indonesia</a><ul class="country-293"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/jakarta-representative-office-1/" id="imp653">Jakarta</a></li></ul></li><li><a href="javascript:void(0);" id="country287">Japan</a><ul class="country-287"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/tokyo-1/" id="imp647">Tokyo</a></li></ul></li><li><a href="javascript:void(0);" id="country288">Mainland China</a><ul class="country-288"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/beijing-head-office-china-1/" id="imp649">Beijing </a></li><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/shanghai2-1/" id="imp664">Shanghai </a></li><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/guangzhou-1/" id="imp668">Guangzhou </a></li><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/harbin-1/" id="imp667">Harbin </a></li><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/tianjin-1/" id="imp663">Tianjin</a></li></ul></li><li><a href="javascript:void(0);" id="country292">Malaysia</a><ul class="country-292"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/kuala-lumpur-representative-office-1/" id="imp648">Kuala Lumpur</a></li></ul></li><li><a href="javascript:void(0);" id="country286">Singapore</a><ul class="country-286"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/singapore-1/" id="imp646">Singapore </a></li></ul></li><li><a href="javascript:void(0);" id="country283">South Korea</a><ul class="country-283"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/seoul-1/" id="imp641">Seoul</a></li></ul></li><li><a href="javascript:void(0);" id="country289">Taiwan</a><ul class="country-289"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/taipei-1/" id="imp650">Taipei</a></li></ul></li><li><a href="javascript:void(0);" id="country434">Thailand</a><ul class="country-434"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/bangkok-1/" id="imp1011">Bangkok</a></li></ul></li><li><a href="javascript:void(0);" id="country294">Vietnam</a><ul class="country-294"><li><a href="https://www.societegenerale.asia/en/worldwide-details/office/hanoi-representative-office-1/" id="imp644">Hanoi</a></li></ul></li></ul></li></ul></div></div></div></div><!-- END: Content of extension "bi_sg_implantations", plugin "tx_bisgimplantations_pi1" --></div><!-- END: Content of extension "bi_sg_implantations", plugin "tx_bisgimplantations_pi1" --></div>
 
-          <h3 class="h4 item-title">Our second quarter and half-year 2021 financial results</h3>
-            <a class="link" href="https://investors.societegenerale.com/en/financial-and-non-financial-information/financial-results-and-publications/financial-publications"  data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=Our second quarter and half-year 2021 financial results;">Our results in full</a>
-  </div>
+</div></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="addthis_toolbox addthis_default_style "><ul><li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.societegenerale.asia/en/country-details/country/india-2/" class="addthis_button_facebook" target="_blank"><span class="accessi" title="facebook">facebook</span><div class="btnWrap"><span class="normal"><strong class="fa fa-facebook"></strong></span><span class="active"><strong class="fa fa-facebook"></strong></span></div></a></li><li><a  href="https://twitter.com/share?url=https%3A%2F%2Fwww.societegenerale.asia%2Fen%2Fcountry-details%2Fcountry%2Findia-2%2F&text=India" class="addthis_button_twitter" target="_blank"><span class="accessi" title="twitter">twitter</span><div class="btnWrap"><span class="normal"><strong class="fa fa-twitter"></strong></span><span class="active"><strong class="fa fa-twitter"></strong></span></div></a></li><li><a  href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.societegenerale.asia/en/country-details/country/india-2/" class="addthis_button_linkedin" target="_blank"><span class="accessi" title="linkedin">linkedin</span><div class="btnWrap"><span class="normal"><strong class="fa fa-linkedin"></strong></span><span class="active"><strong class="fa fa-linkedin"></strong></span></div></a></li></ul></div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
+	
 
+	<div class="container">
 
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_FOudea_1024x512.jpg?h=d31d44f8&amp;itok=PhTk_BpM 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_FOudea_1024x512.jpg?h=d31d44f8&amp;itok=PhTk_BpM 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_FOudea_1024x512.jpg?h=d31d44f8&amp;itok=PhTk_BpM 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_FOudea_1024x512.jpg?h=d31d44f8&amp;itok=wYH3X3Cs 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_FOudea_1024x512.jpg?h=d31d44f8&amp;itok=wYH3X3Cs" alt="Frédéric Oudéa, Directeur général du groupe Société Générale" typeof="foaf:Image" />
+		<div class="row">
+			<div class="col-md-12">
+				<ol class="rootline-menu breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="first"><a href="en/" itemprop="item" itemtype="https://schema.org/WebPage"><span itemprop="name">Societe Generale Asia Pacific</span></a><meta itemprop="position" content="1"></li><li  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="en/offices/" itemprop="item" itemtype="https://schema.org/WebPage"><span itemprop="name">Offices</span></a><meta itemprop="position" content="2"></li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><span itemprop="name">India</span><meta itemprop="position" content="3"></li></ol>
+			</div>
+		</div>
 
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_FOudea_1024x512.jpg?h=d31d44f8&amp;itok=PhTk_BpM 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_FOudea_1024x512.jpg?h=d31d44f8&amp;itok=PhTk_BpM 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_FOudea_1024x512.jpg?h=d31d44f8&amp;itok=PhTk_BpM 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_FOudea_1024x512.jpg?h=d31d44f8&amp;itok=wYH3X3Cs 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_FOudea_1024x512.jpg?h=d31d44f8&amp;itok=wYH3X3Cs" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" alt="Frédéric Oudéa, Directeur général du groupe Société Générale" typeof="foaf:Image" />
+		<div class="row">
+			<div class="col-md-12 mainCol" role="main">
+				<h1 class="mainTitle">India</h1>
+				
+				<div  class="ttcContent" >
+<div id="c27710" class="frame frame-default frame-type-list frame-layout-0"><!--
 
-  </picture>
+		BEGIN: Content of extension "bi_sg_implantations", plugin "tx_bisgimplantations_pi1"
 
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
+	--><div class="tx-bisgimplantations-pi1"><div class="ttcContent  default"><div class="csc-default" id="c44417"><h3>History and Presence in India<span style="font-size:12pt"><span style="background:white"><span style="font-family:Calibri,sans-serif"></span></span></span></h3><p class="bodytext">Societe Generale was established in India in 1978. Today, Societe Generale operates through its local branches based in Mumbai and Delhi serving both:<br /> -&nbsp;&nbsp; &nbsp;Indian corporates and financial institutions, helping them to expand their footprint outside of India&nbsp;<br /> -&nbsp;&nbsp; &nbsp;Global clients of Societe Generale, from Europe, US, Middle-East, Africa and Asia-Pacific, to develop their operations in India</p></div></div><div class="ttcContent  default"><div class="csc-default" id="c43012"><div class="csc-header csc-header-n3"><h3>Products and services</h3></div><p class="bodytext">In India, Societe Generale focuses on providing value-added solutions to its clients with its expertise in Global Markets and Structured Finance and also Cash Management and Trade Finance services. We are actively participating in India’s development to become an efficient project finance market notably on the renewable power side, with our association in International Solar Alliance.&nbsp;</p></div></div><div class="ttcContent  default"><div class="csc-default" id="c43013"><h3 class="bodytext">Societe Generale Global Solution Centre</h3><p class="bodytext">Societe Generale Global Solution Centre (SGGSC), a 100% owned subsidiary of Societe Generale,&nbsp;provides services in the areas of Application Development and Maintenance, Infrastructure Management, Business Process Management, Research &amp; Middle office and Knowledge Process Management to Societe Generale's business lines around the world.</p><p class="bodytext">SGGSC stands as a successful offshore development centre with 15 years of sustainable delivery experience, developing global best practices to promote the strategic objectives of Societe Generale. SGGSC has developed into a centre capable of delivering IT solutions as well as Business and Process consultancy.</p><p class="bodytext">Visit <a href="https://globalsolutioncenter.societegenerale.in/" target="_blank">Societe Generale Global Solutions Centre website</a> for more information</p><h3>Building your career together</h3><p class="bodytext">As an employee focused organization, we provide extensive opportunities for career progression and development. Societe Generale in India conforms to the group diversity principles and has a multi cultural, diverse and young staff representing 7 nationalities, speaking 20 languages, 25% of whom are women.</p><p class="bodytext">A great variety of roles and positions in functional and expert-areas such as Information Technology, Legal &amp; Compliance and Operations are available.</p></div></div><div class="ttcContent  default"><div class="csc-default" id="c44757"><div class="csc-header csc-header-n5"><h3>Open positions in India</h3></div><p class="bodytext">Discover <strong><a href="https://careers.societegenerale.com/en/search?refinementList%5BjobLocation%5D%5B0%5D=India" title="Societe Generale website" target="_blank" data-hover="here" rel="noopener"><span style="color:#e9041e;">here</span></a></strong> all our open positions in our office in India.</p></div></div><div class="ttcContent  default"><div class="csc-default" id="c43014"><div class="csc-header csc-header-n6"><h3>Regulatory information</h3></div><p class="bodytext"><strong><a href="https://www.societegenerale.asia/en/disclosure-information/india/" target="_blank" data-hover="Please visit the disclosure information page" rel="noopener"><span style="color:#e9041e;">Please visit the disclosure information page</span></a></strong></p></div></div><div class="ttcContent  default"><div class="csc-default" id="c44450"><div class="csc-header csc-header-n7"><h3>Corporate Social Responsibility</h3><p class="bodytext"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif">In line with Societe Generale’s CSR principles, Societe Generale India is committed in driving positive contributions in India through its CSR and Citizenship activities, in areas of education, diversity &amp; inclusion and sustainability. Our various projects focus on working with underprivileged children for their education, driving prevention of malnutrition, inclusion and education through Rugby, skill development in women and young adults and driving sustainability projects for the environment.</span></span></p></div><p class="bodytext">Locally, in India the bank’s CSR initiatives are focused on the field of education and sustainable development. Some of the projects undertaken include regular interaction with and assistance to handicapped and underprivileged children in the country.</p><p class="bodytext"><a href="fileadmin/user_upload/Societe_Generale_websites/Asia/India/Corporate_Social_Responsibility/CSR_Policy/SG-India-CSR-Policy.pdf" target="_blank"><span style="color:#e9041e;"><strong>CSR Policy</strong></span></a></p><p class="bodytext">&nbsp;</p><h3 class="bodytext">Contact details</h3></div></div><p class="bodytext">For media enquiries, please <a href="https://globalsolution.societegenerale.com/en/contact/contact-presse/" target="_blank">contact us here</a></p><p class="bodytext"><b>Mumbai Branch</b><br /> Peninsula Business Park,<br /> 19th Floor, Tower A,<br /> Ganpatrao Kadam Marg,<br /> Lower Parel,<br /> Mumbai – 400 013<br /> Tel: +91 22 6630 9500<br /> Fax: +91 22 6630 9696</p><p class="bodytext"><b>Delhi Branch</b><br /> Office No 202, 2nd Floor, Tower B, World Mark 1,<br /> Aero City, NH-8, New Delhi – 110 037<br /> India<br /> Telephone: +91 11 4350 3000&nbsp;<br /> Fax number: +91 11 4350 3030&nbsp;</p><p class="bodytext"><b>Societe Generale Global Solution Centre Pvt. Ltd.</b><br /><b>Bangalore office</b><br /> 10th floor, Voyager Building,<br /> ITPB, Whitefield Road,<br /> 560 066 Bangalore<br /> Tel : +91-80-6731 5000</p><p class="bodytext"><b>Societe Generale Global Solution Centre Pvt. Ltd.</b><br /><b>Chennai office</b><br /> DLF-IT Park, 3rd Block, 10th Floor, Shivaji Gardens,<br /> Manapakkam,<br /> 600 089 Chennai<br /> Tel : +91-44-6602 7000</p></div><!-- END: Content of extension "bi_sg_implantations", plugin "tx_bisgimplantations_pi1" --></div>
+
+</div><div  class="ttcContent" >
+<div id="c27709" class="frame frame-default frame-type-html frame-layout-0"><style type="text/css">
+#mainContent.implantations {
+background: none !important;
+}
+</style></div>
+
+</div>	
+				
 
 
+	<!--
 
-          <h3 class="h4 item-title">Frédéric Oudéa presents the financial results </h3>
-            <a class="link" href="https://www.youtube.com/watch?v=wbztej-Tr2g"  target="_blank" rel="noopener" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=Frédéric Oudéa presents the financial results ;">Watch the video</a>
-  </div>
+		BEGIN: Content of extension "bi_sg_bio", plugin "tx_bisgbio_pi1"
 
-  
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
+	-->
+	<div class="tx-bisgbio-pi1">
+		
+	</div>
+	
+	<!-- END: Content of extension "bi_sg_bio", plugin "tx_bisgbio_pi1" -->
 
+	
+			</div>
+		</div>
+	</div>
 
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Infographie-resultats-T2-S1-2021_EN_692x411.jpg?h=cb93dabd&amp;itok=_ZaVtSlb 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Infographie-resultats-T2-S1-2021_EN_692x411.jpg?h=cb93dabd&amp;itok=_ZaVtSlb 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Infographie-resultats-T2-S1-2021_EN_692x411.jpg?h=cb93dabd&amp;itok=_ZaVtSlb 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_Infographie-resultats-T2-S1-2021_EN_692x411.jpg?h=cb93dabd&amp;itok=95V5dR13 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_Infographie-resultats-T2-S1-2021_EN_692x411.jpg?h=cb93dabd&amp;itok=95V5dR13" typeof="foaf:Image" alt=""/>
-
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Infographie-resultats-T2-S1-2021_EN_692x411.jpg?h=cb93dabd&amp;itok=_ZaVtSlb 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Infographie-resultats-T2-S1-2021_EN_692x411.jpg?h=cb93dabd&amp;itok=_ZaVtSlb 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-08/20210803_Infographie-resultats-T2-S1-2021_EN_692x411.jpg?h=cb93dabd&amp;itok=_ZaVtSlb 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_Infographie-resultats-T2-S1-2021_EN_692x411.jpg?h=cb93dabd&amp;itok=95V5dR13 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-08/20210803_Infographie-resultats-T2-S1-2021_EN_692x411.jpg?h=cb93dabd&amp;itok=95V5dR13" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" typeof="foaf:Image" alt=""/>
-
-  </picture>
-
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
-
-
-
-          <h3 class="h4 item-title">Financial results infographic</h3>
-            <a class="link" href="https://www.societegenerale.com/sites/default/files/documents/2021-08/20210803-Infographie-resultatsT2-S1-2021_EN.pdf"  target="_self" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=Financial results infographic;">Open the infographic</a>
-  </div>
-
-
-  </div>
-  <div class="slide-controls"></div>
-</div>
-
-                
-<div class="paragraph paragraph--type--push-actualite-froide image-gauche color-E4">
-        
-<div class="media media-image">
+	<!-- partials/contentFooter.tmpl -->
+<div class="container contentFooter">
+    <div class="row">
+        <div class="col-md-12">
             
 
 
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_actualite_froide_desktop/public/image/2021-09/20210915_X-Elio_1267x867.jpg?h=163d1eef&amp;itok=hRuBVY_Z 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_actualite_froide_desktop/public/image/2021-09/20210915_X-Elio_1267x867.jpg?h=163d1eef&amp;itok=hRuBVY_Z 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_actualite_froide_desktop/public/image/2021-09/20210915_X-Elio_1267x867.jpg?h=163d1eef&amp;itok=hRuBVY_Z 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_actualite_froide_mobile/public/image/2021-09/20210915_X-Elio_1267x867.jpg?h=163d1eef&amp;itok=-qagtvvk 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_actualite_chaude_desktop/public/image/2021-09/20210915_X-Elio_1267x867.jpg?h=163d1eef&amp;itok=MoG7gmg7" typeof="foaf:Image" alt=""/>
+	<!--
 
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_actualite_froide_desktop/public/image/2021-09/20210915_X-Elio_1267x867.jpg?h=163d1eef&amp;itok=hRuBVY_Z 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_actualite_froide_desktop/public/image/2021-09/20210915_X-Elio_1267x867.jpg?h=163d1eef&amp;itok=hRuBVY_Z 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_actualite_froide_desktop/public/image/2021-09/20210915_X-Elio_1267x867.jpg?h=163d1eef&amp;itok=hRuBVY_Z 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_actualite_froide_mobile/public/image/2021-09/20210915_X-Elio_1267x867.jpg?h=163d1eef&amp;itok=-qagtvvk 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/display_style/public/image/2021-09/20210915_X-Elio_1267x867.jpg?itok=-uX6GXDj" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201267%20867&#039;%2F%3E" typeof="foaf:Image" alt=""/>
+		BEGIN: Content of extension "bi_sgpriv_tags", plugin "tx_bisgprivtags_pi1"
 
-  </picture>
+	-->
+	<div class="tx-bisgprivtags-pi1">
+		
+	</div>
+	
+	<!-- END: Content of extension "bi_sgpriv_tags", plugin "tx_bisgprivtags_pi1" -->
 
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
-
-
-
-  
-  </div>
-
-    <div class="content">
-    <div class="content-inner">
-              <strong class="tag">Client Success</strong>
-                    <div class="desc"><p>X-Elio closes a 400€ million financing to develop solar photovoltaic projects</p>
-</div>
-                            <a class="link" href="https://wholesale.banking.societegenerale.com/en/insights/clients-successes/clients-successes-details/news/elio-closes-400e-million-financing-develop-solar-photovoltaic-projects/"  target="_blank" rel="noopener"  data-tag="event=click;id_composant=push_hp_cold;n1=[pageName];n2=push_hp_cold;n3=X-Elio closes a 400€ million financing to develop solar photovoltaic projects;">Find out more about the financing of X-Elio</a>
-          </div>
-  </div>
-</div>
-
-                
-
-<div class="paragraph default-padding paragraph--type--bloc-citation color-S6">
-  
-  <blockquote class="citation">
-          <div class="text"><p>Commitment has always been one of the strengths of the Societe Generale group, in our daily jobs as much as in our civic actions. We reaffirmed this feature with all of the Group&#039;s staff, as this exceptional situation requires an exceptional mobilisation.</p>
-</div>
-                      <footer class="footer-citation">
-                      
-<div class="media media-image">
-            
-
-
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/bloc_citation_desktop/public/visuel_lda_edito_frederic_oudea_4.png?h=c029f133&amp;itok=9_5UYY5X 1x" media="screen and (min-width: 90rem)" type="image/png"/>
-              <source srcset="/sites/default/files/styles/bloc_citation_desktop/public/visuel_lda_edito_frederic_oudea_4.png?h=c029f133&amp;itok=9_5UYY5X 1x" media="screen and (min-width: 64rem)" type="image/png"/>
-              <source srcset="/sites/default/files/styles/bloc_citation_desktop/public/visuel_lda_edito_frederic_oudea_4.png?h=c029f133&amp;itok=9_5UYY5X 1x" media="screen and (min-width: 48rem)" type="image/png"/>
-              <source srcset="/sites/default/files/styles/bloc_citation_mobile/public/visuel_lda_edito_frederic_oudea_4.png?h=c029f133&amp;itok=izXv17SC 1x" type="image/png"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/bloc_citation_desktop/public/visuel_lda_edito_frederic_oudea_4.png?h=c029f133&amp;itok=9_5UYY5X" typeof="foaf:Image" alt=""/>
-
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/png" data-srcset="/sites/default/files/styles/bloc_citation_desktop/public/visuel_lda_edito_frederic_oudea_4.png?h=c029f133&amp;itok=9_5UYY5X 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/png" data-srcset="/sites/default/files/styles/bloc_citation_desktop/public/visuel_lda_edito_frederic_oudea_4.png?h=c029f133&amp;itok=9_5UYY5X 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/png" data-srcset="/sites/default/files/styles/bloc_citation_desktop/public/visuel_lda_edito_frederic_oudea_4.png?h=c029f133&amp;itok=9_5UYY5X 1x"/>
-              <source type="image/png" data-srcset="/sites/default/files/styles/bloc_citation_mobile/public/visuel_lda_edito_frederic_oudea_4.png?h=c029f133&amp;itok=izXv17SC 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/bloc_citation_desktop/public/visuel_lda_edito_frederic_oudea_4.png?h=c029f133&amp;itok=9_5UYY5X" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%2080%2080&#039;%2F%3E" typeof="foaf:Image" alt=""/>
-
-  </picture>
-
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
-
-
-
-  
-  </div>
-
-                    <div class="wrapper-nom">
-          <strong class="name">Frédéric Oudéa,</strong>
-                      <cite class="poste">Chief Executive Officer </cite>
-                    </div>
-        </footer>
-            </blockquote>
-  
-      <div class="link-more">
-            <a class="link" href="/en/news/newsroom/responsible-commitments-societe-generale-help-address-crisis" >Find out more about our actions in the face of Covid 19</a>
-    </div>
-  </div>
-
-                
-                <style>
-      .blocs-chiffres-cles-327{background-image:url(/themes/custom/sg_refonte/assets/images/contrib/map-mobile.jpg);}
-      @media (min-width:75rem) {
-        .blocs-chiffres-cles-327{background-image:url(/themes/custom/sg_refonte/assets/images/contrib/map.jpg);}
-      }
-    </style>
-<div class="paragraph paragraph--type--bloc-chiffres-cles blocs-chiffres-cles-327 chiffres-cles-animation">
-    <ul class="chiffres-cles-wrapper">
-            
-<li class="paragraph chiffre-cle paragraph--type--chiffre-cle" data-number="133,000">
-        <div class="number-content-wrapper">
-      <p class="number-content"><span class="number bold">133,000</span></p>
-      <div class="moving-line"></div>
-    </div>
-        <div class="desc bold"><p>members of staff</p></div>
-  </li>
-
-  
-<li class="paragraph chiffre-cle paragraph--type--chiffre-cle" data-number="30">
-        <div class="number-content-wrapper">
-      <p class="number-content"><span class="number bold">30</span></p>
-      <div class="moving-line"></div>
-    </div>
-        <div class="desc bold"><p>million clients place their trust in us </p></div>
-  </li>
-
-  
-<li class="paragraph chiffre-cle paragraph--type--chiffre-cle" data-number="61">
-        <div class="number-content-wrapper">
-      <p class="number-content"><span class="number bold">61</span></p>
-      <div class="moving-line"></div>
-    </div>
-        <div class="desc bold"><p>countries </p></div>
-  </li>
-
-  
-<li class="paragraph chiffre-cle paragraph--type--chiffre-cle" data-number="137">
-        <div class="number-content-wrapper">
-      <p class="number-content"><span class="number bold">137</span></p>
-      <div class="moving-line"></div>
-    </div>
-        <div class="desc bold"><p>nationalities present in our staff</p></div>
-  </li>
-
-
-      </ul>
-</div>
-
-                
-
-<div class="paragraph paragraph--type--push-blocs">
-        <h2 class="title">Key Publications</h2>
-    <div class="item-wrapper">
-      
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
-
-
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-05/SOC-GEN_RA_2021-Couv.jpg?h=ecfce72a&amp;itok=rAkZe0Pf 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-05/SOC-GEN_RA_2021-Couv.jpg?h=ecfce72a&amp;itok=rAkZe0Pf 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-05/SOC-GEN_RA_2021-Couv.jpg?h=ecfce72a&amp;itok=rAkZe0Pf 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-05/SOC-GEN_RA_2021-Couv.jpg?h=ecfce72a&amp;itok=YblXYXn1 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-05/SOC-GEN_RA_2021-Couv.jpg?h=ecfce72a&amp;itok=YblXYXn1" alt="Couverture du Rapport intégré 2020-2021 de Société Générale" typeof="foaf:Image" />
-
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-05/SOC-GEN_RA_2021-Couv.jpg?h=ecfce72a&amp;itok=rAkZe0Pf 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-05/SOC-GEN_RA_2021-Couv.jpg?h=ecfce72a&amp;itok=rAkZe0Pf 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-05/SOC-GEN_RA_2021-Couv.jpg?h=ecfce72a&amp;itok=rAkZe0Pf 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-05/SOC-GEN_RA_2021-Couv.jpg?h=ecfce72a&amp;itok=YblXYXn1 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-05/SOC-GEN_RA_2021-Couv.jpg?h=ecfce72a&amp;itok=YblXYXn1" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" alt="Couverture du Rapport intégré 2020-2021 de Société Générale" typeof="foaf:Image" />
-
-  </picture>
-
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
-
-
-
-      <div class="tag-wrapper">
-          <strong class="tag">Corporate &amp; Social Responsability</strong>
-          </div>
-        <h3 class="h4 item-title">Integrated Report 2021 </h3>
-            <a class="link-document" href="https://www.societegenerale.com/sites/default/files/documents/2021-07/Integrated-Report-2020-2021.pdf" target="_blank" rel="noopener" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=telecharger;n4=Integrated Report 2021 ;">
-      Read the Integrated Report <strong class="infos-doc"> (PDF&nbsp;-&nbsp;9.28 MB)</strong></a>
-      </div>
-
-  
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
-
-
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-03/20210323_URD_EN_376x220.jpg?h=93427538&amp;itok=hHXUbtPq 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-03/20210323_URD_EN_376x220.jpg?h=93427538&amp;itok=hHXUbtPq 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-03/20210323_URD_EN_376x220.jpg?h=93427538&amp;itok=hHXUbtPq 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-03/20210323_URD_EN_376x220.jpg?h=93427538&amp;itok=MFBdQAol 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-03/20210323_URD_EN_376x220.jpg?h=93427538&amp;itok=MFBdQAol" alt="Cover of the Universal Registration Document 2021" typeof="foaf:Image" />
-
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-03/20210323_URD_EN_376x220.jpg?h=93427538&amp;itok=hHXUbtPq 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-03/20210323_URD_EN_376x220.jpg?h=93427538&amp;itok=hHXUbtPq 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2021-03/20210323_URD_EN_376x220.jpg?h=93427538&amp;itok=hHXUbtPq 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2021-03/20210323_URD_EN_376x220.jpg?h=93427538&amp;itok=MFBdQAol 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2021-03/20210323_URD_EN_376x220.jpg?h=93427538&amp;itok=MFBdQAol" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" alt="Cover of the Universal Registration Document 2021" typeof="foaf:Image" />
-
-  </picture>
-
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
-
-
-
-      <div class="tag-wrapper">
-          <strong class="tag">Financial Information</strong>
-          </div>
-        <h3 class="h4 item-title">Universel Registration Document 2021</h3>
-            <a class="link-document" href="https://www.societegenerale.com/sites/default/files/documents/2021-03/2021%20Universal%20Registration%20Document.pdf" target="_blank" rel="noopener" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=telecharger;n4=Universel Registration Document 2021;">
-      Read the URD  <strong class="infos-doc"> (PDF&nbsp;-&nbsp;5.08 MB)</strong></a>
-      </div>
-
-  
-<div class="paragraph item paragraph--type--push-blocs-item">
-        
-
-
-                    <div class="media media--bundle--image media--blazy media--loading media--responsive media--image">
-      <noscript>  <picture>
-                  <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2020-09/Visuel%20rapport%20climat%202020.PNG.jpg?itok=0kaGn6G7 1x" media="screen and (min-width: 90rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2020-09/Visuel%20rapport%20climat%202020.PNG.jpg?itok=0kaGn6G7 1x" media="screen and (min-width: 64rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2020-09/Visuel%20rapport%20climat%202020.PNG.jpg?itok=0kaGn6G7 1x" media="screen and (min-width: 48rem)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2020-09/Visuel%20rapport%20climat%202020.PNG.jpg?itok=QZ-5IXp5 1x" type="image/jpeg"/>
-                    <img class="media__image media__element" loading="lazy" src="/sites/default/files/styles/push_blocs_mobile/public/image/2020-09/Visuel%20rapport%20climat%202020.PNG.jpg?itok=QZ-5IXp5" typeof="foaf:Image" alt=""/>
-
-  </picture>
-</noscript>
-      
-        <picture>
-                  <source media="screen and (min-width: 90rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2020-09/Visuel%20rapport%20climat%202020.PNG.jpg?itok=0kaGn6G7 1x"/>
-              <source media="screen and (min-width: 64rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2020-09/Visuel%20rapport%20climat%202020.PNG.jpg?itok=0kaGn6G7 1x"/>
-              <source media="screen and (min-width: 48rem)" type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_desktop/public/image/2020-09/Visuel%20rapport%20climat%202020.PNG.jpg?itok=0kaGn6G7 1x"/>
-              <source type="image/jpeg" data-srcset="/sites/default/files/styles/push_blocs_mobile/public/image/2020-09/Visuel%20rapport%20climat%202020.PNG.jpg?itok=QZ-5IXp5 1x"/>
-                    <img class="media__image media__element b-lazy b-responsive" data-src="/sites/default/files/styles/push_blocs_mobile/public/image/2020-09/Visuel%20rapport%20climat%202020.PNG.jpg?itok=QZ-5IXp5" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20693%20411&#039;%2F%3E" typeof="foaf:Image" alt=""/>
-
-  </picture>
-
-                      <script type="didomi/html" data-vendor="c:youtube-3xUrMWqQ"></script>
-          
-  
-      
-    </div>
-        
-  
-  
-
-
-
-      <div class="tag-wrapper">
-          <strong class="tag">Responsible Finance</strong>
-          </div>
-        <h3 class="h4 item-title">Climate Report 2020 </h3>
-            <a class="link-document" href="https://www.societegenerale.com/sites/default/files/documents/2020-12/societe-generale-climate-disclosure-report.pdf" target="_blank" rel="noopener" data-tag="event=click;id_composant=push_blocs;n1=[pageName];n2=push_blocs;n3=telecharger;n4=Climate Report 2020 ;">
-      Read the Report <strong class="infos-doc"> (PDF&nbsp;-&nbsp;6.1 MB)</strong></a>
-      </div>
-
-
-  </div>
-  <div class="slide-controls"></div>
-</div>
-
-            </article>
-
-  </div>
-
-
-    </div>  </main>
-
-      <footer role="contentinfo" id="footer">
-    <section class="wrapper-footer-menu">
-  <nav class="footer-menu footer-menu__target-menu" role="navigation" aria-label="Footer Menu : You are">
-    <ul>
-      <li><strong class="title-footer-menu">You are</strong></li>
-            <li>
-        <ul>
-                    <li><a href="https://investors.societegenerale.com/en" data-tag="event=click;id_composant=footer;n1=footer;n2=You are;n3=Investor">Investor</a></li>
-                    <li><a href="https://societegenerale.com/en/press-release?type=151&amp;theme=All&amp;activity=All&amp;month=All&amp;year=All" data-tag="event=click;id_composant=footer;n1=footer;n2=You are;n3=Journalist">Journalist</a></li>
-                    <li><a href="https://careers.societegenerale.com/en/" target="_blank" data-tag="event=click;id_composant=footer;n1=footer;n2=You are;n3=Candidate" rel="noopener">Candidate</a></li>
-                    <li><a href="https://societegenerale.com/en/all-sites" data-tag="event=click;id_composant=footer;n1=footer;n2=You are;n3=Client">Client</a></li>
-                    <li><a href="https://societegenerale.com/en/responsability/purchases-and-suppliers/work-with-societe-generale" data-tag="event=click;id_composant=footer;n1=footer;n2=You are;n3=Supplier">Supplier</a></li>
-                    <li><a href="https://societegenerale.com/en/all-sites" data-tag="event=click;id_composant=footer;n1=footer;n2=You are;n3=All the Group&#039;s websites">All the Group&#039;s websites</a></li>
-                  </ul>
-      </li>
-          </ul>
-  </nav>
-  <nav class="footer-menu footer-menu__target-menu" role="navigation" aria-label="Footer Menu : Societe Generale group">
-    <ul>
-      <li><strong class="title-footer-menu">Societe Generale group</strong></li>
-            <li>
-        <ul>
-                    <li><a href="https://www.societegenerale.com/sites/default/files/documents/2021-03/2021%20Universal%20Registration%20Document_1.pdf" target="_blank" title="Télécharger Document d&#039;enregistrement universel (PDF - 9.81mo) (s&#039;ouvre dans une nouvelle fenêtre)" data-tag="event=click;id_composant=footer;n1=footer;n2=Societe Generale group;n3=Universal Registration Document" rel="noopener">Universal Registration Document</a></li>
-                    <li><a href="/sites/default/files/documents/2021-07/Integrated-Report-2020-2021.pdf" target="_blank" title="Télécharger Document d&#039;enregistrement universel (PDF - 5.78mo) (s&#039;ouvre dans une nouvelle fenêtre)" data-tag="event=click;id_composant=footer;n1=footer;n2=Societe Generale group;n3=Integrated Report 2020-2021" rel="noopener">Integrated Report 2020-2021</a></li>
-                    <li><a href="https://www.societegenerale.com/sites/default/files/documents/Bilan-social/Bilan-social-2020.pdf" target="_blank" title="Télécharger Bilan social (PDF -4.55mo) (s&#039;ouvre dans une nouvelle fenêtre)" data-tag="event=click;id_composant=footer;n1=footer;n2=Societe Generale group;n3=Social Report (in french)" rel="noopener">Social Report (in french)</a></li>
-                    <li><a href="https://report.whistleb.com/en/societegenerale" target="_blank" data-tag="event=click;id_composant=footer;n1=footer;n2=Societe Generale group;n3=The right to raise the alert" rel="noopener">The right to raise the alert</a></li>
-                    <li><a href="/en/societe-generale-logo" data-tag="event=click;id_composant=footer;n1=footer;n2=Societe Generale group;n3=Societe Generale logo" data-drupal-link-system-path="node/5463">Societe Generale logo</a></li>
-                    <li><a href="https://investors.societegenerale.com/en/publications-documents" data-tag="event=click;id_composant=footer;n1=footer;n2=Societe Generale group;n3= Publications &amp; Documents"> Publications &amp; Documents</a></li>
-                  </ul>
-      </li>
-          </ul>
-  </nav>
-  <nav class="footer-menu footer-menu__target-menu" role="navigation" aria-label="Footer Menu : Find us">
-    <ul>
-      <li><strong class="title-footer-menu">Find us</strong></li>
-            <li>
-        <ul>
-                    <li><a href="https://www.facebook.com/societegenerale" target="_blank" data-tag="event=click;id_composant=footer;n1=footer;n2=Find us;n3=Facebook" rel="noopener">Facebook</a></li>
-                    <li><a href="https://twitter.com/societegenerale" target="_blank" data-tag="event=click;id_composant=footer;n1=footer;n2=Find us;n3=Twitter" rel="noopener">Twitter</a></li>
-                    <li><a href="https://www.linkedin.com/organization-guest/company/societe-generale" target="_blank" data-tag="event=click;id_composant=footer;n1=footer;n2=Find us;n3=Linkedin" rel="noopener">Linkedin</a></li>
-                    <li><a href="https://instagram.com/societegenerale" target="_blank" data-tag="event=click;id_composant=footer;n1=footer;n2=Find us;n3=Instagram" rel="noopener">Instagram</a></li>
-                    <li><a href="https://www.youtube.com/c/societegenerale/" target="_blank" data-tag="event=click;id_composant=footer;n1=footer;n2=Find us;n3=YouTube" rel="noopener">YouTube</a></li>
-                  </ul>
-      </li>
-          </ul>
-  </nav>
-</section>
-
-
-  <section class="wrapper-footer-menu-secondary">
-              <div class="wrapper-footer-logo">
-          <img class="b-lazy" src="/themes/custom/sg_refonte/assets/images/contrib/placeholder-footer.png" data-src="/themes/custom/sg_refonte/assets/images/logos/logo-footer.svg" alt="C'est vous l'avenir, Société Générale">
+	
         </div>
-            <nav class="footer-menu__secondary-menu" role="navigation" aria-label="Footer Menu : menu secondaire">
-  <ul>
-      <li><span>Societe Generale 2020</span></li>
-      <li><a href="/en/sitemap" data-drupal-link-system-path="sitemap">Sitemap</a></li>
-      <li><a href="/en/legal-information" data-drupal-link-system-path="node/5465">General conditions</a></li>
-      <li><a href="/en/cookies" data-drupal-link-system-path="node/3514">Cookies</a></li>
-      <li><a href="" class="cookie-open-panel">Cookies management</a></li>
-      <li><a href="/en/contact-us" data-drupal-link-system-path="node/6656">Contact us</a></li>
-      <li><a href="/en/digital-accessibility" data-drupal-link-system-path="node/6764">Accessibility: partially compliant (95%)</a></li>
-    </ul>
-</nav>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            
 
 
-  </section>
+	<!--
+
+		BEGIN: Content of extension "bi_links_block", plugin "tx_bilinksblock_pi1"
+
+	-->
+	<div class="tx-bilinksblock-pi1">
+		
+	</div>
+	
+	<!-- END: Content of extension "bi_links_block", plugin "tx_bilinksblock_pi1" -->
+
+	
+        </div>
+    </div>
+</div>
+
+
+
+
+    
+</main>
+
+<footer role="contentinfo">
+
+	<div class="topFooter">
+		<div class="container">
+			<div  class="ttcContent  default" >
+<div id="c106130" class="frame frame-default frame-type-html frame-layout-0"></div>
+
+</div><div  class="ttcContent  default" >
+<div id="c44099" class="frame frame-default frame-type-html frame-layout-0"><style>
+  .strategieSummary .square {
+    font-size: 2.4rem !important;
+}
+  
+  </style></div>
+
+</div><div  class="ttcContent  default" >
+<div id="c44098" class="frame frame-default frame-type-gridelements_pi1 frame-layout-0"><div class="row"><div class="col-sm-3 gridCol thinCol"><div  class="ttcContent  default" ><div id="c44095" class="frame frame-default frame-type-text frame-layout-0"><p class="bodytext">Societe Generale&rsquo;s expertise in Asia Pacific ranges from corporate and investment banking to asset management, securities services, global transaction banking and specialised financial services.</p></div></div><div  class="ttcContent  default" ><div id="c44393" class="frame frame-default frame-type-html frame-layout-0"><style type="text/css">
+header .topHeader .baseline:lang(jp) {
+    float: right !important;
+    padding-right:0px !important;
+  }
+
+#c71617 .videoPlayer {
+    margin-bottom: 30px;
+    padding-top: 47.25%;
+    position: relative;
+    width: 100%;
+}
+    
+#c71617 .videoPlayer video {
+    background-color: black;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+}
+    
+    #clientBtnDropDown:lang(jp) {
+    display:none !important;
+  }
+    
+  
+    
+    </style></div></div></div><div class="col-sm-3 gridCol thinCol"><div  class="ttcContent  default" ><div id="c44094" class="frame frame-default frame-type-text frame-layout-0"><h2 class="">
+				Direct access
+			</h2><ul><li><a href="https://www.societegenerale.com/en/" target="_blank" rel="noopener">Societe Generale Group</a></li><li><a href="https://cib.societegenerale.com/en/" target="_blank" rel="noopener">Corporate &amp; Investment Banking</a></li><li><a href="https://www.securities-services.societegenerale.com/en/" target="_blank" rel="noopener">Securities Services</a></li><li><a href="http://gtb.societegenerale.com/" target="_blank" rel="noopener">Global Transaction Banking</a></li><li><a href="http://www.lyxor.com/" target="_blank" rel="noopener">Lyxor Asset Management</a></li><li><a href="http://www.aldautomotive.com/" title="ALD Automotive website" target="_blank" rel="noopener">ALD Automotive</a></li><li><a href="https://www.equipmentfinance.societegenerale.com/" title="Equipment Finance website" target="_blank" rel="noopener">Equipment Finance</a></li><li><a href="https://insight-public.sgmarkets.com/" target="_blank">SG Markets Research &amp; Insight</a></li></ul></div></div></div><div class="col-sm-3 gridCol thinCol"><div  class="ttcContent  default" ><div id="c44097" class="frame frame-default frame-type-text frame-layout-0"><h2 class="">
+				Direct access
+			</h2><ul><li><a href="https://www.societegenerale.com/en/home" target="_blank">Societe Generale Global</a></li></ul></div></div></div><div class="col-sm-3 gridCol thinCol"><div  class="ttcContent  default" ><div id="c44096" class="frame frame-default frame-type-html frame-layout-0"><h2>STAY CONNECTED</h2><div class="socials"><a class="socialBtn twitter" href="https://twitter.com/socgen_hk/" title="Lien externe vers Twitter (nouvelle fenêtre)" target="_blank"><span class="label">twitter</span><div class="btnWrap"><span class="normal"><i class="fa fa-twitter"></i></span><span class="active"><i class="fa fa-twitter"></i></span></div></a><a class="socialBtn linkedin" href="https://www.linkedin.com/company/societe-generale/" title="Lien externe vers Linkedin (nouvelle fenêtre)" target="_blank"><span class="label">linkedin</span><div class="btnWrap"><span class="normal"><i class="fa fa-linkedin"></i></span><span class="active"><i class="fa fa-linkedin"></i></span></div></a><a class="socialBtn facebook" href="https://www.facebook.com/societegenerale/ " title="Lien externe vers facebook (nouvelle fenêtre)" target="_blank"><span class="label">facebook</span><div class="btnWrap"><span class="normal"><i class="fa fa-facebook"></i></span><span class="active"><i class="fa fa-facebook"></i></span></div></a><a class="socialBtn rss" href="http://feeds.feedburner.com/SGAsiaPacific" title="Lien vers le flux RSS" ><span class="label">RSS</span><div class="btnWrap"><span class="normal"><i class="fa fa-rss"></i></span><span class="active"><i class="fa fa-rss"></i></span></div></a></div></div></div><div  class="ttcContent  default" ><div id="c106131" class="frame frame-default frame-type-html frame-layout-0 frame-space-before-extra-large"><h2><a href="javascript:Didomi.preferences.show()">Consent configurator</a></h2></div></div></div></div></div>
+
+</div>
+		</div>
+	</div>
+	<div class="subFooter">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-xs-6">
+					<div class="footerLogo">
+						<img src="typo3conf/ext/bi_template/themes/default/res/img/logoFooter.svg" onerror="this.src='typo3conf/ext/bi_template/themes/default/res/img/logoFooter.png';this.onerror=null;" alt="Société Générale"  />
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-6">
+					
+				</div>
+			</div>
+			<div class="row">
+			    <div class="col-md-12">
+					<ul class="footerMenu"><li class="first"><a href="en/contact/">Contact us</a></li><li><a href="en/sitemap/">Sitemap</a></li><li><a href="en/general-conditions/">General conditions</a></li><li><a href="en/disclosure-information/">Disclosure Information</a></li><li><a href="en/cookies-policy/">Cookies policy</a></li><li><a href="en/data-policy/">Data policy</a></li><li><a href="en/accessibility-not-compliant/">Accessibility: not compliant</a></li><li><a href="en/information-security/">Information security</a></li><li class="last">RSS</li></ul>
+			    </div>
+			</div>
+		</div>
+	</div>
 </footer>
 
-  
 </div>
-  </div>
 
-    
+<!--<div id="popinContent" data-pageid="6128"><div class="popinContentWrap"></div></div>-->
 
-    <div class="cookie-banner" role="alertdialog" aria-modal="true" aria-label="COOKIE MANAGEMENT " aria-describedby="desc-cookie-banner">
-  <button class="close-button close-cookie">Close</button>
-  <strong class="h2 title-disclamer">COOKIE MANAGEMENT </strong>
-  <p class="desc" id="desc-cookie-banner">Societe Generale uses cookies to enhance the performance of this website, to improve your navigation, to gather statistics and to identify visits linked to media campaigns.<br>Some of these cookies are subject to your consent.<br>You can make your choice in a comprehensive manner or make your choices specifically in the order of your preference.<br>You can change these choices at any time.</p>
-  <div class="cookie-button">
-    <a href="/en/cookies" class="link-cookie">Find out more about our cookies privacy rules</a>
-    <div class="cta-button">
-      <button type="button" class="param-cookie cta cta-white cta-white-cookie">Configure the cookies</button>
-      <button type="button" class="accept-all cta cta-black">Allow all</button>
-    </div>
-  </div>
-</div>    <div id="mask-header"></div>
-    
-    <script type="text/javascript">window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+
+
+
+
+
+ 	
+
+
+
+
+
+
+
+
+<script src="typo3conf/ext/bi_template/themes/default/res/js/vendors.min.1588764451.js" type="text/javascript"></script><script src="typo3conf/ext/bi_template/themes/default/res/js/gbis.min.1625833861.js" type="text/javascript"></script><script src="typo3conf/ext/bi_template/themes/default/res/js/commons.1631547144.js" type="text/javascript"></script><script type="text/javascript">
+/*<![CDATA[*/
+/*_scriptCode*/
+
+			/* decrypt helper function */
+		function decryptCharcode(n,start,end,offset) {
+			n = n + offset;
+			if (offset > 0 && n > end) {
+				n = start + (n - end - 1);
+			} else if (offset < 0 && n < start) {
+				n = end - (start - n - 1);
+			}
+			return String.fromCharCode(n);
+		}
+			/* decrypt string */
+		function decryptString(enc,offset) {
+			var dec = "";
+			var len = enc.length;
+			for(var i=0; i < len; i++) {
+				var n = enc.charCodeAt(i);
+				if (n >= 0x2B && n <= 0x3A) {
+					dec += decryptCharcode(n,0x2B,0x3A,offset);	/* 0-9 . , - + / : */
+				} else if (n >= 0x40 && n <= 0x5A) {
+					dec += decryptCharcode(n,0x40,0x5A,offset);	/* A-Z @ */
+				} else if (n >= 0x61 && n <= 0x7A) {
+					dec += decryptCharcode(n,0x61,0x7A,offset);	/* a-z */
+				} else {
+					dec += enc.charAt(i);
+				}
+			}
+			return dec;
+		}
+			/* decrypt spam-protected emails */
+		function linkTo_UnCryptMailto(s) {
+			location.href = decryptString(s,3);
+		}
+		
+
+/*]]>*/
+</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+					new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+					j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+					'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+					})(window,document,'script','dataLayer','GTM-M7VV6PR');</script><script type="text/javascript">
+$('document').ready(function(){
+   $('#langueSwitcherForm a').on('click', function(){
+       gaTrackEvent({
+        hitType: 'event', 
+        eventCategory: 'Langage', 
+        eventAction: 'click', 
+        eventLabel: $(this).attr('lang')
+       });
+       $.cookie("lang", $(this).data('idlang'), { expires: 365, path: "/" });   
+   }) 
+});
+</script><script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true&amp;libraries=geometry&amp;key=AIzaSyD6-cavZAbbzO-GRswyMag6s8Dr7VTHx_4"></script><script type="text/javascript" src="typo3conf/ext/bi_sg_implantations/res/ultimate_flash_map_killer.js"></script><script type="text/javascript">
+	
+
+	var mapConf =  {"centerMapOnCountry":1,"center":"45.7723148,4.843145199999999","zoom":5,"activeImplantation":0,"activeCountry":"India","activeCountryIso":"IND","activeCountryUid":"290","showCountryLayer":1,"useClusters":"0","baseUrl":"https:\/\/www.societegenerale.asia\/","showLegend":0,"countryLink":0,"isGlobalMap":false};
+ 	var coordonnesStr = mapConf.center;
+ 	var coordonneeArr = coordonnesStr.split(',');
+	var myOptions = {
+		mapTypeControl: false,
+		zoom: parseInt(mapConf.zoom), 
+		center: new google.maps.LatLng(coordonneeArr[0],coordonneeArr[1]), 	
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		styles: [ { stylers: [ { saturation: -100 } ] } ] 
+	}
+	var map = new google.maps.Map(document.getElementById("mainGmap"),	myOptions);
+	var poly = new Polygon();
+	var countryList = [{"name":"Australia","iso":"AUS","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/australia-1\/","color":"#637384"},{"name":"Hong Kong SAR","iso":"HKG","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/hong-kong-sar\/","color":"#637384"},{"name":"India","iso":"IND","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/india-2\/","color":"#637384"},{"name":"Indonesia","iso":"IDN","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/indonesia-1\/","color":"#637384"},{"name":"Japan","iso":"JPN","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/japan-3\/","color":"#637384"},{"name":"Mainland China","iso":"CHN","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/mainland-china\/","color":"#637384"},{"name":"Malaysia","iso":"MYS","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/malaysia-1\/","color":"#637384"},{"name":"Singapore","iso":"SGP","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/singapore-3\/","color":"#637384"},{"name":"South Korea","iso":"KOR","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/south-korea-1\/","color":"#637384"},{"name":"Taiwan","iso":"TWN","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/taiwan-3\/","color":"#637384"},{"name":"Thailand","iso":"THA","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/thailand-1\/","color":"#637384"},{"name":"Vietnam","iso":"VNM","link":"https:\/\/www.societegenerale.asia\/en\/country-details\/country\/vietnam-1\/","color":"#637384"}];
+	var implantationsList = [{"uid":"652","cp":"NSW 2000","ville":"Sydney","tel":"+61 2 9210 8000","fax":"","adr1":"Level 25, 1 Bligh Street","adr2":"","mail":"","name":"Australia","site":"https:\/\/www.societegenerale.asia","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/australia\/","coordX":"-33.8647276","coordY":"151.2110229","invertpostcodeandcity":0},{"uid":"645","cp":"","ville":"Hong Kong","tel":"+852 2166 5388","fax":"","adr1":"Level 34, Three Pacific Place","adr2":"1 Queen\u2019s Road East","mail":"","name":"Hong Kong SAR (regional Head Office)","site":"https:\/\/www.societegenerale.asia","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/hong-kong-2\/","coordX":"22.277064","coordY":"114.168009","invertpostcodeandcity":0},{"uid":"676","cp":"560 066 ","ville":"Bangalore","tel":"+91 80 2803 7000 ","fax":"+91 80 3072 5100 ","adr1":"Voyager Building, 10F, ITPB","adr2":"Whitefield Road","mail":"","name":"Bangalore (Global Solution Centre)","site":"https:\/\/globalsolutioncenter.societegenerale.in","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/bangalore-global-solution-centre-1\/","coordX":"12.98227","coordY":" 77.737621","invertpostcodeandcity":0},{"uid":"661","cp":"110037","ville":"New Delhi","tel":"+91 11 4350 3000","fax":"+91 11 4350 3030","adr1":"Office No 202, 2nd Floor, Tower B, World Mark 1, ","adr2":"Aero City, NH-8,","mail":"","name":"New Delhi","site":"","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/delhi-1\/","coordX":"28.549642","coordY":" 77.121277","invertpostcodeandcity":0},{"uid":"651","cp":"400013","ville":"Mumbai","tel":"+91 22 66309500","fax":"","adr1":"19th Floor, Tower A, Peninsula Business Park","adr2":"Ganapatrao Kadam Marg, Lower Parel","mail":"","name":"Mumbai (Head Office, India)","site":"https:\/\/www.societegenerale.asia","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/mumbai-2\/","coordX":"18.998281","coordY":"72.824055","invertpostcodeandcity":0},{"uid":"653","cp":"12190","ville":"Jakarta","tel":"+62 21 5797 3787","fax":"","adr1":"One Pacific Place 10th Floor Suite 1010  ","adr2":"SCBD, Jl. Jend. Sudirman Kav. 52-53","mail":"","name":"Jakarta (representative office)","site":"https:\/\/www.societegenerale.asia","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/jakarta-representative-office-1\/","coordX":"-6.224243","coordY":" 106.80976800000008","invertpostcodeandcity":0},{"uid":"647","cp":"100-8206","ville":"Tokyo","tel":"+81 3 6777 6800","fax":"","adr1":"Palace Building","adr2":"1-1-1 Marunouchi, Chiyoda-Ku","mail":"","name":"Tokyo","site":"https:\/\/www.societegenerale.asia\/jp\/","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/tokyo-1\/","coordX":"35.6844708","coordY":" 139.7616894","invertpostcodeandcity":0},{"uid":"649","cp":"100027","ville":"Beijing ","tel":"+86 10 5851 3888","fax":"","adr1":"Unit 01-14, 15F, West Tower, Genesis Beijing,","adr2":"8 Xinyuan South Road, Chaoyang District, ","mail":"","name":"Beijing (Head Office, China)","site":"www.societegenerale.cn","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/beijing-head-office-china-1\/","coordX":"39.947563","coordY":"116.452261","invertpostcodeandcity":0},{"uid":"664","cp":"200121","ville":"Shanghai ","tel":"+86 021-3866 9866","fax":"+86 021-2326 9836","adr1":"Unit 4801, 48F, Jin Mao Tower, ","adr2":"88 Century Avenue, Pudong New Area","mail":"","name":"Shanghai","site":"www.societegenerale.cn","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/shanghai2-1\/","coordX":"31.2352442","coordY":" 121.50581620000003","invertpostcodeandcity":0},{"uid":"668","cp":"510623","ville":"Guangzhou ","tel":"+86 020 3819 7888","fax":"+86 020-3819 7664","adr1":"Room 2203, 22F, Main Tower, Guangzhou International Finance Center, ","adr2":"No. 5 Zhujiang Xi Road, Tianhe District, ","mail":"","name":"Guangzhou","site":"www.societegenerale.cn","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/guangzhou-1\/","coordX":"23.118634","coordY":" 113.322878","invertpostcodeandcity":0},{"uid":"667","cp":"150090","ville":"Harbin ","tel":"+86 0451-5174 5801","fax":"+86 0451-5174 5825","adr1":"Room 2108, 21F, Harbin Economical Development Zone","adr2":"Management Building, 368 Changjiang Road","mail":"","name":"Harbin","site":"www.societegenerale.cn","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/harbin-1\/","coordX":"45.749327","coordY":"126.688274","invertpostcodeandcity":0},{"uid":"663","cp":"300050","ville":"Tianjin","tel":"+86 022-5887 2888","fax":"+86 022-5887 2966","adr1":"Room 506, 5\/F, International Building, ","adr2":"75 Nanjing Road, Heping District","mail":"","name":"Tianjin","site":"www.societegenerale.cn","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/tianjin-1\/","coordX":"39.116239","coordY":" 117.20917699999995","invertpostcodeandcity":0},{"uid":"648","cp":"50400","ville":"Kuala Lumpur","tel":"+60 3 2300 8860","fax":"","adr1":"GTower, Suite 23-15, Level 23","adr2":"199 Jalan Tun razak","mail":"","name":"Kuala Lumpur (representative office)","site":"https:\/\/www.societegenerale.asia","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/kuala-lumpur-representative-office-1\/","coordX":"3.1591153","coordY":" 101.71972900000003","invertpostcodeandcity":0},{"uid":"646","cp":"018981","ville":"Singapore ","tel":"+65 6222 7122","fax":"","adr1":"8 Marina Boulevard","adr2":"12-01 Marina Bay Financial Centre Tower 1","mail":"","name":"Singapore","site":"https:\/\/www.societegenerale.asia","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/singapore-1\/","coordX":"1.2803323","coordY":" 103.85414379999997","invertpostcodeandcity":0},{"uid":"641","cp":"03155","ville":"Seoul","tel":"+82 2 2195 7777","fax":"","adr1":"23F, D1 D-Tower,  ","adr2":"17, Jongno","mail":"","name":"Seoul","site":"https:\/\/www.societegenerale.asia\/","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/seoul-1\/","coordX":"37.570878","coordY":" 126.978845","invertpostcodeandcity":0},{"uid":"650","cp":"","ville":"Taipei","tel":"+866 2 2175 0000","fax":"+886 2 2723 0588 ","adr1":"38F, No. 68, Sec. 5, Zhongxiao E., Rd., ","adr2":"Xinyi Dist., Taipei City 110","mail":"","name":"Taipei","site":"https:\/\/www.societegenerale.asia","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/taipei-1\/","coordX":"25.04057","coordY":"121.566788","invertpostcodeandcity":0},{"uid":"1011","cp":"10500","ville":"Bangkok","tel":"+66 2 353 3400","fax":"+66 2 163 2826","adr1":"98, Sathorn Square Office Tower ","adr2":"Unit 27-01, 27th Floor, North Sathorn Road, Silom, Bangrak","mail":"","name":"Bangkok","site":"https:\/\/www.societegenerale.asia","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/bangkok-1\/","coordX":"13.7220415","coordY":"100.52946109999993","invertpostcodeandcity":0},{"uid":"644","cp":"","ville":"Hanoi","tel":"+84 24 6270 3927","fax":"","adr1":"10 Floor, BIDV Tower","adr2":"194 Tran Quang Khai Street, Hoan Kiem District","mail":"","name":"Hanoi (representative office)","site":"www.societegenerale.asia","link":"https:\/\/www.societegenerale.asia\/en\/worldwide-details\/office\/hanoi-representative-office-1\/","coordX":"21.0295128","coordY":" 105.85705689999998","invertpostcodeandcity":0}];
+	var polyList = [];
+
+
+	function centerMapOnCountry(map, countryName){
+		var geocoder = new google.maps.Geocoder();
+		geocoder.geocode( {'address' : countryName}, function(results, status) {
+		    if (status == google.maps.GeocoderStatus.OK) {
+		    	//console.debug(results);
+		        map.setCenter(results[0].geometry.location);
+		        map.fitBounds(results[0].geometry.bounds)
+		    }
+		});
+	}
+
+
+	function addToolTip(map, marker, datas){
+
+		var html = '<div class="gMapInfo" id="gMapInfo">';
+			html+= '	<div class="name">'+datas.name+'</div>';
+			html+= '	<div class="adresse">'+datas.adr1+'</div>';
+			html+= '	<div class="adresse">'+datas.adr2+'</div>';
+
+			if(datas.invertpostcodeandcity == 1){
+                html+= '	<div class="adresse">'+datas.ville+' '+datas.cp+'</div>';
+			} else {
+                html+= '	<div class="adresse">'+datas.cp+' '+datas.ville+'</div>';
+			}
+
+
+			html+= '	<div class="tel"><strong>Tel :</strong> '+datas.tel+'</div>';
+			
+			if(datas.fax){
+				html+= '	<div class="tel"><strong>Fax :</strong> '+datas.fax+'</div>';
+			}
+			
+
+			if(datas.site){
+				var addHttp = '';
+				if(datas.site.indexOf('http') == -1){
+					addHttp = 'http://';
+				}
+				html+= '	<div class="web"><strong>Web :</strong><a href="'+ addHttp + datas.site+'" target="_blank">'+datas.site+'</a></div>';
+			}
+				
+			html+= '</div>';
+
+		var infowindow = new google.maps.InfoWindow({
+			//pixelOffset: new google.maps.Size(260,90),
+			content: html
+		});
+
+
+		infowindow.open(map,marker);
+	}
+
+
+	function deleteCountry(){
+		if(polyList.length > 0){
+			for(var i = 0; i < polyList.length; i ++){
+				polyList[i].setMap(null);
+			}
+		}
+	}
+
+
+	function restoreCountry(){
+		if(polyList.length > 0){
+			for(var i = 0; i < polyList.length; i ++){
+				polyList[i].setMap(map);
+			}
+		}
+	}
+
+
+	function drawCountry(filterCountry){
+
+		if(filterCountry == undefined){
+			filterCountry = 0;
+		}
+
+		for(var i=0; i < countryList.length; i++){
+
+			if(filterCountry == 0 || countryList[i].iso == filterCountry){
+
+				var confPolygonMap = {
+					country: [countryList[i].iso],
+					strokeColor: countryList[i].color,
+					strokeOpacity:0.1,
+					strokeWeight:2,
+					fillColor: countryList[i].color,
+					fillOpacity:0.8,
+					hoverFillColor: countryList[i].color,
+					hoverFillOpacity:0.1,
+					hoverStrokeColor: countryList[i].color,
+					hoverStrokeWeight:2,
+					hoverStrokeOpacity:0.1
+				}
+
+				if(mapConf.countryLink){
+					confPolygonMap.onClickValue = {url: [countryList[i].link]};
+				}
+
+				poly.createPolygon(map, confPolygonMap, polyList);
+			}
+			
+		}
+	}
+
+
+ 	function initialize() {
+
+
+ 		if(mapConf.showCountryLayer){
+ 			drawCountry(mapConf.activeCountryIso);	
+ 		}
+		
+
+		// dessiner tous les markers
+		var markers = [];
+		for(var i=0; i < implantationsList.length; i++){
+			var item = implantationsList[i];
+			var marker = new google.maps.Marker({
+				map: map,
+				icon: "./typo3conf/ext/bi_template/res/img/markerSG.png",
+				position: new google.maps.LatLng(item.coordX, item.coordY),
+				title: item.name,
+				myLink: item.link
+			});
+
+			google.maps.event.addListener(marker, 'click', function() {
+				window.location.href = this.myLink;
+			});
+
+			if(item.uid == mapConf.activeImplantation){
+				if(!isMobile()){
+					addToolTip(map, marker, item);
+					map.panBy(-200, -100);
+				} else {
+					map.panBy(-100, 0);
+				}
+			}
+
+			markers.push(marker);
+		}
+
+		if(mapConf.useClusters == '1'){
+			mcOptions = {gridSize: 20, styles: [ { height: 56, url: mapConf.baseUrl + 'typo3conf/ext/bi_sg_implantations/res/cluster.png', width: 56}]}
+			var markerCluster = new MarkerClusterer(map, markers, mcOptions);
+		}
+
+
+		if(mapConf.activeCountry != 0 && mapConf.centerMapOnCountry == 1){
+			centerMapOnCountry(map, mapConf.activeCountry);
+		}
+
+		
+		if(mapConf.showLegend != 0){
+			map.controls[google.maps.ControlPosition.RIGHT_TOP].push(document.getElementById('gmapLegendWrap'));
+		}
+		
+		google.maps.event.addListener(map, 'zoom_changed', function() {			
+			if(map.getZoom() > 5){
+				deleteCountry();
+			} else {
+				restoreCountry();
+			}
+		});
+		
+
+
+ 	}
+
+	
+
+	//google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+	$(document).ready(function() {
+
+
+		initialize();
+
+
+		$('.mainGmapMenu ul').hide();
+
+		
+		var openedUl = false;
+		
+		// autoclick si juste une implantation
+		$('.mainGmapMenu .firstLvl > ul > li > a').on('click', function(){
+			if(event.target.nodeName == 'A'){
+				if($(this).next('ul').find('li').length == 1){
+					document.location.href = $(this).next('ul').find('a').attr('href');
+				}
+			}
+		});
+
+		$('.mainGmapMenu .firstLvl > ul > li span, .mainGmapMenu .firstLvl > ul > li > a, .mainGmapMenu .firstLvl').on('click',
+			function(event) {
+
+				event.stopPropagation();
+
+				if($(this).parent('li').hasClass('firstLvl')){
+					$('.mainGmapSquare li').removeClass('activeBottom');
+					$(this).parent('li').addClass('activeBottom');
+				}
+
+				var openMe = $(this).next('ul');
+
+				if($(this).parent('li').is('.firstLvl')){
+					$(this).parent('li').siblings().find('ul').slideUp('normal');  
+				}
+
+				if(openedUl && !openMe.parentsUntil(openedUl).last().parent().is(openedUl)) {
+					openedUl.slideUp('normal');
+				}
+				if (openMe.not(':visible')) {
+					openMe.slideDown('normal');
+					openedUl = openMe; 
+				}
+			
+		      }
+		);
+
+
+
+
+		if(mapConf.activeCountryUid){
+			$('#country'+mapConf.activeCountryUid).parents('ul').show();
+			$('#country'+mapConf.activeCountryUid).next().show();
+			$('#country'+mapConf.activeCountryUid).addClass('active');
+		}
+
+
+		if(mapConf.activeImplantation){
+			$('#imp'+mapConf.activeImplantation).addClass('active');
+			$('#imp'+mapConf.activeImplantation).parents('ul').show();
+		}
+
+		$('.mainGmapMenu li.firstLvl').each(function(){
+			if($(this).find('.active').length){
+				$(this).addClass('activeBottom');
+			}
+		});
+
+
+
+
+
+
+		var mainGmapSquareInit = $('.mainGmapSquare').innerHeight();
+		$('.displayMenu').click(function(){
+			if($('.mainGmapSquare').hasClass('opened')){
+				$('.mainGmapSquare').css('height', mainGmapSquareInit);
+				$('.mainGmapMenuWrap').fadeOut();
+			} else {
+				$('.mainGmapSquare').css('height', $('#mainGmap').innerHeight());
+				$('.mainGmapMenuWrap').fadeIn();
+			}
+			$('.mainGmapSquare').toggleClass('opened');
+		});
+
+		$(".mainGmapMenuWrap").css('height', $('#mainGmap').innerHeight() - 240);
+		$(".mainGmapMenuWrap").mCustomScrollbar({
+			'autoExpandScrollbar': true,
+			'theme': 'dark-thick'
+		});
+
+
+		//////////////////////////////////////////////////////
+		/// gestion geolocalisation de l'utilisateur
+		//////////////////////////////////////////////////////
+		var myPos = false;
+		var myPosBounds = new google.maps.LatLngBounds();
+
+		function findNearestImplantation(){
+			var shortestDistance = false;
+			var nearestImplantation;
+			for(var i=0; i < implantationsList.length; i++){
+				var point = new google.maps.LatLng(implantationsList[i].coordX, implantationsList[i].coordY); 
+				var distance = google.maps.geometry.spherical.computeDistanceBetween(myPos, point);
+				if(distance < shortestDistance || !shortestDistance ){
+					shortestDistance = distance;
+					nearestImplantation = implantationsList[i];
+				}
+			}
+			return nearestImplantation;
+		}
+
+
+		function findMyPosition(position) {
+			myPos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+			new google.maps.Marker({
+	            position: myPos,
+	            map: map
+	        });
+
+	        var nearestImplantation = findNearestImplantation();
+	        myPosBounds.extend(myPos);
+	        myPosBounds.extend( new google.maps.LatLng(nearestImplantation.coordX, nearestImplantation.coordY));
+	        map.fitBounds(myPosBounds);
+	        $('.geolocMe .fa').removeClass('fa-spin');
+	        $('.geolocMe').css('opacity', 1);
+		}
+
+
+		function findMeOnMap(){
+			if(navigator.geolocation){
+	       		$('.geolocMe').css('opacity', 0.6);
+				$('.geolocMe .fa').addClass('fa-spin');
+				navigator.geolocation.getCurrentPosition(findMyPosition);
+			}
+		}
+
+
+		$('.geolocMe').click(function(){
+			findMeOnMap();
+		})
+
+		
+  
+
+
+		
+	});
+								
+	
+
+	
+
+</script><script type="text/javascript">window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
 else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
 var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
 if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e){
-  var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("415bfedc-6dd5-40a1-accb-c5d40e32a005")})();
-  window.didomiConfig = {
-    cookies: {
-      local: {
-        customDomain: "www.societegenerale.com"
-      }
-    },
-    tagManager: {
-      provider: 'gtm'
-    }
-  };
-  </script>
-
-  <!-- Google Tag Manager Audience -->
-  <script type="didomi/javascript" data-vendor="c:atinterne-cR7P7C3e">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=PWj49MRyaH8xJ3CJBPlbDA&gtm_preview=env-1&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MRBXF8P');</script>
-  
-  <!-- Google Tag Manager Pub -->
-  <script type="didomi/javascript" data-vendor="c:sizmek-qDDcNM3i">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
-  {'gtm.start': new Date().getTime(),event:'gtm.js'}
-  );var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-K4MWR3T');</script>
-  <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"en\/","currentPath":"node\/157","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"blazy\/load,core\/drupal.autocomplete,core\/picturefill,paragraphs\/drupal.paragraphs.unpublished,quicklink\/quicklink,quicklink\/quicklink_init,quicklink\/quicklink_polyfill,sg_refonte\/banniere_principale,sg_refonte\/bloc_chiffres_cles,sg_refonte\/bloc_citation,sg_refonte\/global,sg_refonte\/page_edito,sg_refonte\/push_actualite_froide,sg_refonte\/push_blocs,sg_refonte\/slick,system\/base","theme":"sg_refonte","theme_token":null},"ajaxTrustedUrl":[],"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25,"container":""},"blazyIo":{"enabled":false,"disconnect":false,"rootMargin":"0px","threshold":[0]},"quicklink":{"admin_link_container_patterns":["#block-local-tasks-block a",".block-local-tasks-block a","#drupal-off-canvas a","#toolbar-administration a"],"ignore_admin_paths":true,"ignore_ajax_links":true,"ignore_file_ext":true,"debug":false,"url_patterns_to_ignore":["user\/logout","#","\/admin","\/edit"]},"langcode":"en","user":{"uid":0,"permissionsHash":"9e18ddbbd4d529517fd259478b92d90d0d4202ca61c1458409fc1431a823cb91"}}</script>
-<script src="//polyfill.io/v3/polyfill.min.js?features=IntersectionObserver%2CIntersectionObserverEntry%2CURL%2CObject.assign%2CArray.from%2CArray.prototype.includes%2CString.prototype.includes%2CElement.prototype.matches%2CPromise%2CPromise.prototype.finally"></script>
-<script src="/sites/default/files/js/js_F-LpjljLlRtf1NEjSboPKlGDrVwasqN5t50c0v1hpWA.js"></script>
-
-  <script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1634503208"></script>
-</body>
+  var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("415bfedc-6dd5-40a1-accb-c5d40e32a005")})();</script><script src="typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/jquery.datetimepicker.min.1558957592.js" type="text/javascript"></script><script src="typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/parsley.min.1558957592.js" type="text/javascript"></script><script src="typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Tabs.min.1558957592.js" type="text/javascript"></script><script src="typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.1558957592.js" type="text/javascript"></script><!--Time of last Generation of this page : 0.087 sec--></body>
 </html>
-
-
