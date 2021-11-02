@@ -1,2 +1,2 @@
 <h1> Hello, Welcome to Valaxy Technologies !!! </h1>
-<h2> Gundamma-love </h2>
+<h2> Haritha Love Viru </h2>
