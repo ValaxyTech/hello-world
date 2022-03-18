@@ -1,1 +1,1 @@
-echo "hi friends"
+echo "hi friends fgfgf"
