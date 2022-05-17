@@ -17,13 +17,5 @@ pipeline{
                sh 'mvn install'
             }
         }
-        stage(deploy){
-            steps{
-                sshagent(['deploy_user']){
-                    sh "scp -o StrictHostKeyChecking=no /webapp/target/webapp.war ec2-user@3.88.129.66:/opt/tomcat/apache-tomcat-9.0.48/webapps"
-                }
-      }
-        
-    }
     }
 }
