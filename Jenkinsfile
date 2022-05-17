@@ -20,7 +20,7 @@ pipeline{
         stage(Build_Docker_image){
             steps {
                 script {
-                    sh "docker build -t helloworld/myapp:1.0 ."
+                    sh "sudo docker build -t helloworld/myapp:1.0 ."
                 }
     }
 }
