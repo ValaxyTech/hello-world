@@ -24,5 +24,13 @@ pipeline{
                 }
     }
 }
+        stage(pushdockerimage){
+            steps {
+                script {
+                    withCredentials([string(credentialsId: 'dockerhubpwd', variable: 'Dockerhubpwd')]) {
+                        sh "docker login -u grahul123 -p ${Dockerhubpwd}"
+                        sh "docker push helloworld/myapp:1.0"
+    
+}
     }
 }
