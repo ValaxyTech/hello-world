@@ -14,7 +14,7 @@ pipeline{
         }
         stage('build'){
             steps{
-               sh 'mvn install'
+               sh 'mvn clean install'
             }
         }
         stage(Build_Docker_image){
