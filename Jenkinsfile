@@ -37,11 +37,11 @@ pipeline{
  }
         stage(Deploy_to_K8S_Cluster){
             steps {
-                  kubernetesDeploy(
-                  configs: 'pod1.yaml',
-                  kubeconfigId: 'KUBERNETES_ID',
-                )
+                sshagent([SSH_K8S]) {
+                    sh "scp -o StrictHostKeyChecking=no pod1.yaml ec2-user@35.174.9.68:/home/ec2-user/"
+                }
             }
  }
+}
 }
 }
