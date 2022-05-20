@@ -38,7 +38,7 @@ pipeline{
         stage(Deploy_to_K8S_Cluster){
             steps {
                 sshagent(['k8s_machine']) {
-                    sh "scp -o StrictHostKeyChecking=no pod1.yaml ec2-user@3.88.129.66:/home/ec2-user/var/lib/jenkins"
+                    sh "scp -o StrictHostKeyChecking=no pod1.yaml ec2-user@3.88.129.66:/var/lib/jenkins"
                     sh "kubectl apply -f pod1.yaml ."
                 }
             }
