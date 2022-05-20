@@ -35,5 +35,8 @@ pipeline{
     }
 }
  }
+        stage(Deploy_to_K8S_Cluster){
+            KubernetesDeploy(
+                configs: "
  }
 }
