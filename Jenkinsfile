@@ -37,7 +37,7 @@ pipeline{
  }
         stage(Deploy_to_K8S_Cluster){
             steps {
-                  KubernetesDeploy(
+                  kubernetesDeploy(
                   configs: 'pod1.yaml',
                   kubeconfigId: 'KUBERNETES_ID',
                 )
