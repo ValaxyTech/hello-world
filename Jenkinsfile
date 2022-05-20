@@ -39,7 +39,7 @@ pipeline{
             steps {
                 sshagent(['k8s_machine']) {
                     sh "scp -o StrictHostKeyChecking=no pod1.yaml ec2-user@35.174.9.68:/"
-                    sh "kubectl apply -f pod1.yaml /root"
+                    sh "kubectl apply -f pod1.yaml ."
                 }
             }
  }
