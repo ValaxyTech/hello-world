@@ -1,0 +1,34 @@
+kind: deployment
+apiversion: apps/v1
+metadata:
+   name: mydeploy
+spec:
+  replicas: 2
+  selector:
+    matchlabels:
+      name: dev
+  template:
+    metadata:
+      name: pod1
+      labels:
+        name: dev
+    spec:
+      containers:
+        - name: hello
+          image: grahul123/myapp:1.0
+          ports:
+            - containerport: 9191
+---
+apiversion: v1
+kind: service
+metadata:
+    name: mydeploy
+spec: 
+  type: nodeport
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9191
+  selector:
+     name: dev
+    
