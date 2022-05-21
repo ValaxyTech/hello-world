@@ -1,6 +1,8 @@
 # Pull base image 
-From tomcat:8-jre8 
+From openjdk
 
 # Maintainer 
 MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY /webapp/target/webapp.war .
+EXPOSE 9090
+ENTRYPOINT ["java",".war","/webapp-1.0-SNAPSHOT.war"]

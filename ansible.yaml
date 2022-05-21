@@ -1,0 +1,10 @@
+---
+name: creating users
+hosts: dev
+tasks:
+  - name: creating users on dev
+    user1: "{{item.user1}}"
+    user2: "{{item.user2}}"
+    loop:
+      user1: raj
+      user2: ram
