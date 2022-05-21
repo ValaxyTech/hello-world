@@ -1,0 +1,581 @@
+[33mcommit 8852b6f8003c3e1807d6d85b5a2aae3401185ef2[m[33m ([m[1;36mHEAD -> [m[1;32mhot-fix[m[33m, [m[1;31morigin/hot-fix[m[33m)[m
+Author: root <root@ip-10-0-0-141.ec2.internal>
+Date:   Sat May 21 04:22:08 2022 +0000
+
+    javafile
+
+[33mcommit cdd58a5feb273c00f6a620759c6210405c43db9b[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Sat May 21 09:26:18 2022 +0530
+
+    Create ansible.yaml
+
+[33mcommit 3d19f79831b9df10d89eb70afd01fa189226ce71[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:32:05 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 3573a7e7764866324a4bb364d007189349855bbd[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:26:49 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit d55619a5151ae324d191f865fc03a7cfc18288fe[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:23:20 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit eefd50b6eb769272fa7383240e771fa2c8df6bcb[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:22:39 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 49bb118abe567800e25f53af9e38627d16e86473[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:17:50 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 298a0fcb73fe002f6b2feb89d1db6e0d3d558cb9[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:17:02 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 27abfddeda08c62c17630010676d1824e42a2fa2[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:11:33 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 78f620c48093f48982e2ec960b1a0e484469ebf4[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:08:35 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit d76a32ac5e294bec72cd8c3660816bbb3c83c9c5[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:07:59 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit b3a4dfa0b81e0f2392af15c79ab46c12a2bc555d[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:06:24 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 1ac6291a6be91a05d274baacdc555868b49c6107[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:05:08 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 5f88f475326fe3813dce7e7469c331ad6fd06247[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 13:03:19 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit eaa42e399af1a000fbbc0e473d1633245316b988[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 12:33:47 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 46ba198830b3a49d9ef2404023f57613d91e6bdc[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 12:29:20 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit d105e97685f36ecb51b9fdbd7b2ae83eeba379fa[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 12:27:31 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 59e2804099db74f8e29bdfdb60f3df13b1a93231[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 12:26:07 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit befdf0d7d172c10bf6673c4c2c7995cd81de70b5[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 12:23:22 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 1e40689b14625d4df57255142552a031c035675a[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 12:21:51 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 5eb91c730d4eb20734947ab5bd621ba89a07efc9[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 12:18:16 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 2f089edc22a743dff70465753ed0c4ab17a5f3b5[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 12:16:57 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 4de1a580df4ddb88807725a8a4c327e43cd113ce[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 12:12:10 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit bdc0d04535f01601ac696c991c12ae0bd60b3b2d[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 12:11:18 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit ff09b7da777f94ea3e8c62a5761167cde42f1612[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 11:50:42 2022 +0530
+
+    Update pod1.yaml
+
+[33mcommit eb7cfa79cf56b995eb8e578249d3c2e8400f19c3[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 11:37:38 2022 +0530
+
+    Update pod1.yaml
+
+[33mcommit 3bb6af30d155e7b095fcc91e2553b515a4da3648[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 11:20:36 2022 +0530
+
+    Update pod1.yaml
+
+[33mcommit 934a17daadfa088d6654184cc09cfe6b16a91f7a[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 11:18:34 2022 +0530
+
+    Update pod1.yaml
+
+[33mcommit b818ffde2d35344383f6e5526f4c3e8665d2dc0e[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 11:13:13 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit dde87ae8832ab312699d768ad4fd93e49a88fba9[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 11:10:41 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit b272ac963b8917646df33eaf305a9a61a9b8ffb1[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 11:07:38 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 59aba3df1d68898e7c8a6a59c5d6227a1130c8a3[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 11:06:13 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 638314465a974f970ab33a538ebdb4174016f435[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 11:02:08 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 57a0c9bdc7e753cb80069cf96edcd712b8d163f0[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Fri May 20 10:36:41 2022 +0530
+
+    Create pod1.yaml
+
+[33mcommit 6ad0c9c36a49070bcd6246322a82746925a966ac[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Thu May 19 16:57:39 2022 +0530
+
+    Create s3cft.yaml
+
+[33mcommit 2cfd0b5c7faf16eb6daf014d3fb774e4c8bde8e4[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 20:11:50 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 4edbac8894fb97fee9652e819dd50a01a23c9c95[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 20:09:16 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit c8c7339f84e4caa4ae9ac205e7aaa46ee058d6f7[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 20:08:40 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit bd20ae67f2f2d6e3db7b1645fb4adf13c1f23655[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 20:07:50 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 593519f2db5af1a6b92bcd1591ff24ef959430fd[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 20:06:54 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 1f38fabbc3a9fe1d8dfc99ad1ed60c8a1829bc30[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:39:51 2022 +0530
+
+    Update Dockerfile
+
+[33mcommit 978732950aa896fce6be18156965e683502736ed[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:37:53 2022 +0530
+
+    Update Dockerfile
+
+[33mcommit 4f6c4672036aeac48d6ad48f3d0cd4f17727b84e[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:33:23 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 938d0879be6d4c72e9784694739b24c1f8c66fa2[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:28:17 2022 +0530
+
+    Update Dockerfile
+
+[33mcommit dd40f2dd84dc8cf8a72273a4a387e18b44c5c7c9[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:17:12 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit a2b5661c83d67519bcdb8d9428ee47388a285867[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:10:22 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 69d1df7ee6788cab6b896425bdbbcb18350c8651[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:07:02 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 9fc7b43f96ba1a2ba41b81c8f22eba8cdb9759dc[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:04:36 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit ab7df46908611001af510df509e8e0592857855b[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:03:49 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit f2fc3d77f9354f6da5b908759e3697499de635b2[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:03:09 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit b1d97e91963cf3a91a997aceb273056166a8dc3f[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 19:01:54 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 8dc30e831d59b5cacd3833e97990fc382ff897eb[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 18:59:02 2022 +0530
+
+    Update Dockerfile
+
+[33mcommit de5007fe3d9a90348684feda97135d62a1da9950[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 16:10:31 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 9bd95705a4d51bbc91cf00769f56472bddf3704b[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 15:57:45 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit fc0f55b85d5ad9dbf90561caa42124b0fc7ae1f7[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 15:55:56 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 4e0a35c2a760d465d24746d8fc78504f75b6c7ed[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 15:50:55 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 1cac406b7e341ffbbd0dcfd2bbbb07877e8aa78c[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 15:48:43 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 8a63652d27ed715637284fd834726230c7d58c9a[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 15:46:26 2022 +0530
+
+    Update Jenkinsfile
+
+[33mcommit fbcd4f62929debeec5a0338937bc194fa1a9bdee[m
+Author: Arungangoni <105335103+Arungangoni@users.noreply.github.com>
+Date:   Tue May 17 15:38:18 2022 +0530
+
+    Create Jenkinsfile
+
+[33mcommit a5d31450333616826273846844b9dd1aabfb6a83[m
+Author: Valaxy Technologies <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Wed Jun 30 18:47:22 2021 +0530
+
+    Update index.jsp
+
+[33mcommit 4a076503060c74f995d6608a06ece9ff44e50963[m[33m ([m[1;31morigin/QA[m[33m)[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Fri Aug 16 13:55:57 2019 +0530
+
+    Update index.jsp
+
+[33mcommit b2d28cf382e0b7fc21d5755a60caf9a61ece69a0[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Fri Aug 16 13:52:12 2019 +0530
+
+    Update index.jsp
+
+[33mcommit 9fcd9440ce3d4c6c8682f3c738441d701f0e1e41[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Fri Aug 16 13:36:30 2019 +0530
+
+    Update index.jsp
+
+[33mcommit e781fe80cd0d69c66c7d9f7b2ca6453a6ac0db14[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Fri Aug 16 11:59:21 2019 +0530
+
+    Update index.jsp
+
+[33mcommit 312d9ec8dcb6f5ebc33bcc6d5ab8e0bc8602d501[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Thu Aug 15 17:30:22 2019 +0530
+
+    Update index.jsp
+
+[33mcommit 68d2041d5fe6ad956b68256ce7cf4909b1c1fd9f[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Sat Jan 19 08:52:44 2019 +0530
+
+    Update index.jsp
+
+[33mcommit f2dd54fc99dc142cf94c1d9a20d2ad7c16e4a344[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Sat Jan 19 08:09:54 2019 +0530
+
+    Update index.jsp
+
+[33mcommit d795c9399ed273ef228a4184cf31831dbc63beb6[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Thu Jan 17 09:29:49 2019 +0530
+
+    Update index.jsp
+
+[33mcommit d8113f638d0b2aa813d93a7db3b3c28a3d2fe1e3[m
+Author: root <root@ip-172-31-22-126.ap-southeast-1.compute.internal>
+Date:   Tue Dec 25 06:47:49 2018 +0000
+
+    new line added
+
+[33mcommit a29c62b0253122f7e43e05d6af77af08c076f02c[m
+Author: root <root@ip-172-31-22-126.ap-southeast-1.compute.internal>
+Date:   Tue Dec 25 04:49:19 2018 +0000
+
+    modified index.jsp
+
+[33mcommit a99e80421f12389e59e887bc69a3c08c7d48269c[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Sat Dec 22 08:01:25 2018 +0530
+
+    Update index.jsp
+
+[33mcommit 57a67c2616f8f748dad5b33884c26675cb78c114[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Wed Nov 7 10:09:08 2018 +0530
+
+    Update index.jsp
+
+[33mcommit e18726d4f5c811d9d3d1820cc4ee391e08220112[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Wed Nov 7 09:28:14 2018 +0530
+
+    Update index.jsp
+
+[33mcommit 4a487a78482616d850e98a5c590363971fb0bda7[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Wed Nov 7 09:17:23 2018 +0530
+
+    promotions comment
+
+[33mcommit 3a900273c8f86dcdf9c514da4e8b4c4cc9084782[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Wed Nov 7 09:03:54 2018 +0530
+
+    Update index.jsp
+
+[33mcommit f3ccb36c49dc8524565aa3663db2234c552a06e5[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Tue Nov 6 09:37:53 2018 +0530
+
+    Update index.jsp
+
+[33mcommit ad497a6e610d1126bf0f260eeba39aa28e6bfb5d[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Fri Nov 2 09:45:15 2018 +0530
+
+    Update index.jsp
+
+[33mcommit 521d0fdf0868340222f5fb7eca215d1f0b73fedf[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Mon Oct 22 22:45:54 2018 +0530
+
+    modified index.jsp
+
+[33mcommit 73e663ea77494a9d9e852e2186518b032f4dabd7[m
+Author: valaxytech <valaxytech@gmail.com>
+Date:   Mon Oct 22 05:36:06 2018 +0000
+
+    modified index.jsp file for docker demo
+
+[33mcommit 691a7a2921ddf933c2ebf6ccb2ab1d9de0b31d54[m
+Author: valaxytech <valaxytech@gmail.com>
+Date:   Mon Oct 22 05:00:55 2018 +0000
+
+    modified index.jsp file
+
+[33mcommit 3e3afd891a4a85025a816575bec2f2063f693203[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Mon Oct 22 10:05:11 2018 +0530
+
+    Update Dockerfile
+
+[33mcommit 740736a87c0526df14c3de15017187a90f7760f3[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Mon Oct 22 09:58:08 2018 +0530
+
+    Update Dockerfile
+
+[33mcommit 22e01c86dd0e7f10945c92374a387bb7671775ba[m
+Author: root <root@ip-172-31-19-68.ap-southeast-1.compute.internal>
+Date:   Mon Oct 22 04:04:54 2018 +0000
+
+    added docker file
+
+[33mcommit 1aa6466657ce588b871bfaa5ca488c215ef2705a[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Mon Oct 22 09:26:11 2018 +0530
+
+    Update index.jsp
+
+[33mcommit 5c693b08195596a52fcbbc07775a2f89419a8c88[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Thu Aug 23 22:32:45 2018 +0530
+
+    latest code updated
+    
+    Project 2 example
+
+[33mcommit 7c81f413df33628b348ab006d738f9869de08399[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Thu Aug 23 21:57:38 2018 +0530
+
+    Update index.jsp
+
+[33mcommit 4762ccdfc76fc0803dba5973ea57bb0f04d8cb92[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Thu Aug 23 21:06:07 2018 +0530
+
+    ansible added
+    
+    ansible added
+
+[33mcommit 9066612bb0a769560681097f961c0a49913ede00[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Thu Aug 23 16:40:42 2018 +0530
+
+    new update
+
+[33mcommit 812773753665a3b4396eabbb413c3f008aa8f665[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Thu Aug 2 18:02:51 2018 +0530
+
+    updated coc name
+    
+    I am updating index.jsp for a demo with JIRA no.
+
+[33mcommit 037bd4f84ef74dce3340d60b933ad12f19163cac[m
+Author: Valaxy Technologies <valaxytech@gmail.com>
+Date:   Fri Jun 22 23:53:31 2018 +0530
+
+    updated index file
+
+[33mcommit 8d8c0b63b1fe5387e3dfb229e2279dd4da6c74ce[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Fri Jun 22 23:48:44 2018 +0530
+
+    updated index file
+
+[33mcommit 5e95a23bd4d1625f16151219384021567d9b2ded[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Fri Jun 22 20:04:51 2018 +0530
+
+    Update index.jsp
+
+[33mcommit a25d199456bfbc93530dd679b48b7520f6ee8025[m
+Author: Valaxy Technologies <valaxytech@gmail.com>
+Date:   Fri Jun 22 19:50:25 2018 +0530
+
+    new update on index.html
+
+[33mcommit 438be18bacf122826748624c36a176281d315d8b[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Fri Jun 22 19:19:41 2018 +0530
+
+    Update README.md
+
+[33mcommit 3b7bdcd27c012ddb922bcb077e4795b42e65516a[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Tue Jun 19 23:48:12 2018 +0530
+
+    initial commit
+
+[33mcommit 2047f57680e7079cd79f3037eb025c3766e1cd7b[m
+Author: ValaxyTech <40397252+ValaxyTech@users.noreply.github.com>
+Date:   Tue Jun 19 23:47:21 2018 +0530
+
+    Create README.md
