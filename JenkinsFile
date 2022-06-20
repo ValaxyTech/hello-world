@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+    tools {
+        maven "Maven 3.8.5"
+        jdk "JAVA"
+        // Install the Maven version configured as "M3" and add it to the path.
+           }
+
+    stages {
+        stage('Build') {
+            steps {
+                // Get some code from a GitHub repository
+                git 'https://github.com/payal024/hello-world.git'
+
+                // Run Maven on a Unix agent.
+                // sh "mvn -Dmaven.test.failure.ignore=true clean package"
+
+                // To run Maven on a Windows agent, use
+                 bat "mvn -Dmaven.test.failure.ignore=true clean package"
+                   }
+
+            post {
+            always {
+          junit(
+        allowEmptyResults: true,
+        testResults: '*/test-reports/.xml'
+      )
+      }
+   } 
+        }
+   stage ('Deploy') {
+      steps {
+        script {
+            deploy adapters: [tomcat8(credentialsId: 'deploy', path: '', url: 'http://35.154.23.196:8090')], onFailure: false, war: 'webapp/target/*.war'
+        }
+      }
+   }
+        
+    }
+}
