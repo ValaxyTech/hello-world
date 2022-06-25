@@ -17,8 +17,9 @@
   </properties>
 
   <modules>
-    <module>server</module>
-    <module>webapp</module>
+  <!-- STOPPING SERVER TO RUN -->
+  <!--<module>server</module>  -->
+  <module>webapp</module>
   </modules>
 
   <distributionManagement>
