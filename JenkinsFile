@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven "Maven 3.8.5"
+        maven "maven-3.8.6"
         jdk "JAVA"
         // Install the Maven version configured as "M3" and add it to the path.
            }
