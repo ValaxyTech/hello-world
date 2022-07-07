@@ -31,7 +31,7 @@ pipeline {
    stage ('Deploy') {
       steps {
         script {
-            deploy adapters: [tomcat8(credentialsId: 'deployer', path: '', url: 'http://3.82.115.132/:8090')],contextPath: '/pipeline', :WqonFailure: false, war: 'webapp/target/*.war'
+            deploy adapters: [tomcat8(credentialsId: 'deployer', path: '', url: 'http://3.82.115.132/:8090')],contextPath: '/pipeline', onFailure: false, war: 'webapp/target/*.war'
         }
       }
    }
