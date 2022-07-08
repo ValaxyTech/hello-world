@@ -28,11 +28,11 @@ pipeline {
      // }
   // } 
         }
-   stage ('Approval'){
-     steps{
-         input("Do you want to proceed ahead")
-         }
-         }
+   //stage ('Approval'){
+     //steps{
+        // input("Do you want to proceed ahead")
+         //}
+         //}
    stage ('Deploy') {
       steps {
         script {
