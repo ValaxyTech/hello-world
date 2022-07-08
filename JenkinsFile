@@ -19,14 +19,14 @@ pipeline {
                //  bat "mvn -Dmaven.test.failure.ignore=true clean package"
                    }
 
-            post {
-            always {
-          junit(
-        allowEmptyResults: true,
-        testResults: '*/test-reports/.xml'
-      )
-      }
-   } 
+           // post {
+           // always {
+          //junit(
+        //allowEmptyResults: true,
+        //testResults: '*/test-reports/.xml'
+     // )
+     // }
+  // } 
         }
    stage ('Deploy') {
       steps {
