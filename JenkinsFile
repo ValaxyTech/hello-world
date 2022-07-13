@@ -31,7 +31,7 @@ pipeline {
    stage('Docker Build'){
    agent any
       steps {
-        sh 'docker build -f /opt/docker/Dockerfile .'
+        sh 'sudo docker build -f /opt/docker/Dockerfile .'
         }
         }
    stage ('Approval'){
