@@ -9,4 +9,4 @@ From tomcat:8-jre8
 MAINTAINER "SPW" 
 
 # Copy war file from current working directory to tomcat container
-COPY ./maven-project.war /usr/local/tomcat/webapps
+COPY ./webapp.war /usr/local/tomcat/webapps
