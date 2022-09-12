@@ -9,6 +9,6 @@ From tomcat:8-jre8
 MAINTAINER "SPW"
 
 # Copy war file from jenkins workspace to tomcat server
-COPY ./valaxy.war /usr/local/tomcat/webapps
+COPY webapp/target/valaxy.war /usr/local/tomcat/webapps
  
 
