@@ -42,7 +42,7 @@ pipeline {
    stage ('Deploy') {
       steps {
         script {
-            deploy adapters: [tomcat8(credentialsId: 'deployer', path: '', url: 'http://54.91.176.186:8090')],contextPath: '/pipeline', onFailure: false, war: 'webapp/target/*.war'
+            deploy adapters: [tomcat8(credentialsId: 'deployer', path: '', url: 'http://<ip>')],contextPath: '/pipeline', onFailure: false, war: 'webapp/target/*.war'
         }
       }
    }
