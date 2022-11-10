@@ -11,10 +11,12 @@
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
 
-  <properties>
-    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-  </properties>
+   <properties>
+		<docker.image.prefix>kammana</docker.image.prefix>
+		<sonar.host.url>http://35.174.7.234:9000/</sonar.host.url>
+
+	</properties>
+
 
   <modules>
     <module>server</module>
