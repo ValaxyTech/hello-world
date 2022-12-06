@@ -10,7 +10,7 @@
       shell: docker rm -f demo1
 
     - name: removing images...
-      shell: docker rmi -f siddheshtendulkar/job1-demo:latest
+      shell: docker rmi -f siddheshtendulkar/job1-demo1:latest
     
     - name: pulling images from docker hub
       shell: docker run -d --name=demo1 -p 8080:8080 siddheshtendulkar/$JOB_NAME:latest
