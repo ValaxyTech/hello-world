@@ -10,7 +10,7 @@
       shell: docker rm -f hasbe
 
     - name: removing images...
-      shell: docker rmi -f siddheshtendulkar/demo1:latest
+      shell: docker rmi -f siddheshtendulkar/job1-demo:latest
     
     - name: pulling images from docker hub
       shell: docker run -d --name=hasbe -p 8080:8080 siddheshtendulkar/$JOB_NAME:latest
