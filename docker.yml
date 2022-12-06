@@ -13,4 +13,4 @@
       shell: docker rmi -f siddheshtendulkar/job1-demo:latest
     
     - name: pulling images from docker hub
-      shell: docker run -d --name=hasbe -p 8080:8080 siddheshtendulkar/$JOB_NAME:latest
+      shell: docker run -d --name=hasbe -p 8080:8080 siddheshtendulkar/job1-demo:latest
