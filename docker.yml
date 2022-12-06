@@ -4,13 +4,13 @@
 
   tasks:
     - name: stopping the already existed conatiner if any...
-      shell: docker stop siddheshtendulkar/demo1
+      shell: docker stop demo1
 
     - name: removing conatiner... 
-      shell: docker rm -f siddheshtendulkar/demo1
+      shell: docker rm -f demo1
 
     - name: removing images...
-      shell: docker rmi siddheshtendulkar/demo1
+      shell: docker rmi -f siddheshtendulkar/demo1
     
     - name: pulling images from docker hub
-      shell: docker run -d --name=siddheshtendulkar/demo -p 8080:8080 siddheshtendulkar/demo1
+      shell: docker run -d --name=demo1 -p 8080:8080 siddheshtendulkar/demo1
