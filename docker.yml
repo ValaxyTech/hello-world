@@ -1,0 +1,16 @@
+---
+- name: Display Facts Variables inside Play
+  hosts: docker
+
+  tasks:
+    - name: stopping the already existed conatiner if any...
+      shell: docker stop hasbe
+
+    - name: removing conatiner... 
+      shell: docker rm -f hasbe
+
+    - name: removing images...
+      shell: docker rmi -f siddheshtendulkar/job1-demo:latest
+    
+    - name: pulling images from docker hub
+      shell: docker run -d --name=hasbe -p 8080:8080 siddheshtendulkar/job1-demo:latest
