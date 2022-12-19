@@ -214,7 +214,7 @@
   </scm>
 
   <prerequisites>
-    <maven>3.0.3</maven>
+    <maven>apache_maven_3.6.3</maven>
   </prerequisites>
 
 </project>
