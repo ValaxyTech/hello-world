@@ -49,7 +49,11 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
-          <reportPlugins>
+         
+        </configuration>
+      </plugin>
+    </plugins>
+            <reportPlugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
@@ -80,9 +84,6 @@
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
           </reportPlugins>
-        </configuration>
-      </plugin>
-    </plugins>
 
     <pluginManagement>
       <plugins>
@@ -128,7 +129,7 @@
 
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.0</version>
+          <version>3.6</version>
         </plugin>
 
         <plugin>
