@@ -2,7 +2,7 @@
 From tomcat:8-jre8 
 
 # Maintainer 
-MAINTAINER "sharanufeb25@gmail.com" 
+MAINTAINER "valaxytech@gmail.com" 
 
 #copy war file on to cointainer
 COPY ./webapp.war /usr/local/tomcat/webapps
