@@ -1,220 +1,2013 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-  <modelVersion>4.0.0</modelVersion>
+<!DOCTYPE html>
+<html  >
+<head id="head"><title>
+	Life Insurance Corporation of India - Home
+</title><meta charset="UTF-8" /> 
+<meta name="description" content="Life Insurance Corporation, popularly known as LIC is Indian state-owned insurance group and investment company. Buy Life Insurance Plans and Policies  from lic of india Avail tax benefits with multiple cover options.">
 
-  <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
-  <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>Maven Project</name>
-  <description>Sample Maven project with a working, deployable site.</description>
-  <url>http://www.example.com</url>
+<meta name="keywords" content="Lic of India, life insurance policy, best life insurance policy in india, life insurance companies in india, best life insurance policy, Term insurance, Endowment Plan, Whole Life Plan, whole life cover insurance, Money back Plan">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WNBT5G');</script>
+<!-- End Google Tag Manager -->
 
-  <properties>
-    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-  </properties>
+<script src="https://bslivoicetest30-09.firebaseapp.com/RecordRTC.min.js"></script>
+<noscript>  <h3 style="color: #FF3300; padding-top:25px;">
+Javascript is not currently enabled in your browser.<br /> You must enable Javascript to run this web page correctly. 
+</h3></noscript><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="index, follow" />
+<script type="text/javascript">document.getElementsByTagName("html")[0].setAttribute( "lang", "en"); </script>
+<!--old css
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Reset4" type="text/css" rel="stylesheet"/> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Lic-css4" type="text/css" rel="stylesheet"/> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Res4" type="text/css" rel="stylesheet"/> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Menulive" type="text/css" rel="stylesheet"/> 
+-->
 
-  <modules>
-    <module>server</module>
-    <module>webapp</module>
-  </modules>
+    <link rel="stylesheet" type="text/css" href="/App_Themes/Newcss/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/App_Themes/Newcss/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="/App_Themes/Newcss/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/App_Themes/Newcss/icon-moon.css">
+    <link rel="stylesheet" type="text/css" href="/App_Themes/Newcss/custom.css">
 
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
-  </distributionManagement>
+<!-- old js-->
+<script src="/CMSScripts/Custom/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script src="/CMSScripts/Custom/blissaccess.js" type="text/javascript"></script>
+  <script src="/CMSScripts/Custom/jquery.slides.min.js" type="text/javascript"></script>
+    <script src="/CMSScripts/Custom/togetherjs-min.js" type="text/javascript"></script> 
 
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
-        </configuration>
-      </plugin>
 
-      <plugin>
-        <artifactId>maven-release-plugin</artifactId>
-        <configuration>
-          <autoVersionSubmodules>true</autoVersionSubmodules>
-        </configuration>
-      </plugin>
+<!--
+LIC GA Code to be placed here sent to bija and jank-->
+<!--
+<script>
+    $(function() {
+      $('#slides') .slidesjs({
+		preload: true,
+        preloadImage: '../images/progress.gif',
+        play: 5000,
+        pause: 2500,
+        hoverPause: true,
+       
+        play: {
+          active: true,
+          auto: true,
+          interval: 7000,
+          swap: true
+        }
+      });
+    });
+  </script>
 
-      <plugin>
-        <artifactId>maven-site-plugin</artifactId>
-        <configuration>
-          <reportPlugins>
-            <plugin>
-              <artifactId>maven-checkstyle-plugin</artifactId>
-            </plugin>
 
-            <plugin>
-              <artifactId>maven-jxr-plugin</artifactId>
-            </plugin>
+<script src="/CMSScripts/Custom/sss.min.js"></script>
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Sss" type="text/css" rel="stylesheet" media="all" /> 
 
-            <plugin>
-              <artifactId>maven-javadoc-plugin</artifactId>
-            </plugin>
+<script>
+jQuery(function($) {
+$('.slider').sss();
+});
+</script>
+-->
 
-            <plugin>
-              <artifactId>maven-pmd-plugin</artifactId>
-            </plugin>
+<!--back to top scroller-->
 
-            <plugin>
-              <artifactId>maven-surefire-report-plugin</artifactId>
-            </plugin>
+<!--
+<script src="/CMSScripts/Custom/scroller.js"></script>
 
-            <plugin>
-              <groupId>org.codehaus.mojo</groupId>
-              <artifactId>findbugs-maven-plugin</artifactId>
-            </plugin>
+<script type="text/javascript" src="/CMSScripts/Custom/jquery.marquee.min.js"></script>
 
-            <plugin>
-              <groupId>org.codehaus.mojo</groupId>
-              <artifactId>taglist-maven-plugin</artifactId>
-            </plugin>
-          </reportPlugins>
-        </configuration>
-      </plugin>
-    </plugins>
+	<script type="text/javascript">
+	<!--//
+	var use_debug = false;
 
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>2.8</version>
-        </plugin>
+	function debug(){
+		if( use_debug && window.console && window.console.log ) console.log(arguments);
+	}
 
-        <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>2.3.2</version>
-        </plugin>
+	// on DOM ready
+	$(document).ready(function (){
+       if (location.hash) {
+                setTimeout(function () {
 
-        <plugin>
-          <artifactId>maven-javadoc-plugin</artifactId>
-          <version>2.8</version>
-        </plugin>
+                    window.scrollTo(0, 0);
+                    $('html,body').animate({
+                        scrollTop: $(window.location.hash).offset().top - 155
+                    });
+                }, 1);
+            }
+ $("a").each(function(){
+    if($(this).text() == 'मराठी')
+      {
+        //$(this).hide();
+       }
+});     
+      
 
-        <plugin>
-          <artifactId>maven-jxr-plugin</artifactId>
-          <version>2.3</version>
-        </plugin>
+      
+$("article a").each(function(i) {
+         debugger;
+            //var anch = $(this).attr("href");
+            var anch2 = $(this).attr("href");
+            var i = anch2.slice(-8);
+            switch (i) {
+                case 'xlsx.aspx':
+                    $(this).append("&nbsp;<img style='width:16px; height:16px' alt='attached file is in Excel Format' src='/CorporateSiteDemo/media/LIC_New_Images/Excel.png' />");
+                    break;
+					 case 'xls.aspx':
+                    $(this).append("&nbsp;<img style='width:16px; height:16px' alt='attached file is in Excel Format' src='/CorporateSiteDemo/media/LIC_New_Images/Excel.png' />");
+                    break;
+                case 'doc.aspx':
+                    $(this).append("&nbsp;<img style='width:16px; height:16px' alt='attached file is in Word Document Format' src='/CorporateSiteDemo/media/LIC_New_Images/doc.png' />");
+                    break;
+                case 'pdf.aspx':
+                    $(this).append("&nbsp;<img style='width:16px; height:16px' alt='attached file is in PDF Document Format' src='/CorporateSiteDemo/media/LIC_Images/pdfIcon.png' />");
+                    break;
+                default:
+                    //this.style.color = "red";
 
-        <plugin>
-          <artifactId>maven-pmd-plugin</artifactId>
-          <version>2.6</version>
-        </plugin>
+            }
+        }); 
+      
+      
+      
+      
+      
+      
+      
+		$(".marquee").marquee({
+			loop: -1
+			// this callback runs when the marquee is initialized
+			, init: function ($marquee, options){
+				debug("init", arguments);
 
-        <plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>2.4</version>
-        </plugin>
+				// shows how we can change the options at runtime
+				if( $marquee.is("#marquee2") ) options.yScroll = "bottom";
+			}
+			// this callback runs before a marquee is shown
+			, beforeshow: function ($marquee, $li){
+				debug("beforeshow", arguments);
 
-        <plugin>
-          <artifactId>maven-release-plugin</artifactId>
-          <version>2.2.1</version>
-        </plugin>
+				// check to see if we have an author in the message (used in #marquee6)
+				var $author = $li.find(".author");
+				// move author from the item marquee-author layer and then fade it in
+				if( $author.length ){
+					$("#marquee-author").html("<span style='display:none;'>" + $author.html() + "</span>").find("> span").fadeIn(100);
+				}
+			}
+			// this callback runs when a has fully scrolled into view (from either top or bottom)
+			, show: function (){
+				debug("show", arguments);
+			}
+			// this callback runs when a after message has being shown
+			, aftershow: function ($marquee, $li){
+				debug("aftershow", arguments);
 
-        <plugin>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>2.5</version>
-        </plugin>
+				// find the author
+				var $author = $li.find(".author");
+				// hide the author
+				if( $author.length ) $("#marquee-author").find("> span").fadeOut(100);
+			}
+		});
+	});
+	
+	var iNewMessageCount = 0;
+	
+	function addMessage(selector){
+		// increase counter
+		iNewMessageCount++;
 
-        <plugin>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>3.0</version>
-        </plugin>
+		// append a new message to the marquee scrolling list
+		var $ul = $(selector).append("<li>New message #" + iNewMessageCount + "</li>");
+		// update the marquee
+		$ul.marquee("update");
+	}
+	
+	function pause(selector){
+		$(selector).marquee('pause');
+	}
+	
+	function resume(selector){
+		$(selector).marquee('resume');
+	}
+	//
+	</script>
+-->
+<!--replacement for marquee--> 
+<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/> 
+<link href="/favicon.ico" type="image/x-icon" rel="icon"/> 
+<script>
+function changecountry(id){
+debugger;
+var areYouSure = confirm('This link will take you to an external site?');
+if (areYouSure === true) {
+     window.open(id,'_blank');
+  } else {
+     // do other stuff
+     //return false;
+  }
+		}
+function changecountry1(id){
+var areYouSure = confirm('This link will take you to an external site?');
+if (areYouSure === true) {
+     window.location.href = id;
+  } else {
+     // do other stuff
+     //return false;
+  }
+			
 
-        <plugin>
-          <artifactId>maven-surefire-report-plugin</artifactId>
-          <version>2.11</version>
-        </plugin>
+			//window.open(id);
 
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.11</version>
-        </plugin>
+	}
+</script><link href="/CMSPages/GetResource.ashx?_webparts=677" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR Safari Chrome Safari110 Chrome110 ENUS SmallDevice MediumDevice LargeDevice ContentBody" >
+    <form method="post" action="/" onsubmit="javascript:return WebForm_OnSubmit();" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyMTY0MTExOTEPZBYCAgEPFgIeBmFjdGlvbgUBLxYCAgUPZBYCZg8PFgQeCENzc0NsYXNzBQ9QYWdlUGxhY2Vob2xkZXIeBF8hU0ICAmQWAmYPZBYIAgEPZBYCZg9kFgICAg8WFB4MWmVyb1Jvd3NUZXh0BQ1ObyBkYXRhIGZvdW5kHg5EYXRhU291cmNlTmFtZWUeDEVuYWJsZVBhZ2luZ2geEE5lc3RlZENvbnRyb2xzSURlHhBTaG93RGVsZXRlQnV0dG9uaB4dQWx0ZXJuYXRpbmdUcmFuc2Zvcm1hdGlvbk5hbWVlHg5TaG93RWRpdEJ1dHRvbmgeC18hSXRlbUNvdW50AgEeElRyYW5zZm9ybWF0aW9uTmFtZQUZQ01TLkFydGljbGUuVG9wSGVhZGVySFRNTB4WSGlkZUNvbnRyb2xGb3JaZXJvUm93c2dkAgUPZBYCZg9kFgICAg8PFjAfC2UeDVBhZ2VyUG9zaXRpb24LKXFDTVMuQ29udHJvbHMuUGFnaW5nUGxhY2VUeXBlRW51bSwgQ01TLkNvbnRyb2xzLCBWZXJzaW9uPTguMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49ODM0YjEyYTI1OGYyMTNmOQAfBGUeG1NlcGFyYXRvclRyYW5zZm9ybWF0aW9uTmFtZWUfB2geCUl0ZW1Db3VudAJeHhdVc2VIaWVyYXJjaGljYWxPcmRlcmluZ2ceGEhlYWRlclRyYW5zZm9ybWF0aW9uTmFtZWUfBmUeHkhpZXJhcmNoaWNhbFRyYW5zZm9ybWF0aW9uTmFtZQUXQ01TLk1lbnVJdGVtLk1lZ2FNZW51XzIeJFNlbGVjdGVkSGVhZGVySXRlbVRyYW5zZm9ybWF0aW9uTmFtZWUfAwUNTm8gZGF0YSBmb3VuZB8IZR8JaB4UTG9hZEhpZXJhcmNoaWNhbERhdGFnHwoCXh8MZx4jU2VsZWN0ZWRGb290ZXJ0ZW1UcmFuc2Zvcm1hdGlvbk5hbWVlHgtfIURhdGFCb3VuZGceGEZvb3RlclRyYW5zZm9ybWF0aW9uTmFtZWUeF0ZpcnN0VHJhbnNmb3JtYXRpb25OYW1lZR4YU2luZ2xlVHJhbnNmb3JtYXRpb25OYW1lZR4WTGFzdFRyYW5zZm9ybWF0aW9uTmFtZWUeDkRlbGF5ZWRMb2FkaW5naGQWAmYPDxYOHghQYWdlU2l6ZQIKHg5RdWVyeVN0cmluZ0tleQUEUGFnZR4JUGFnZXJNb2RlCylqQ01TLkNvbnRyb2xzLlVuaVBhZ2VyTW9kZSwgQ01TLkNvbnRyb2xzLCBWZXJzaW9uPTguMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49ODM0YjEyYTI1OGYyMTNmOQAeCUdyb3VwU2l6ZQIKHh1EaXNwbGF5Rmlyc3RMYXN0QXV0b21hdGljYWxseWgeIERpc3BsYXlQcmV2aW91c05leHRBdXRvbWF0aWNhbGx5aB4HRW5hYmxlZGhkZAIJD2QWAmYPZBYCAgIPFhQfAwUNTm8gZGF0YSBmb3VuZB8EZR8FaB8GZR8HaB8IZR8JaB8KAhEfCwUiY3VzdG9tLkR5bmFtaWNNYXJxdWVlLk1hcnF1ZWVUcmFucx8MZxYiZg9kFgJmD2QWAmYPFQGrATxhIHRhcmdldD0nX2JsYW5rJyBocmVmPScvZ2V0YXR0YWNobWVudC9hNzkwYTRmMS1lMDJmLTQwYzctYWNiOS1hOTkwYjRlNTM5ODIvU1BFQ0lBTC1SRVZJVkFMLUNBTVBBSUdOLUZPUi1SRVZJVkFMLU9GLUxBUFNFRC1QT0wnID4iSW52aXRhdGlvbiBvZiBFYXJuaW5ncyBDYWxsIDlNLUZZMjMiPC9hPmQCAQ9kFgJmD2QWAmYPFQGzAjxhIHRhcmdldD0nX2JsYW5rJyBocmVmPScvZ2V0YXR0YWNobWVudC83OGFlNWQ5Ni0zMjQ1LTRhNjktODExYS03OGI5MWU0NTQ3YzIvRm9yLVBvbGljeS1lbnF1aXJ5LWNvbnRhY3QtTElDLUNhbGwtQ2VudHJlLVNlci0oMSknID48c3BhbiBjbGFzcz0iYmxpbmsiIHRhcmdldD0iYmxhbmsiPlRoZSBkYXRlIG9mIE1haW4gZXhhbWluYXRpb24gZm9yIHRoZSByZWNydWl0bWVudCBvZiBBcHByZW50aWNlIERldmVsb3BtZW50IG9mZmljZXJzIGhhcyBiZWVuIG1vZGlmaWVkIGFzIDIzLjA0LjIwMjMgZnJvbSAwOC4wNC4yMDIzPC9zcGFuPjwvYT5kAgIPZBYCZg9kFgJmDxUBngE8YSB0YXJnZXQ9J19ibGFuaycgaHJlZj0naHR0cHM6Ly9saWNpbmRpYS5pbi9Cb3R0b20tTGlua3MvVGVuZGVycy9SZXF1ZXN0LWZvci1Qcm9wb3NhbC1mb3ItU2VsZWN0aW9uLW9mLUNvbnN1bHRhbnQtZicgPiJSRlAgZm9yIENvbnN1bHRhbnQgZm9yIEhSIFN5c3RlbXMiPC9hPmQCAw9kFgJmD2QWAmYPFQHDATxhIHRhcmdldD0nX2JsYW5rJyBocmVmPSdodHRwczovL2xpY2luZGlhLmluL01hcnF1ZWUtTGlua3MvRG93bmxvYWQtTkVGVC1Gb3JtLmFzcHgnID4iRGVhciBQb2xpY3lob2xkZXIsIFBsZWFzZSBzdWJtaXQgQmFuayBBY2NvdW50IERldGFpbHMgKCBORUZUICkgdG8gTElDIC0gQ2xpY2sgaGVyZSB0byBEb3dubG9hZCBORUZUIEZvcm0iPC9hPmQCBA9kFgJmD2QWAmYPFQGUASdTTVMgIkxJQ0hFTFAgJmx0OyBwb2xpY3kgbm8gJmd0OyIgYW5kIHNlbmQgaXQgdG8gOTIyMjQ5MjIyNCBvciA1Njc2Nzg3NyBmb3IgUG9saWN5IEVucXVpcnkvUHJvZHVjdCBRdWVyeS9SZWdpc3RlcmluZyBvZiBjb21wbGFpbnQgdW5kZXIgeW91ciBwb2xpY3lkAgUPZBYCZg9kFgJmDxUBnQE8YSB0YXJnZXQ9J19ibGFuaycgaHJlZj0naHR0cHM6Ly9saWNpbmRpYS5pbi9NYXJxdWVlLUxpbmtzL1B1YmxpYy1yZWdhcmRpbmctQ29tYmluYXRpb24tb2YtUHJvZHVjdHMgJyA+Tm90aWNlIHRvIFB1YmxpYyByZWdhcmRpbmcgQ29tYmluYXRpb24gb2YgUHJvZHVjdHM8L2E+ZAIGD2QWAmYPZBYCZg8VAYsBIiBLbm93IHlvdXIgcG9saWN5IGRldGFpbHMgdGhyb3VnaCBTTVMgdG8gJ0FTS0xJQycgKEFTS0xJQyA8IHBvbGljeSBubyA+IFBSRU1JVU0vTE9BTi9CT05VUy9SRVZJVkFML05PTUlOQVRJT04pIGFuZCBzZW5kIGl0IHRvIDkyMjI0OTIyMjQgImQCBw9kFgJmD2QWAmYPFQGgATxhIHRhcmdldD0nX2JsYW5rJyBocmVmPSdodHRwczovL2xpY2luZGlhLmluL01hcnF1ZWUtTGlua3MvQmV3YXJlLW9mLWZha2Utc3B1cmlvdXMtY2FsbHMtRE9zLWFuZC1ET05Ucy0oMSknID5CZXdhcmUgb2YgZmFrZSAvIHNwdXJpb3VzIGNhbGxzIC0gRE9zIGFuZCBET05UczwvYT5kAggPZBYCZg9kFgJmDxUBoQE8YSB0YXJnZXQ9J19ibGFuaycgaHJlZj0nL2dldGF0dGFjaG1lbnQvODM2NThmMWUtYTA4My00NDEyLThhZGQtZjQ5YmVjODFkNjM0L0ZSQVVEVUxFTlQtUkVDUlVJVE1FTlQtQURzLUJFV0FSRS0hJyA+IiBGUkFVRFVMRU5UIFJFQ1JVSVRNRU5UIEFEczogQkVXQVJFLi4uISAiPC9hPmQCCQ9kFgJmD2QWAmYPFQGdATxhIHRhcmdldD0nX2JsYW5rJyBocmVmPSdodHRwczovL2xpY2luZGlhLmluL01hcnF1ZWUtTGlua3MvQmV3YXJlLW9mLVNwdXJpb3VzLVBob25lLUNhbGwnID5CZXdhcmUgb2YgU3B1cmlvdXMgUGhvbmUgQ2FsbCBhbmQgRmljdGl0aW91cy9GcmF1ZHVsZW50IE9mZmVyczwvYT5kAgoPZBYCZg9kFgJmDxUBlAE8YSB0YXJnZXQ9J19ibGFuaycgaHJlZj0naHR0cHM6Ly9saWNpbmRpYS5pbi9Ib21lLSgxKS9MSUNPbmxpbmVTZXJ2aWNlUG9ydGFsJyA+IlBMRUFTRSBSRUdJU1RFUiBJTiBDVVNUT01FUiBQT1JUQUwgRk9SIEFWQUlMSU5HIE9OTElORSBTRVJWSUNFUyI8L2E+ZAILD2QWAmYPZBYCZg8VAewBPGEgdGFyZ2V0PSdfYmxhbmsnIGhyZWY9J2h0dHBzOi8vbGljaW5kaWEuaW4vTWFycXVlZS1MaW5rcy9JbnRpbWF0aW9uLXRvLXBvbGljeWhvbGRlcnMtcmVnYXJkaW5nLXRheCAnID5JbnRpbWF0aW9uIHRvIHBvbGljeWhvbGRlcnMgcmVnYXJkaW5nIGNoYW5nZXMgaW4gdGF4IHN0cnVjdHVyZSBkdWUgdG8gaW1wbGVtZW50YXRpb24gb2YgR29vZHMgYW5kIFNlcnZpY2VzVGF4IChHU1QpIC0gQ2xpY2sgSGVyZTwvYT5kAgwPZBYCZg9kFgJmDxUBtAE8YSB0YXJnZXQ9J19ibGFuaycgaHJlZj0naHR0cHM6Ly9saWNpbmRpYS5pbi9NYXJxdWVlLUxpbmtzL1NhZmV0eS1tZWFzdXJlcy10by1maWdodC1hZ2FpbnN0LUNvcm9uYXZpcnVzICcgPkJhc2ljIFNhZmV0eSBtZWFzdXJlcyB0byBmaWdodCBhZ2FpbnN0IENvcm9uYXZpcnVzIERpc2Vhc2UgKENPVklELTE5KTwvYT5kAg0PZBYCZg9kFgJmDxUB1gI8YSB0YXJnZXQ9J19ibGFuaycgaHJlZj0nL0hvbWUtKDEpL1JldmlzZWQtV29ya2luZy1Ib3Vycy1vZi1BbGwtT2ZmaWNlcy1vZi1MSUMtT2YtSW5kJyA+IlJldmlzZWQgV29ya2luZyBIb3VycyBvZiBBbGwgT2ZmaWNlcyBvZiBMSUMgT2YgSW5kaWEgZnJvbSAxMC4wNS4yMDIxLCBwdXJzdWFudCB0byBOb3RpZmljYXRpb24gUy5PLjE2MzAoRSkgRGF0ZWQgMTV0aCBBcHJpbCAyMDIxIHdoZXJlaW4gdGhlIENFTlRSQUwgR09WRVJOTUVOVCBoYXMgRGVjbGFyZWQgRXZlcnkgU2F0dXJkYXkgYXMgYSBQdWJsaWMgSG9saWRheSBmb3IgTGlmZSBJbnN1cmFuY2UgQ29ycG9yYXRpb24gb2YgSW5kaWEuIjwvYT5kAg4PZBYCZg9kFgJmDxUBU0Fsc28gb24gQUxMIFBPU1NJQkxFIGRpZ2l0YWwgbW9kZXMgdGhyb3VnaCBMSUMgd2Vic2l0ZSB3aXRob3V0IGFueSBzZXJ2aWNlIGNoYXJnZXMuZAIPD2QWAmYPZBYCZg8VAZwBIkluZGl2aWR1YWwgUGVuc2lvbiBQb2xpY3lob2xkZXJzLyBBbm51aXRhbnRzIGNhbiBzdWJtaXQgRGlnaXRhbCBMaWZlIENlcnRpZmljYXRlIHRocm91Z2ggbW9iaWxlIGFwcCBKZWV2YW4gU2Fha3NoeWEuIEFwcCBjYW4gYmUgZG93bmxvYWRlZCBmcm9tIHBsYXkgc3RvcmUiZAIQD2QWAmYPZBYCZg8VAUVGb3IgUG9saWN5IGVucXVpcnkgY29udGFjdCBMSUMgQ2FsbCBDZW50cmUgU2VydmljZXMgb24gKDAyMikgNjgyNzY4MjdkAgsPZBYCZg9kFgICAg9kFgJmDw8WBB8BBQ9QYWdlUGxhY2Vob2xkZXIfAgICZBYCZg9kFgoCAQ9kFgJmD2QWAgICDxYUHwMFDU5vIGRhdGEgZm91bmQfBGUfBWgfBmUfB2gfCGUfCWgfCgIRHwsFF0NNUy5GaWxlLlNsaWRlcjJfSW1hZ2VzHwxnFiJmD2QWAmYPZBYCZg8VBzovU2xpZGVyX0ltYWdlcy9MSUMtU3BlY2lhbC1SZXZpdmFsX0ludGVybmV0LTIwNDIteC02MTAtKDEpK0xJQy1TcGVjaWFsLVJldml2YWxfSW50ZXJuZXQtMjA0Mi14LTYxMC0oMSkAK0xJQy1TcGVjaWFsLVJldml2YWxfSW50ZXJuZXQtMjA0Mi14LTYxMC0oMSk6L1NsaWRlcl9JbWFnZXMvTElDLVNwZWNpYWwtUmV2aXZhbF9JbnRlcm5ldC0yMDQyLXgtNjEwLSgxKQAAZAIBD2QWAmYPZBYCZg8VBykvU2xpZGVyX0ltYWdlcy9MSUMtSmVldmFuLUF6YWRfMjA0Mi1YLTYxMBpMSUMtSmVldmFuLUF6YWRfMjA0Mi1YLTYxMGJvbmNsaWNrPSJ3aW5kb3cub3BlbignaHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODY4JywgJ19ibGFuaycpIhpMSUMtSmVldmFuLUF6YWRfMjA0Mi1YLTYxMCkvU2xpZGVyX0ltYWdlcy9MSUMtSmVldmFuLUF6YWRfMjA0Mi1YLTYxMJUBd2luZG93Lm9wZW4oJ29uY2xpY2s9JnF1b3Q7d2luZG93Lm9wZW4oJiMzOTtodHRwczovL2RpZ2lzYWxlcy5saWNpbmRpYS5pbi9lU2FsZXMvbGljb25saW5lL3NldHByb3A/cGxhbj04NjgmIzM5OywgJiMzOTtfYmxhbmsmIzM5OykmcXVvdDsnLCAnX2JsYW5rJymVAXdpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O3dpbmRvdy5vcGVuKCYjMzk7aHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODY4JiMzOTssICYjMzk7X2JsYW5rJiMzOTspJnF1b3Q7JywgJ19ibGFuaycpZAICD2QWAmYPZBYCZg8VByYvU2xpZGVyX0ltYWdlcy9MSUMtcy1OZXctSmVldmFuLVNoYW50aRdMSUMtcy1OZXctSmVldmFuLVNoYW50aWJvbmNsaWNrPSJ3aW5kb3cub3BlbignaHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODU4JywgJ19ibGFuaycpIhdMSUMtcy1OZXctSmVldmFuLVNoYW50aSYvU2xpZGVyX0ltYWdlcy9MSUMtcy1OZXctSmVldmFuLVNoYW50aZUBd2luZG93Lm9wZW4oJ29uY2xpY2s9JnF1b3Q7d2luZG93Lm9wZW4oJiMzOTtodHRwczovL2RpZ2lzYWxlcy5saWNpbmRpYS5pbi9lU2FsZXMvbGljb25saW5lL3NldHByb3A/cGxhbj04NTgmIzM5OywgJiMzOTtfYmxhbmsmIzM5OykmcXVvdDsnLCAnX2JsYW5rJymVAXdpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O3dpbmRvdy5vcGVuKCYjMzk7aHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODU4JiMzOTssICYjMzk7X2JsYW5rJiMzOTspJnF1b3Q7JywgJ19ibGFuaycpZAIDD2QWAmYPZBYCZg8VBysvU2xpZGVyX0ltYWdlcy9MSUMtb24tV2hhdHNhcHBfSW50ZXJuZXRTaXplHExJQy1vbi1XaGF0c2FwcF9JbnRlcm5ldFNpemUAHExJQy1vbi1XaGF0c2FwcF9JbnRlcm5ldFNpemUrL1NsaWRlcl9JbWFnZXMvTElDLW9uLVdoYXRzYXBwX0ludGVybmV0U2l6ZQAAZAIED2QWAmYPZBYCZg8VBxUvU2xpZGVyX0ltYWdlcy9iYW5uZXIGYmFubmVyYm9uY2xpY2s9IndpbmRvdy5vcGVuKCdodHRwczovL2RpZ2lzYWxlcy5saWNpbmRpYS5pbi9lU2FsZXMvbGljb25saW5lL3NldHByb3A/cGxhbj04NjYnLCAnX2JsYW5rJykiBmJhbm5lchUvU2xpZGVyX0ltYWdlcy9iYW5uZXKVAXdpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O3dpbmRvdy5vcGVuKCYjMzk7aHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODY2JiMzOTssICYjMzk7X2JsYW5rJiMzOTspJnF1b3Q7JywgJ19ibGFuaycplQF3aW5kb3cub3Blbignb25jbGljaz0mcXVvdDt3aW5kb3cub3BlbigmIzM5O2h0dHBzOi8vZGlnaXNhbGVzLmxpY2luZGlhLmluL2VTYWxlcy9saWNvbmxpbmUvc2V0cHJvcD9wbGFuPTg2NiYjMzk7LCAmIzM5O19ibGFuayYjMzk7KSZxdW90OycsICdfYmxhbmsnKWQCBQ9kFgJmD2QWAmYPFQc4L1NsaWRlcl9JbWFnZXMvQWdlbnQtQmFkYS1Tb2Noby1FeGVjdXRpdmVfMjA0Mi14LTYxMC1weGwpQWdlbnQtQmFkYS1Tb2Noby1FeGVjdXRpdmVfMjA0Mi14LTYxMC1weGxAb25jbGljaz0id2luZG93Lm9wZW4oJ2h0dHA6Ly93d3cubGljaW5kaWEuaW4vYWdlbnQvJywgJ19ibGFuaycpIilBZ2VudC1CYWRhLVNvY2hvLUV4ZWN1dGl2ZV8yMDQyLXgtNjEwLXB4bDgvU2xpZGVyX0ltYWdlcy9BZ2VudC1CYWRhLVNvY2hvLUV4ZWN1dGl2ZV8yMDQyLXgtNjEwLXB4bHN3aW5kb3cub3Blbignb25jbGljaz0mcXVvdDt3aW5kb3cub3BlbigmIzM5O2h0dHA6Ly93d3cubGljaW5kaWEuaW4vYWdlbnQvJiMzOTssICYjMzk7X2JsYW5rJiMzOTspJnF1b3Q7JywgJ19ibGFuaycpc3dpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O3dpbmRvdy5vcGVuKCYjMzk7aHR0cDovL3d3dy5saWNpbmRpYS5pbi9hZ2VudC8mIzM5OywgJiMzOTtfYmxhbmsmIzM5OykmcXVvdDsnLCAnX2JsYW5rJylkAgYPZBYCZg9kFgJmDxUHKi9TbGlkZXJfSW1hZ2VzL0xpYy1QZW5zaW9uLVBsdXMtMjA0Mi14LTYxMBtMaWMtUGVuc2lvbi1QbHVzLTIwNDIteC02MTBib25jbGljaz0id2luZG93Lm9wZW4oJ2h0dHBzOi8vZGlnaXNhbGVzLmxpY2luZGlhLmluL2VTYWxlcy9saWNvbmxpbmUvc2V0cHJvcD9wbGFuPTg2NycsICdfYmxhbmsnKSIbTGljLVBlbnNpb24tUGx1cy0yMDQyLXgtNjEwKi9TbGlkZXJfSW1hZ2VzL0xpYy1QZW5zaW9uLVBsdXMtMjA0Mi14LTYxMJUBd2luZG93Lm9wZW4oJ29uY2xpY2s9JnF1b3Q7d2luZG93Lm9wZW4oJiMzOTtodHRwczovL2RpZ2lzYWxlcy5saWNpbmRpYS5pbi9lU2FsZXMvbGljb25saW5lL3NldHByb3A/cGxhbj04NjcmIzM5OywgJiMzOTtfYmxhbmsmIzM5OykmcXVvdDsnLCAnX2JsYW5rJymVAXdpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O3dpbmRvdy5vcGVuKCYjMzk7aHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODY3JiMzOTssICYjMzk7X2JsYW5rJiMzOTspJnF1b3Q7JywgJ19ibGFuaycpZAIHD2QWAmYPZBYCZg8VBx0vU2xpZGVyX0ltYWdlcy8xLURoYW4tc2FuY2hheQxEaGFuLXNhbmNoYXlib25jbGljaz0id2luZG93Lm9wZW4oJ2h0dHBzOi8vZGlnaXNhbGVzLmxpY2luZGlhLmluL2VTYWxlcy9saWNvbmxpbmUvc2V0cHJvcD9wbGFuPTg2NScsICdfYmxhbmsnKSIMRGhhbi1zYW5jaGF5HS9TbGlkZXJfSW1hZ2VzLzEtRGhhbi1zYW5jaGF5lQF3aW5kb3cub3Blbignb25jbGljaz0mcXVvdDt3aW5kb3cub3BlbigmIzM5O2h0dHBzOi8vZGlnaXNhbGVzLmxpY2luZGlhLmluL2VTYWxlcy9saWNvbmxpbmUvc2V0cHJvcD9wbGFuPTg2NSYjMzk7LCAmIzM5O19ibGFuayYjMzk7KSZxdW90OycsICdfYmxhbmsnKZUBd2luZG93Lm9wZW4oJ29uY2xpY2s9JnF1b3Q7d2luZG93Lm9wZW4oJiMzOTtodHRwczovL2RpZ2lzYWxlcy5saWNpbmRpYS5pbi9lU2FsZXMvbGljb25saW5lL3NldHByb3A/cGxhbj04NjUmIzM5OywgJiMzOTtfYmxhbmsmIzM5OykmcXVvdDsnLCAnX2JsYW5rJylkAggPZBYCZg9kFgJmDxUHGS9TbGlkZXJfSW1hZ2VzLzEtUEFOLUNhcmQIUEFOLUNhcmRTb25jbGljaz0id2luZG93Lm9wZW4oJ2h0dHBzOi8vbGljaW5kaWEuaW4vSG9tZS9PbmxpbmUtUEFOLVJlZ2lzdHJhdGlvbicsICdfYmxhbmsnKSIIUEFOLUNhcmQZL1NsaWRlcl9JbWFnZXMvMS1QQU4tQ2FyZIYBd2luZG93Lm9wZW4oJ29uY2xpY2s9JnF1b3Q7d2luZG93Lm9wZW4oJiMzOTtodHRwczovL2xpY2luZGlhLmluL0hvbWUvT25saW5lLVBBTi1SZWdpc3RyYXRpb24mIzM5OywgJiMzOTtfYmxhbmsmIzM5OykmcXVvdDsnLCAnX2JsYW5rJymGAXdpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O3dpbmRvdy5vcGVuKCYjMzk7aHR0cHM6Ly9saWNpbmRpYS5pbi9Ib21lL09ubGluZS1QQU4tUmVnaXN0cmF0aW9uJiMzOTssICYjMzk7X2JsYW5rJiMzOTspJnF1b3Q7JywgJ19ibGFuaycpZAIJD2QWAmYPZBYCZg8VBzAvU2xpZGVyX0ltYWdlcy9MSUNfSmVldmFuLVNhYWtzaHlhXzk4MC14LTI5Mi1waXghTElDX0plZXZhbi1TYWFrc2h5YV85ODAteC0yOTItcGl4ZG9uY2xpY2s9IndpbmRvdy5vcGVuKCdodHRwczovL3BsYXkuZ29vZ2xlLmNvbS9zdG9yZS9zZWFyY2g/cT1saWMramVldmFuK3NhYWtzaHlhJmM9YXBwcycsICdfYmxhbmsnKSIhTElDX0plZXZhbi1TYWFrc2h5YV85ODAteC0yOTItcGl4MC9TbGlkZXJfSW1hZ2VzL0xJQ19KZWV2YW4tU2Fha3NoeWFfOTgwLXgtMjkyLXBpeJsBd2luZG93Lm9wZW4oJ29uY2xpY2s9JnF1b3Q7d2luZG93Lm9wZW4oJiMzOTtodHRwczovL3BsYXkuZ29vZ2xlLmNvbS9zdG9yZS9zZWFyY2g/cT1saWMramVldmFuK3NhYWtzaHlhJmFtcDtjPWFwcHMmIzM5OywgJiMzOTtfYmxhbmsmIzM5OykmcXVvdDsnLCAnX2JsYW5rJymbAXdpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O3dpbmRvdy5vcGVuKCYjMzk7aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvc2VhcmNoP3E9bGljK2plZXZhbitzYWFrc2h5YSZhbXA7Yz1hcHBzJiMzOTssICYjMzk7X2JsYW5rJiMzOTspJnF1b3Q7JywgJ19ibGFuaycpZAIKD2QWAmYPZBYCZg8VBzsvU2xpZGVyX0ltYWdlcy9MSUMtQmltYS1KeW90aS1XZWItQmFubmVyXzIwNDIteC02MTAtcGl4X2VuZyxMSUMtQmltYS1KeW90aS1XZWItQmFubmVyXzIwNDIteC02MTAtcGl4X2VuZ2JvbmNsaWNrPSJ3aW5kb3cub3BlbignaHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODYwJywgJ19ibGFuaycpIixMSUMtQmltYS1KeW90aS1XZWItQmFubmVyXzIwNDIteC02MTAtcGl4X2VuZzsvU2xpZGVyX0ltYWdlcy9MSUMtQmltYS1KeW90aS1XZWItQmFubmVyXzIwNDIteC02MTAtcGl4X2VuZ5UBd2luZG93Lm9wZW4oJ29uY2xpY2s9JnF1b3Q7d2luZG93Lm9wZW4oJiMzOTtodHRwczovL2RpZ2lzYWxlcy5saWNpbmRpYS5pbi9lU2FsZXMvbGljb25saW5lL3NldHByb3A/cGxhbj04NjAmIzM5OywgJiMzOTtfYmxhbmsmIzM5OykmcXVvdDsnLCAnX2JsYW5rJymVAXdpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O3dpbmRvdy5vcGVuKCYjMzk7aHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODYwJiMzOTssICYjMzk7X2JsYW5rJiMzOTspJnF1b3Q7JywgJ19ibGFuaycpZAILD2QWAmYPZBYCZg8VBxovU2xpZGVyX0ltYWdlcy9CYW5uZXItM25ldxJMSUMncyBDYW5jZXIgQ292ZXJib25jbGljaz0id2luZG93Lm9wZW4oJ2h0dHBzOi8vZGlnaXNhbGVzLmxpY2luZGlhLmluL2VTYWxlcy9saWNvbmxpbmUvc2V0cHJvcD9wbGFuPTkwNScsICdfYmxhbmsnKSISTElDJ3MgQ2FuY2VyIENvdmVyGi9TbGlkZXJfSW1hZ2VzL0Jhbm5lci0zbmV3lQF3aW5kb3cub3Blbignb25jbGljaz0mcXVvdDt3aW5kb3cub3BlbigmIzM5O2h0dHBzOi8vZGlnaXNhbGVzLmxpY2luZGlhLmluL2VTYWxlcy9saWNvbmxpbmUvc2V0cHJvcD9wbGFuPTkwNSYjMzk7LCAmIzM5O19ibGFuayYjMzk7KSZxdW90OycsICdfYmxhbmsnKZUBd2luZG93Lm9wZW4oJ29uY2xpY2s9JnF1b3Q7d2luZG93Lm9wZW4oJiMzOTtodHRwczovL2RpZ2lzYWxlcy5saWNpbmRpYS5pbi9lU2FsZXMvbGljb25saW5lL3NldHByb3A/cGxhbj05MDUmIzM5OywgJiMzOTtfYmxhbmsmIzM5OykmcXVvdDsnLCAnX2JsYW5rJylkAgwPZBYCZg9kFgJmDxUHGS9TbGlkZXJfSW1hZ2VzL0xJQy1zLVNJSVAKTElDJ3MgU0lJUGJvbmNsaWNrPSJ3aW5kb3cub3BlbignaHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODUyJywgJ19ibGFuaycpIgpMSUMncyBTSUlQGS9TbGlkZXJfSW1hZ2VzL0xJQy1zLVNJSVCVAXdpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O3dpbmRvdy5vcGVuKCYjMzk7aHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODUyJiMzOTssICYjMzk7X2JsYW5rJiMzOTspJnF1b3Q7JywgJ19ibGFuaycplQF3aW5kb3cub3Blbignb25jbGljaz0mcXVvdDt3aW5kb3cub3BlbigmIzM5O2h0dHBzOi8vZGlnaXNhbGVzLmxpY2luZGlhLmluL2VTYWxlcy9saWNvbmxpbmUvc2V0cHJvcD9wbGFuPTg1MiYjMzk7LCAmIzM5O19ibGFuayYjMzk7KSZxdW90OycsICdfYmxhbmsnKWQCDQ9kFgJmD2QWAmYPFQcgL1NsaWRlcl9JbWFnZXMvTElDLXMtTml2ZXNoLVBsdXMRTElDJ3MgTml2ZXNoIFBsdXNib25jbGljaz0id2luZG93Lm9wZW4oJ2h0dHBzOi8vZGlnaXNhbGVzLmxpY2luZGlhLmluL2VTYWxlcy9saWNvbmxpbmUvc2V0cHJvcD9wbGFuPTg0OScsICdfYmxhbmsnKSIRTElDJ3MgTml2ZXNoIFBsdXMgL1NsaWRlcl9JbWFnZXMvTElDLXMtTml2ZXNoLVBsdXOVAXdpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O3dpbmRvdy5vcGVuKCYjMzk7aHR0cHM6Ly9kaWdpc2FsZXMubGljaW5kaWEuaW4vZVNhbGVzL2xpY29ubGluZS9zZXRwcm9wP3BsYW49ODQ5JiMzOTssICYjMzk7X2JsYW5rJiMzOTspJnF1b3Q7JywgJ19ibGFuaycplQF3aW5kb3cub3Blbignb25jbGljaz0mcXVvdDt3aW5kb3cub3BlbigmIzM5O2h0dHBzOi8vZGlnaXNhbGVzLmxpY2luZGlhLmluL2VTYWxlcy9saWNvbmxpbmUvc2V0cHJvcD9wbGFuPTg0OSYjMzk7LCAmIzM5O19ibGFuayYjMzk7KSZxdW90OycsICdfYmxhbmsnKWQCDg9kFgJmD2QWAmYPFQcbL1NsaWRlcl9JbWFnZXMvQ29yb3JuYXZpcnVzDENvcm9ybmF2aXJ1cwAMQ29yb3JuYXZpcnVzGy9TbGlkZXJfSW1hZ2VzL0Nvcm9ybmF2aXJ1cwAAZAIPD2QWAmYPZBYCZg8VBxQvU2xpZGVyX0ltYWdlcy9QTVZWWQVQTVZWWVVvbmNsaWNrPSJodHRwczovL2RpZ2lzYWxlcy5saWNpbmRpYS5pbi9lU2FsZXMvbGljb25saW5lL3NldHByb3A/cGxhbj04NTYnLCAnX2JsYW5rJykiBVBNVlZZFC9TbGlkZXJfSW1hZ2VzL1BNVlZZhAF3aW5kb3cub3Blbignb25jbGljaz0mcXVvdDtodHRwczovL2RpZ2lzYWxlcy5saWNpbmRpYS5pbi9lU2FsZXMvbGljb25saW5lL3NldHByb3A/cGxhbj04NTYmIzM5OywgJiMzOTtfYmxhbmsmIzM5OykmcXVvdDsnLCAnX2JsYW5rJymEAXdpbmRvdy5vcGVuKCdvbmNsaWNrPSZxdW90O2h0dHBzOi8vZGlnaXNhbGVzLmxpY2luZGlhLmluL2VTYWxlcy9saWNvbmxpbmUvc2V0cHJvcD9wbGFuPTg1NiYjMzk7LCAmIzM5O19ibGFuayYjMzk7KSZxdW90OycsICdfYmxhbmsnKWQCEA9kFgJmD2QWAmYPFQcmL1NsaWRlcl9JbWFnZXMvV2Vic2l0ZS1jb3Zlci05ODAteC0yOTIEQXphZAAEQXphZCYvU2xpZGVyX0ltYWdlcy9XZWJzaXRlLWNvdmVyLTk4MC14LTI5MgAAZAIDD2QWAmYPZBYCAgIPFhQfAwUNTm8gZGF0YSBmb3VuZB8EZR8FaB8GZR8HaB8IZR8JaB8KAgEfCwUcQ01TLkFydGljbGUuUmVwZWF0ZXJNY29udGVudB8MZ2QCBQ9kFgJmD2QWAgICDxYUHwMFDU5vIGRhdGEgZm91bmQfBGUfBWgfBmUfB2gfCGUfCWgfCgIBHwsFHkNNUy5BcnRpY2xlLlJlcGVhdGVyTW9yZW9wdGlvbh8MZ2QCBw9kFgJmD2QWAgICDxYUHwMFDU5vIGRhdGEgZm91bmQfBGUfBWgfBmUfB2gfCGUfCWgfCgIBHwsFG0NNUy5BcnRpY2xlLlJlcGVhdGVyUHJlbWl1bR8MZ2QCCQ9kFgICAQ8PFgIeB1Zpc2libGVoZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFKHAkbHQkY3RsMDMkU21hcnRTZWFyY2hCb3gkYnRuSW1hZ2VCdXR0b26tGyCpu9+/t1S8JSjLmee08/fRSP6RvuTBokHO7Y/Z9g==" />
+</div>
 
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>findbugs-maven-plugin</artifactId>
-          <version>2.3.3</version>
-        </plugin>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form'];
+if (!theForm) {
+    theForm = document.form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
 
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>taglist-maven-plugin</artifactId>
-          <version>2.4</version>
-        </plugin>
 
-        <plugin>
-          <groupId>org.mortbay.jetty</groupId>
-          <artifactId>jetty-maven-plugin</artifactId>
-          <version>8.0.0.M1</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
+<script src="/WebResource.axd?d=asgXVAhM_4pkwaYS4CKG91aERbPYx2dm0tDYr3cRbISQStDRmiqq2nWjoYqVFcgT-GVc1AcOABiN69-Qe9QnvRgZIfChYzcwQcdSxntu1sE1&amp;t=637454266754849868" type="text/javascript"></script>
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>servlet-api</artifactId>
-        <version>2.5</version>
-      </dependency>
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
 
-      <dependency>
-        <groupId>javax.servlet.jsp</groupId>
-        <artifactId>jsp-api</artifactId>
-        <version>2.2</version>
-      </dependency>
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/CMSPages/GetResource.ashx?scriptfile=%7e%2fCMSScripts%2fjquery%2fjquery-core.js" type="text/javascript"></script>
+<script src="/CMSPages/GetResource.ashx?scriptfile=%7e%2fCMSWebParts%2fSmartSearch%2fSearchBox_files%2fPredictiveSearch.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=v1ThvhVumSbtIonF79uUZCWGnOn2k0bP13MvSh9t0ePJgHWpl2ZnYuv2lYL457Ww_9yrgD_32JfAZEGjU9Q7HCpMhtGHmFjgo_FYR8HiODH8JXpm0eAqglDLaerey9oa0&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=qF6Sso-huBc8zvmzrCrL32l107qdvrAWbDR1ocSyXUT5jTP8vaQ8dFsK3eo8x5ERIKSQ03E912rutpXVBb7fbbxmModZhUXLIUSH8RE1o45I1kXcs567-fSbbXFmnmMVgqPSCtuBxHaFdh5nVim5WQ2&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/CMSPages/PortalTemplate.aspx?_TSM_HiddenField_=manScript_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.1.60919.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3aee051b62-9cd6-49a5-87bb-93c07bc43d63%3a475a4ef5%3aeffe2a26%3a7e63a579" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
 
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit-dep</artifactId>
-        <version>4.10</version>
-        <scope>test</scope>
-      </dependency>
+var CMS = CMS || {};
+CMS.Application = {
+  "isRTL": "false",
+  "applicationUrl": "/",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDialog": false
+};
 
-      <dependency>
-        <groupId>org.hamcrest</groupId>
-        <artifactId>hamcrest-core</artifactId>
-        <version>1.2.1</version>
-        <scope>test</scope>
-      </dependency>
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+null;
+return true;
+}
+//]]>
+</script>
 
-      <dependency>
-        <groupId>org.hamcrest</groupId>
-        <artifactId>hamcrest-library</artifactId>
-        <version>1.2.1</version>
-        <scope>test</scope>
-      </dependency>
+<div class="aspNetHidden">
 
-      <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-core</artifactId>
-        <version>1.8.5</version>
-        <scope>test</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('manScript', 'form', ['tctxM',''], [], [], 90, '');
+//]]>
+</script>
 
-  <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
-    <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
-  </scm>
+    <div id="ctxM">
 
-  <prerequisites>
-    <maven>3.0.3</maven>
-  </prerequisites>
+</div>
+    
 
-</project>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WNBT5G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!--  janki <div id="main">
+      <style>
+  .avm-bot-welcome-notification h3 small{margin-top:0; color:#00529c}
+  .avm-bot-welcome-notification h3 small:after{margin-left:0px;display:block}
+ .avm-bot-welcome-notification{bottom:135px}
+.avm-bot-welcome-notification{ padding: 4px;}
+ .avaamo__icon{right:6%}
+p.hideondesktop {
+display:none;
+    font-size: 18px;
+    padding: 10px 0;
+}
+@media all and (max-width:991px)
+{
+p.hideondesktop{display:block}
+}
+        .menu>li>ul li:hover {
+    background-color: #00529c;
+}
+  </style>-->
+     <header class="site-header">
+<!--<div id="content" >
+<header>
+  <div class="width">
+    <div id="logo">-->
+
+
+       <div class="header-top">
+        <div class="mobClick">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="mobClick2">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>      
+      
+   <div class="logo">
+          <a href="/"><img src="/CorporateSiteDemo/media/LIC_Media/NewLogo.png" alt=""></a>
+        </div>
+        <div class="header-right">
+          <div class="header-right-close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+          <div class="header-right-nav">
+            <ul>
+              <li><a href="/Top-Links/About-Us/Know-About-Your-Life-Insurance">Know Your Life Insurance</a></li>
+              <li><a href="/Top-Links/Contact-Us">Contact Us</a></li>
+              <li><a href="/Top-Links/About-Us">About Us</a></li>
+              <li><a href="https://ebiz.licindia.in/D2CPM/?_ga=2.261011722.601223110.1638691354-743880248.1623827296&amp;_gac=1.93806319.1638538702.Cj0KCQiA-qGNBhD3ARIsAO_o7yljk_AeRwiB3EtgDL5ItV1Cw4jNLrcWSjFS5Is9AkY3EFyhjdKSrSAaAnTTEALw_wcB#qni/basicinfo" onclick="return confirm('This link will take you to an external site, Are you sure you want to continue?');" target="_blank"><i class="fa fa-calculator" aria-hidden="true"></i> Calculator</a></li>
+              <li><a href="#maincontent">Skip to main content</a></li>
+            </ul>
+          </div>
+          <div class="header-right-link">
+            <ul>
+              <li><a href="#maincontent">Skip to main content</a></li>
+			  <li class="fontDrop"><a href="https://www.instagram.com/licindiaforever/?hl=en" target="blank"><img alt="instagram" src="/CorporateSiteDemo/media/LIC_Media/Instagram-Icon.png " /></a></li>
+			  <li class="fontDrop"><img alt="whatsapp" src="/CorporateSiteDemo/media/Mock4/whatsapp-icon1.png " />
+              <div class="fontDrop-main" style="width:500px">
+                  <img alt="whatsapp" src="/CorporateSiteDemo/media/Mock4/img_1_1672291753866.jpg " />
+                </div>
+              </li>
+                 <li class="fontDrop"><a href="#"><i class="icon-icon-6"></i></a>
+                <div class="fontDrop-main">
+                  <a onclick="set_font_size('increase')" title="Increase font size" href="javascript:void(0);">A+</a>
+                  <a onclick="set_font_size('')" title="Reset font size" href="javascript:void(0);">A</a>
+                  <a class="active" onclick="set_font_size('decrease')" title="Decrease font size" href="javascript:void(0);">A-</a>
+                  <a class="light" href="javascript:void(0);" title="Default Theme"><img alt="colorwhite" class="newimg" src="/CorporateSiteDemo/media/Mock4/theme_1.jpg" /></a>
+				  <a class="dark" href="javascript:void(0);" title="Black Theme"> <img alt="colorblack" class="newimg" src="/CorporateSiteDemo/media/Mock4/theme_3.jpg" /> </a>
+                </div>
+              </li>
+           <li class="fontDrop"><a href="javascript:void(0);"><i class="icon-icon-5"></i></a>
+			  <div class="fontDrop-main">
+                 <a alt="LIC on Facebook " class="icon-facebook" href="//www.facebook.com/LICIndiaForever/" onclick="return confirm('This link will take you to an external site?');" target="_blank" title="LIC on Facebook "><i class="fa fa-facebook" aria-hidden="true" style="color:#3b5998"></i></a>
+                  <a alt="LIC on Twitter" class="icon-twitter" href="//www.twitter.com/licindiaforever/" onclick="return confirm('This link will take you to an external site?');" target="_blank" title="LIC on Twitter"><i class="fa fa-twitter" aria-hidden="true" style="color:#1DA1F2"></i></a>
+                 <a alt="LIC on YouTube" class="icon-you-tube" href="//www.youtube.com/user/licindiaforever" onclick="return confirm('This link will take you to an external site?');" target="_blank" title="LIC on YouTube"><i class="fa fa-youtube" aria-hidden="true" style="color:#FF0000"></i></a>
+                  
+                </div>
+			  </li>
+              <li><a href="/Sitemap.aspx"><i class="icon-icon-7"></i></a></li>
+                <li><a href="javascript:void(0);"><img src="/CorporateSiteDemo/media/newmedia/icon-spec.png" alt="Image of Swachh Bharat" title="Swachh Bharat" tabindex="0"></a></li>
+				<li><a href="https://amritmahotsav.nic.in/" tabindex="0" target="_blank"><img src="/CorporateSiteDemo/media/newmedia/aazadiEng.png" alt="Image of Aazadi ka Amrit Mahotsav" title="Aazadi ka Amrit Mahotsav" tabindex="0"></a></li>
+              <li><a href="#" tabindex="0"><img src="/CorporateSiteDemo/media/newmedia/G_20-Logo.png" alt="Image of Aazadi ka Amrit Mahotsav" title="G-20" tabindex="0"></a></li>
+              </ul>
+              </div>
+            </div>
+<!--<div class="dropdown">
+  <button class="dropbtn">Language</button>
+  <div class="dropdown-content">-->
+<ul class="language">
+  <li class="fontDrop alt dropdown "><a href="#">Language</a>
+                <div class="fontDrop-main">
+                  
+             <a href="/Home?lang=hi-IN">हिन्दी</a> <a href="/Home?lang=mr-IN">मराठी</a>
+<!--</div>
+</div>-->
+   </div>
+              </li>
+             
+            </ul>
+         
+         
+    <!--janki  <div id="menu">
+ <p class="hideondesktop" style="border: solid 1px #b9b8b8;margin: 8px;"><a href="/Bottom-Links/Covid19_FAQs " style="line-height: 13px;padding: 5px;/* border: solid; */color: #294d8e;font-size: 13px;">Covid-19:Information to Policyholders</a> </p>
+        <div id="menu1">
+            <ul>
+          
+              
+            </ul>-->
+          </div>
+      
+          <div class="header-bottom">
+        <div class="site-nav">
+                   
+        <!--<nav>
+       <a href="/"><img title="Home" alt="Image of Home"src="/CorporateSiteDemo/media/LIC_New_Images/hlogo.png" style="vertical-align:middle;" width="62" height="28" ></a>
+       <label class="responsive_menu" for="responsive_menu">
+       <span>Menu</span>
+       </label>
+        <input id="responsive_menu" type="checkbox">
+-->
+<ul>  <li><a class="active" href="/">Home</a></li><li><a class="actv-pg1" href="#" >Investor Relations </a><!-- <ul class='hidden' style="z-index:100;z-index:100;  width: 200px;" > -->
+<ul>
+<li class="col_1">
+
+<a href="/Investor-Relations/Corporate-Governance">Corporate Governance</a>
+</li><li class="col_1">
+
+<a href="/Investor-Relations/Financial-Details">Financial Details</a>
+</li><li class="col_1">
+
+<a href="/Investor-Relations/Material-Contracts">Material Contracts And Documents</a>
+</li><li class="col_1">
+
+<a href="/Investor-Relations/IRDAI-Disclosures">Public Disclosure (IRDAI's)</a>
+</li><li class="col_1">
+
+<a href="/Investor-Relations/Shareholder-Service">Shareholder Service</a>
+</li><li class="col_1">
+
+<a href="/Investor-Relations/Policies-and-Code-of-Conduct">Policies and Code of Conduct</a>
+</li><li class="col_1">
+
+<a href="/Investor-Relations/Shareholding-Pattern">Shareholding Pattern</a>
+</li>
+</ul></li><li class="bar"><a href="#" >Products </a><!-- <ul class='hidden' style="z-index:100;z-index:100;  width: 200px;" > -->
+<ul>
+<li class="col_1">
+
+<a href="/Products/Insurance-Plan">Insurance  Plan</a>
+</li><li class="col_1">
+
+<a href="/Products/Pension-Plans">Pension Plan</a>
+</li><li class="col_1">
+
+<a href="/Products/Unit-linked-plans">Unit Linked Plans</a>
+</li><li class="col_1">
+
+<a href="/Products/Micro-Insurance-Plans">Micro Insurance Plans</a>
+</li><li class="col_1">
+
+<a href="/Products/Withdrawn-Plans">Withdrawn Plans</a>
+</li><li class="col_1">
+
+<a href="/Products/Health-Plans">Health Plans</a>
+</li>
+</ul></li><li class="bar"><a href="#" >Group Schemes </a><!-- <ul class='hidden' style="z-index:100;z-index:100;  width: 200px;" > -->
+<ul>
+<li class="col_1">
+
+<a href="/Group-Schemes/Contact-for-Group-Insurance-Scheme">Contact for Group Insurance Scheme</a>
+</li><li class="col_1">
+
+<a href="/Group-Schemes/Group-Customer-Annuitant-Login">Group Customer/Annuitant Login</a>
+</li><li class="col_1">
+
+<a href="/Group-Schemes/Pension-Group-Scheme_">Pension & Group Schemes</a>
+</li><li class="col_1">
+
+<a href="/Group-Schemes/Gratuity-Plus-NAV">Gratuity Plus NAV</a>
+</li>
+</ul></li><li class="bar"><a href="#" >Customer Services </a><!-- <ul class='hidden' style="z-index:100;z-index:100;  width: 200px;" > -->
+<ul>
+<li class="col_1">
+
+<a href="/Customer-Services/Claims-settlement-requirements">Claims settlement requirements</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/Costumer-Education">Spurious Calls</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/तमच-सपरक-तपशील-अपडट-करा-ऑफलाइन">Update Your Contact details – Offline</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/Update-Your-Contact-details-–-Online">Update Your Contact details – Online</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/Unclaimed-Amounts-of-Policyholders">Unclaimed Amounts of Policyholders</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/Bonus-Information">Bonus Information</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/Policy-Status">Policy Status</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/NRI-Centre">NRI Centre</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/Phone-Help-Line">Phone  Help Line</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/Insurance-Selector">Insurance Selector</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/Policy-Guidelines-Helpline">Policy Guidelines & Helpline</a>
+</li><li class="col_1">
+
+<a href="/Customer-Services/Tax-Benefit">Tax Benefit</a>
+</li>
+</ul></li><li class="bar"><a href="#" >Premium Payment </a><!-- <ul class='hidden' style="z-index:100;z-index:100;  width: 200px;" > -->
+<ul>
+<li class="col_1">
+
+<a href="/Community/alt_chan_faq">FAQ of Alternate Channels</a>
+</li><li class="col_1">
+
+<a href="/Community/Payment-at-Cash-Counter">Payment at Cash Counter</a>
+</li><li class="col_1">
+
+<a href="/Community/Payment-Through-Alternate-Channels">Payment Through Alternate Channels</a>
+</li>
+</ul></li><li class="bar"><a href="#" >Plan NAV </a><ul class='hidden' >
+<li class="col_1">
+
+<a href="/PLAN-NAV/Bima-Plus">Plan NAV</a>
+</li>
+</ul></li><li class="bar"><a href="#" >Locator </a><!-- <ul class='hidden' style="z-index:100;z-index:100;  width: 200px;" > -->
+<ul>
+<li class="col_1">
+
+<a href="/LOCATOR/Branch">Branch</a>
+</li><li class="col_1">
+
+<a href="/LOCATOR/Premiumpoint">Premium Point</a>
+</li><li class="col_1">
+
+<a href="/LOCATOR/Micro-Insurance-Agent-(2)">Micro Insurance Agent</a>
+</li>
+</ul></li></ul>
+ <!--</nav>-->
+           </div>
+               <div class="search-wrap">
+          <div class="search">
+              
+
+<script>
+function validation(){
+var name=document.forms["form"]["txtWord"].value;
+
+if(name==""){
+alert("Please enter value");
+return false;
+}
+
+}
+</script>
+<script>
+$(document).ready(function(){
+$('#p_lt_ctl04_pageplaceholder_p_lt_ctl04_CustomTableFormPremium_Point_plcUp_form_district_dropDownList').attr('text-transform','capitalize');
+$('#p_lt_ctl04_pageplaceholder_p_lt_ctl04_CustomTableFormPremium_Point_plcUp_form_tehsil_dropDownList').attr('text-transform','capitalize');
+   // $('#btnSearch').attr('disabled',true);
+$('.orange').attr('tabindex',0);
+    $('#SearchText').keyup(function(){
+        if($(this).val().length !=0){
+            $('#btnSearch').attr('disabled', false);
+        }
+        else
+        {
+            $('#btnSearch').attr('disabled', true);        
+        }
+    })
+});
+</script>
+
+<!--
+<script>
+
+ $("#txtWord").attr("autocomplete", "off");
+  </script>
+--><div id="p_lt_ctl03_SmartSearchBox_pnlSearch" class="searchBox" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;p_lt_ctl03_SmartSearchBox_btnImageButton&#39;)">
+	
+    <label for="p_lt_ctl03_SmartSearchBox_txtWord" id="p_lt_ctl03_SmartSearchBox_lblSearch" style="display:none;">Search Box:</label>
+    <input type="hidden" name="p$lt$ctl03$SmartSearchBox$txtWord_exWatermark_ClientState" id="p_lt_ctl03_SmartSearchBox_txtWord_exWatermark_ClientState" /><input name="p$lt$ctl03$SmartSearchBox$txtWord" type="text" maxlength="1000" id="p_lt_ctl03_SmartSearchBox_txtWord" class="form-control" />
+    
+    <input type="image" name="p$lt$ctl03$SmartSearchBox$btnImageButton" id="p_lt_ctl03_SmartSearchBox_btnImageButton" src="/CorporateSiteDemo/media/Mock4/search-icon.png" alt="Search" />
+    <div id="p_lt_ctl03_SmartSearchBox_pnlPredictiveResultsHolder" class="predictiveSearchHolder">
+
+	</div>
+
+</div>
+
+             
+          </div>
+        </div>    
+      </div>
+        
+  </header>
+        <div class="news-ticker-wrap">
+      <div class="news-ticker">
+        <div class="tick-close">
+          <span class="resume act"><i class="fa fa-play" aria-hidden="true"></i></span>
+          <span class="pause"><i class="fa fa-pause" aria-hidden="true"></i></span>
+        </div>
+        <div class="news-ticker-in">
+          <div class="marquee">
+   <!--<style type="text/css">.blink{
+ animation:blinker 0.8s infinite;
+}
+@keyframes blinker{
+ 0%{  color: pink; }
+ 49%{ color: blue; }
+ 50%{ color: green; }
+ 99%{ color: yellow; }
+ 100%{ color: gray; }
+}
+</style>
+
+
+<ul id="marquee" class="marquee"><li>-->
+<a target='_blank' href='/getattachment/a790a4f1-e02f-40c7-acb9-a990b4e53982/SPECIAL-REVIVAL-CAMPAIGN-FOR-REVIVAL-OF-LAPSED-POL' >"Invitation of Earnings Call 9M-FY23"</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='/getattachment/78ae5d96-3245-4a69-811a-78b91e4547c2/For-Policy-enquiry-contact-LIC-Call-Centre-Ser-(1)' ><span class="blink" target="blank">The date of Main examination for the recruitment of Apprentice Development officers has been modified as 23.04.2023 from 08.04.2023</span></a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='https://licindia.in/Bottom-Links/Tenders/Request-for-Proposal-for-Selection-of-Consultant-f' >"RFP for Consultant for HR Systems"</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='https://licindia.in/Marquee-Links/Download-NEFT-Form.aspx' >"Dear Policyholder, Please submit Bank Account Details ( NEFT ) to LIC - Click here to Download NEFT Form"</a>
+&nbsp;&nbsp;&nbsp;&nbsp;'SMS "LICHELP &lt; policy no &gt;" and send it to 9222492224 or 56767877 for Policy Enquiry/Product Query/Registering of complaint under your policy
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='https://licindia.in/Marquee-Links/Public-regarding-Combination-of-Products ' >Notice to Public regarding Combination of Products</a>
+&nbsp;&nbsp;&nbsp;&nbsp;" Know your policy details through SMS to 'ASKLIC' (ASKLIC < policy no > PREMIUM/LOAN/BONUS/REVIVAL/NOMINATION) and send it to 9222492224 "
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='https://licindia.in/Marquee-Links/Beware-of-fake-spurious-calls-DOs-and-DONTs-(1)' >Beware of fake / spurious calls - DOs and DONTs</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='/getattachment/83658f1e-a083-4412-8add-f49bec81d634/FRAUDULENT-RECRUITMENT-ADs-BEWARE-!' >" FRAUDULENT RECRUITMENT ADs: BEWARE...! "</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='https://licindia.in/Marquee-Links/Beware-of-Spurious-Phone-Call' >Beware of Spurious Phone Call and Fictitious/Fraudulent Offers</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='https://licindia.in/Home-(1)/LICOnlineServicePortal' >"PLEASE REGISTER IN CUSTOMER PORTAL FOR AVAILING ONLINE SERVICES"</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='https://licindia.in/Marquee-Links/Intimation-to-policyholders-regarding-tax ' >Intimation to policyholders regarding changes in tax structure due to implementation of Goods and ServicesTax (GST) - Click Here</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='https://licindia.in/Marquee-Links/Safety-measures-to-fight-against-Coronavirus ' >Basic Safety measures to fight against Coronavirus Disease (COVID-19)</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a target='_blank' href='/Home-(1)/Revised-Working-Hours-of-All-Offices-of-LIC-Of-Ind' >"Revised Working Hours of All Offices of LIC Of India from 10.05.2021, pursuant to Notification S.O.1630(E) Dated 15th April 2021 wherein the CENTRAL GOVERNMENT has Declared Every Saturday as a Public Holiday for Life Insurance Corporation of India."</a>
+&nbsp;&nbsp;&nbsp;&nbsp;Also on ALL POSSIBLE digital modes through LIC website without any service charges.
+&nbsp;&nbsp;&nbsp;&nbsp;"Individual Pension Policyholders/ Annuitants can submit Digital Life Certificate through mobile app Jeevan Saakshya. App can be downloaded from play store"
+&nbsp;&nbsp;&nbsp;&nbsp;For Policy enquiry contact LIC Call Centre Services on (022) 68276827
+&nbsp;&nbsp;&nbsp;&nbsp;
+<!--</li>
+  
+</ul>
+<input type="button" title="play"  value="start Marquee" class="playPouse play" onClick="resume('.marquee')">
+<input type="button" title="pause" value="Stop Marquee" class="playPouse pause" onClick="pause('.marquee')">
+
+
+<style>
+  input.playPouse{
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 0;
+    font-size: 0;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+    margin-top: 14px;
+    margin-left: 3px;
+    padding: 0;
+    }
+  
+  
+  
+  input.play{background-image:url("/CorporateSiteDemo/media/LIC_Media/play-icon.png")}
+  input.pause{background-image:url("/CorporateSiteDemo/media/LIC_Media/pause-icon.png")}
+  </style>--> 
+   </div>
+        </div>
+      </div>
+  </div>
+       
+  <div id="con">
+     
+
+<section class="owlWrap">
+  <div class="owl-carousel hero-carousal">
+
+<!--<div id="slides" class="width"  >-->
+ <div class="item"><img src="/Slider_Images/LIC-Special-Revival_Internet-2042-x-610-(1)" alt="LIC-Special-Revival_Internet-2042-x-610-(1)"   /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy LIC-Special-Revival_Internet-2042-x-610-(1)" src="/Slider_Images/LIC-Special-Revival_Internet-2042-x-610-(1)" onclick="" />
+
+onclick="" --> <div class="item"><img src="/Slider_Images/LIC-Jeevan-Azad_2042-X-610" alt="LIC-Jeevan-Azad_2042-X-610" onclick="window.open('https://digisales.licindia.in/eSales/liconline/setprop?plan=868', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy LIC-Jeevan-Azad_2042-X-610" src="/Slider_Images/LIC-Jeevan-Azad_2042-X-610" onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=868&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=868&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/LIC-s-New-Jeevan-Shanti" alt="LIC-s-New-Jeevan-Shanti" onclick="window.open('https://digisales.licindia.in/eSales/liconline/setprop?plan=858', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy LIC-s-New-Jeevan-Shanti" src="/Slider_Images/LIC-s-New-Jeevan-Shanti" onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=858&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=858&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/LIC-on-Whatsapp_InternetSize" alt="LIC-on-Whatsapp_InternetSize"   /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy LIC-on-Whatsapp_InternetSize" src="/Slider_Images/LIC-on-Whatsapp_InternetSize" onclick="" />
+
+onclick="" --> <div class="item"><img src="/Slider_Images/banner" alt="banner" onclick="window.open('https://digisales.licindia.in/eSales/liconline/setprop?plan=866', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy banner" src="/Slider_Images/banner" onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=866&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=866&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/Agent-Bada-Socho-Executive_2042-x-610-pxl" alt="Agent-Bada-Socho-Executive_2042-x-610-pxl" onclick="window.open('http://www.licindia.in/agent/', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy Agent-Bada-Socho-Executive_2042-x-610-pxl" src="/Slider_Images/Agent-Bada-Socho-Executive_2042-x-610-pxl" onclick="window.open('onclick=&quot;window.open(&#39;http://www.licindia.in/agent/&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;http://www.licindia.in/agent/&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/Lic-Pension-Plus-2042-x-610" alt="Lic-Pension-Plus-2042-x-610" onclick="window.open('https://digisales.licindia.in/eSales/liconline/setprop?plan=867', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy Lic-Pension-Plus-2042-x-610" src="/Slider_Images/Lic-Pension-Plus-2042-x-610" onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=867&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=867&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/1-Dhan-sanchay" alt="Dhan-sanchay" onclick="window.open('https://digisales.licindia.in/eSales/liconline/setprop?plan=865', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy Dhan-sanchay" src="/Slider_Images/1-Dhan-sanchay" onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=865&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=865&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/1-PAN-Card" alt="PAN-Card" onclick="window.open('https://licindia.in/Home/Online-PAN-Registration', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy PAN-Card" src="/Slider_Images/1-PAN-Card" onclick="window.open('onclick=&quot;window.open(&#39;https://licindia.in/Home/Online-PAN-Registration&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://licindia.in/Home/Online-PAN-Registration&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/LIC_Jeevan-Saakshya_980-x-292-pix" alt="LIC_Jeevan-Saakshya_980-x-292-pix" onclick="window.open('https://play.google.com/store/search?q=lic+jeevan+saakshya&c=apps', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy LIC_Jeevan-Saakshya_980-x-292-pix" src="/Slider_Images/LIC_Jeevan-Saakshya_980-x-292-pix" onclick="window.open('onclick=&quot;window.open(&#39;https://play.google.com/store/search?q=lic+jeevan+saakshya&amp;c=apps&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://play.google.com/store/search?q=lic+jeevan+saakshya&amp;c=apps&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/LIC-Bima-Jyoti-Web-Banner_2042-x-610-pix_eng" alt="LIC-Bima-Jyoti-Web-Banner_2042-x-610-pix_eng" onclick="window.open('https://digisales.licindia.in/eSales/liconline/setprop?plan=860', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy LIC-Bima-Jyoti-Web-Banner_2042-x-610-pix_eng" src="/Slider_Images/LIC-Bima-Jyoti-Web-Banner_2042-x-610-pix_eng" onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=860&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=860&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/Banner-3new" alt="LIC's Cancer Cover" onclick="window.open('https://digisales.licindia.in/eSales/liconline/setprop?plan=905', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy LIC's Cancer Cover" src="/Slider_Images/Banner-3new" onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=905&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=905&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/LIC-s-SIIP" alt="LIC's SIIP" onclick="window.open('https://digisales.licindia.in/eSales/liconline/setprop?plan=852', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy LIC's SIIP" src="/Slider_Images/LIC-s-SIIP" onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=852&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=852&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/LIC-s-Nivesh-Plus" alt="LIC's Nivesh Plus" onclick="window.open('https://digisales.licindia.in/eSales/liconline/setprop?plan=849', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy LIC's Nivesh Plus" src="/Slider_Images/LIC-s-Nivesh-Plus" onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=849&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;window.open(&#39;https://digisales.licindia.in/eSales/liconline/setprop?plan=849&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/Corornavirus" alt="Corornavirus"   /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy Corornavirus" src="/Slider_Images/Corornavirus" onclick="" />
+
+onclick="" --> <div class="item"><img src="/Slider_Images/PMVVY" alt="PMVVY" onclick="https://digisales.licindia.in/eSales/liconline/setprop?plan=856', '_blank')"  /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy PMVVY" src="/Slider_Images/PMVVY" onclick="window.open('onclick=&quot;https://digisales.licindia.in/eSales/liconline/setprop?plan=856&#39;, &#39;_blank&#39;)&quot;', '_blank')" />
+
+onclick="window.open('onclick=&quot;https://digisales.licindia.in/eSales/liconline/setprop?plan=856&#39;, &#39;_blank&#39;)&quot;', '_blank')" --> <div class="item"><img src="/Slider_Images/Website-cover-980-x-292" alt="Azad"   /></div>
+
+<!--<img style="cursor:pointer;" alt="LIC Policy Azad" src="/Slider_Images/Website-cover-980-x-292" onclick="" />
+
+onclick="" -->
+<!--</div><a name="maincontent"></a>-->
+    </div>
+  <div class="owl-contrl">
+    <span class="play act" href="#"><i class="fa fa-play" aria-hidden="true"></i></span>
+    <span class="stop" href="#"><i class="fa fa-pause" aria-hidden="true"></i></span>
+  </div>
+</section>
+<section class="service-wrap" id="maincontent">
+
+<div class="tab-left" style="overflow: auto;">
+  <ul>
+    <li class="has-sub"><span class="subDropAltX"></span><a href="javascript:void(0)">Products</a>
+      <ul>
+        <li><a href="/Products/Insurance-Plan">Insurance Plan</a></li>
+        <li><a href="/Products/Pension-Plans">Pension Plan</a></li>
+        <li><a href="/Products/Unit-Plans">Unit Linked Plans</a></li>
+        <li><a href="/Products/Micro-Insurance-Plans">Micro Insurance Plans</a></li>
+        <li><a href="/Products/Withdrawn-Plans">Withdrawn Plans</a></li>
+        <li><a href="/Products/Health-Planss">Health Plans</a></li>
+      </ul>
+    </li>
+	<li><a href="/Home-(1)/Customer-Portal">Login to Customer Portal</a></li>
+    <li><a href="/Bottom-Links/careers">Careers</a></li>
+    <li><a href="/Bottom-Links/Tenders">Tenders</a></li>
+    <li><a href="https://ebiz.licindia.in/AgentPortal/?&amp;_ga=2.262066442.601223110.1638691354-743880248.1623827296&amp;_gac=1.90734312.1638538702.Cj0KCQiA-qGNBhD3ARIsAO_o7yljk_AeRwiB3EtgDL5ItV1Cw4jNLrcWSjFS5Is9AkY3EFyhjdKSrSAaAnTTEALw_wcB#Login" onclick="return confirm('This link will take you to an external site?');" target="_blank" title="Agents Portal">Agents Portal</a></li>
+    <li><a href="/Bottom-Links/Employee-s-Corner">Employees Corner</a></li>
+	 <li><a href="https://merchant.licindia.in/LICMobile/" onclick="return confirm('This link will take you to an external site?');" target="_blank">Download LIC Mobile Apps</a></li>
+    <li><a href="http://www.liccards.in/" onclick="return confirm('This link will take you to an external site?');" target="_blank">Pay Premium through <br />
+	LIC Credit Card</a></li>
+  </ul>
+</div>
+<div class="tab-right">
+  <div class="tab-top desk">
+      <ul class="nav nav-tabs">
+        <li class="nav-item" >
+          <a class="nav-link active" style="cursor: pointer;"  href="Home/buypoliciesonline">
+            <i class="icon-icon-8"></i>
+            <span>Buy Online <br> Policies</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="cursor: pointer !important;"  href="Home/Online-PAN-Registration">
+            <i class="icon-icon-2"></i>
+            <span>Online PAN<br>Registration</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#contact">
+            <i class="icon-icon-1"></i>
+            <span>Pay Premium <br> Online</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#contact-2">
+            <i class="icon-icon-3"></i>
+             <span>Other Online <br> Services</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <div class="tab-bottom">
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane active" id="home">
+          <div class="tab-top">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#home">
+                  <i class="icon-icon-8"></i>
+                  <span>Buy Online <br> Policies</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+           <div class="tab-pane-main">
+            <div class="agent portal-link tab-pane-in">
+               <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <a href="/Home/buypoliciesonline"> <img style="height: 86px !important" src="/CorporateSiteDemo/media/newmedia/icon1_other.png" alt=""> <span>
+				  Click here</span></a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="profile">
+          <div class="tab-top">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#profile">
+                  <i class="icon-icon-2"></i>
+                  <span>Online PAN<br>Registration</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-pane-main">
+            <div class="agent portal-link tab-pane-in">
+               <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <a href="/Home/Online-PAN-Registration"> <img style="height: 86px !important" src="/CorporateSiteDemo/media/newmedia/icon1_other.png" alt=""> <span>
+				  Click here</span></a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="contact">
+          <div class="tab-top">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#contact">
+                  <i class="icon-icon-1"></i>
+                  <span>Pay Premium <br> Online</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-pane-main">
+            <div class="portal-link tab-pane-in">
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <a href="https://ebiz.licindia.in/paydirect"> <img src="/CorporateSiteDemo/media/newmedia/pay-direct.png" alt=""> <span>Pay Direct (Without Login)</span></a>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <a href="https://ebiz.licindia.in/D2CPM/#Login"> <img src="/CorporateSiteDemo/media/newmedia/portal.png" alt=""> <span>Through Customer Portal</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="contact-2">
+          <div class="tab-top">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#contact-2">
+                  <i class="icon-icon-3"></i>
+                  <span>Other Online <br> Services</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+         <div class="tab-pane-main">
+            <div class="tab-pane-link tab-pane-in">
+              <ul>
+                
+                <li><a href="https://ebiz.licindia.in/D2CPM/#SelfAddressChange" >Online Address Change</a></li>
+                <li><a href="/Home-(1)/Online-eNACH-(eMandate)" >Online eNACH (eMandate)</a></li>
+				<li><a href="https://merchant.licindia.in/LICMerchant/Login/begin.do" >SSS PA Portal</a></li>
+				 <li><a href="/Home/Policy-Loan-Options">Online Loan</a></li>
+              </ul>
+              <ul>
+               
+                <li><a href="/Home-(1)/Customer-Portal">Customer Portal</a></li>
+                <li><a href="https://onlinesales.licindia.in/agentshelpline/" >Agent’s Helpline Module</a></li>
+                <li><a href="https://merchant.licindia.in/merchant/" >Merchant Portal</a></li>
+              </ul>
+              <ul>
+                <li><a href="https://customer.licindia.in/LICEPS/Login/begin.do?do" >Dev. Officers/Bill Pay Enquiry</a></li>
+                <li><a href="https://ebiz.licindia.in/AgentPortal/#Login" >Agents Portal</a></li>
+				<li><a href="https://agencycareer.licindia.in/Online_Exam" >Online Agent Mock Test Portal</a></li>
+              </ul>
+              <ul>
+                <li><a href="https://onlinesales.licindia.in/eSales/e2e" >ANANDA</a></li>
+              
+                <li><a  href="https://merchant.licindia.in/GroupPensionUser.htm" >Pension and Group Schemes</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+  </section>
+<section class="buy-policy">
+
+<section class="buy-policy">
+
+  <div class="container">
+      <div class="services-main">
+        <div class="row">
+		          <div class="col-lg-3 col-sm-6">
+            <div class="service-single">
+              <div class="service-single-img">
+                <img src="/CorporateSiteDemo/media/newmedia/Want_to_be_lic_agent.jpg" alt="">
+              </div>
+              <div class="service-single-cont">
+                <h3>Want to be an LIC Agent</h3>
+				<p class="text-center"><a class="linkx" href="https://agencycareer.licindia.in/agt_req/index1.php" onclick="return confirm('This link will take you to an external site?');" target="_blank" title="Want to be an LIC Agent">Click here</a></p>
+              </div>
+             </div>
+          </div>
+		  
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-single">
+              <div class="service-single-img">
+                <img src="/CorporateSiteDemo/media/newmedia/service-1.jpg" alt="">
+              </div>
+              <div class="service-single-cont">
+                <h3>NRI Customers</h3>
+                <p class="text-center"><a class="linkx" href="http://nriebiz.licindia.in/" onclick="return confirm('This link will take you to an external site?');">Click here</a></p>
+              </div>
+             </div>
+          </div>
+         
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-single">
+              <div class="service-single-img">
+                <img src="/CorporateSiteDemo/media/newmedia/service-3.jpg" alt="">
+              </div>
+              <div class="service-single-cont">
+                <h3>LIC Quick Tips</h3>
+				<p class="text-center"><a class="linkx" href="/Bottom-Links/Products-Services" target="_blank" title="LIC Quick Tips">Click here</a></p>
+              </div>
+             </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-single">
+              <div class="service-single-img">
+                <img src="/CorporateSiteDemo/media/newmedia/service-4.jpg" alt="">
+              </div>
+              <div class="service-single-cont">
+                <h3>Covid-19</h3>
+                <p>One-Stop Information</p>
+                <a class="linkx alt" href="/Home/Covid-19-Information-to-Policyholders" target="_blank">#HarPalDeshkeSaath</a>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <section class="service-2">
+     <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4">
+          <a href="https://lmspgs.licindia.in/iLead/" onclick="return confirm('This link will take you to an external site?');" target="_blank">
+            <div class="service-single-alt">
+              <div class="service-single-left"><img src="/CorporateSiteDemo/media/newmedia/service-1.png" alt=""></div>
+              <div class="service-single-right">
+                <h2>Contact for Group Insurance Scheme</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+		<!--<div class="col-sm-6 col-lg-4">
+          <a href="https://lmspgs.licindia.in/iLead/?_ga=2.188060776.1532395110.1638191771-743880248.1623827296&amp;_gac=1.261503359.1638536052.Cj0KCQiA-qGNBhD3ARIsAO_o7yljk_AeRwiB3EtgDL5ItV1Cw4jNLrcWSjFS5Is9AkY3EFyhjdKSrSAaAnTTEALw_wcB" onclick="return confirm('This link will take you to an external site?');" target="_blank">
+            <div class="service-single-alt">
+              <div class="service-single-left"><img src="/CorporateSiteDemo/media/newmedia/service-1.png" alt=""></div>
+              <div class="service-single-right">
+                <h2>Submit your Lead for Group Insurance Schemes</h2>
+              </div>
+            </div>
+          </a>
+        </div>-->
+        <div class="col-sm-6 col-lg-4">
+          <a href="/Home/Pradhan-Mantri-Jeevan-Jyoti-Bima-Yojana">
+            <div class="service-single-alt">
+              <div class="service-single-left"><img src="/CorporateSiteDemo/media/newmedia/service-2.png" alt=""></div>
+              <div class="service-single-right">
+                <h2>Pradhan Mantri Jeevan Jyoti Bima Yojana</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <a href="Home/Pradhan-Mantri-Jan-Dhan-Yojana-(PMJDY-Life-cover">
+            <div class="service-single-alt">
+              <div class="service-single-left"><img src="/CorporateSiteDemo/media/newmedia/service-3.png" alt=""></div>
+              <div class="service-single-right">
+                <h2>Pradhan Mantri Jan Dhan Yojana <span>(PMJDY - Life cover with LIC)</span></h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  </section>
+
+  </section>
+
+
+<section class="calculator">
+
+ <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3">
+          <div class="calculator-single">
+            <h2>LIC Associates & subsidiaries</h2>
+            <div class="calculator-botom">
+              <label for="jm1" style="visibility: hidden;">.</label> <select id="jm1" name="LIC Associates and subsidiaries" onchange="changecountry1(this.value);">LIC Associates and subsidiaries<option value="">Select</option><option value="/Bottom-Links/LIC-Associate-Companies ">1. Associate Companies</option><option value="/Bottom-Links/LIC-Subsidiary-Companies">2. Subsidiaries Companies</option> </select>
+              <button type="button" name="button"><i class="icon-icon-13"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+             <div class="calculator-single">
+            <h2>Foreign units</h2>
+            <div class="calculator-botom">
+             <label for="jm1" style="visibility: hidden;">.</label> <select id="jm1" name="Foreign Units" onchange="changecountry(this.value);">Foreign Units<option value="">Select</option><option value="//www.liciuk.com">1. UK</option><option value="//www.liclanka.com">2. SriLanka</option><option value="//www.licifiji.com">3. Fiji</option><option value="//www.licmauritius.mu">4. Mauritius</option><option value="//www.licinternational.com">5. Bahrain</option><option value="//www.licnepal.com.np">6. Nepal</option><option value="//www.kenindia.com">7. Kenindia Assurance</option><option>8. SICCI</option><option value="//www.licsingapore.com">9. Singapore</option><option value="//www.licbangladesh.com">10. Bangladesh </option> </select>  
+              <button type="button" name="button"><i class="icon-icon-13"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+            <div class="calculator-single">
+            <h2>Premium Calculator</h2>
+            <div class="calculator-botom">
+              <div class="calculator-left">
+                <i class="icon-icon-16"></i>
+              </div>
+              <div class="calculator-right">
+                <a href="https://ebiz.licindia.in/D2CPM/#qni/basicinfo" onclick="return confirm('This link will take you to an external site?');" target="_blank"><span>Online Calculator, generate an instant illustration for Premium</span> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+           <div class="calculator-single">
+            <h2>Want us to contact you</h2>
+            <div class="calculator-botom">
+              <div class="calculator-left">
+                <i class="icon-icon-4"></i>
+              </div>
+              <div class="calculator-right">
+                <a href="/Home/Apply-Now"><span>Apply now for your Insurance Policy</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+<style>
+
+.owl-carousel .owl-item img[onclick]{cursor:pointer !important}
+ 
+</style>
+	<!--<style>
+    #myModal {
+        display:none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 111111;
+        background: rgba(0, 0, 0, 0.32);
+        }
+     .modal-content {
+    position: absolute;
+    width: 980px;
+        top: 148px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 285px;
+}
+}
+      .close {
+    position: absolute;
+    right: 0;
+        width: 20px;
+height: 20px;
+background: white;
+text-align: center;
+line-height: 20px;
+        cursor:pointer;
+}
+      
+      @media all and (max-width:900px)
+        {
+        .modal-content{
+        width: 98%;
+height: 150px;
+top: 200px;
+        }
+        }
+      </style>-->
+  
+ 
+<!-- <div id="myModal" class="modal">
+  
+  <div class="modal-content">
+   <div class="close"><span aria-hidden="true">&times;</span></div>
+    <img src="/CorporateSiteDemo/media/LIC_Images/Covid_Awarness_Hoarding_English_min.jpg " style="display: inline-block;width: 100%;height:100%; margin-left:1px;" height="320"> 
+ </div>
+</div>-->
+  <script>
+  
+  $( document ).ready(function(){
+        $('#myModal').show();
+   
+ //var myVar = 
+    setInterval(hideModal, 3000);
+});
+    function hideModal(){
+      //clearInterval(myVar);
+    $('#myModal').hide();
+    }
+    
+	
+    /* $(".close").click(function(){
+     $('#myModal').hide();
+     });*/
+
+      
+
+    </script>
+  </div>
+  <div class="width" id="socialThings2">
+  <footer class="site-footer">
+<div class="footer-top">
+<div class="container-fluid">
+<ul>
+	<li><a href="/Top-Links/About-Us/Know-About-Your-Life-Insurance">Things you must know</a></li>
+	<li><a href="/Top-Links/About-Us/Know-About-Your-Life-Insurance#2">Why Life Insurance</a></li>
+	<li><a href="/Top-Links/About-Us/Know-About-Your-Life-Insurance#3">Why Invest</a></li>
+	<li><a href="https://merchant.licindia.in/LICMobile/" onclick="return confirm('This link will take you to an external site?');" target="_blank">Go Mobile</a></li>
+	<li><a href="#">Updated On -<span>&nbsp;28/02/2023</span></a></li>
+</ul>
+</div>
+</div>
+
+<div class="footer-mid">
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-3">
+<div class="footer-mid-single">
+<ul>
+	<li><a href="/Bottom-Links/Anti-Fraud-Policy">Anti Fraud Policy</a></li>
+	<li><a href="/Bottom-Links/careers">Careers</a></li>
+	<li><a href="/Bottom-Links/Citizens-Charter-(1)">Citizens Charter</a></li>
+	<li><a href="/Bottom-Links/Copyright-Policy">Copyright Policy </a></li>
+	<!--<li><a href="/Bottom-Links/Corporate-Agents-Details">Corporate Agents Details </a></li>-->
+	<li><a href="/Bottom-Links/Costumer-Education.aspx">Customer Education</a></li>
+	<li><a href="https://pledge.cvc.nic.in/" onclick="return confirm('This link will take you to an external site?');" target="_blank">CVC Website Link</a></li>
+	<li><a href="/Bottom-Links/Download-Forms">Download Forms</a></li>
+</ul>
+</div>
+</div>
+
+<div class="col-lg-3">
+<div class="footer-mid-single">
+<ul>
+	<li><a href="/Bottom-Links/Employee-s-Corner">Employee&#39;s Corner</a></li>
+	<li><a href="https://merchant.licindia.in/LICEPS/portlets/visitor/OutstandingClaims/OutstandingClaimsController.jpf" onclick="return confirm('This link will take you to an external site?');" target="_blank" title="Enquiry of Outstanding Claims for the Current Yea">Enquiry of Outstanding Claims for the Current Year</a></li>
+	<li><a href="/Bottom-Links/Equal-Opportunity-Policy-(1) ">Equal Opportunity Policy </a></li>
+	<li><a href="/Home-(1)/Customer-Portal">FAQs </a></li>
+	<li><a href="/Bottom-Links/Feedback">Feedback </a></li>
+	<li><a href="/Bottom-Links/glOSSORY">Glossary</a></li>
+	<li><a href="../Golden-Jubilee-Foundation">Golden Jubilee Foundation</a></li>
+	<li><a href="/Bottom-Links/grievence-redresal-system">Grievances </a></li>
+	<li><a href="/Bottom-Links/Help">Help </a></li>
+</ul>
+</div>
+</div>
+
+<div class="col-lg-3">
+<div class="footer-mid-single">
+<ul>
+	<li><a href="/Bottom-Links/Hyper-linking-policy">Hyperlink Policy </a></li>
+	<li><a href="/International-Operations-Associates-of-LIC">International Operations Associates </a></li>
+	<!--<li><a href="/Bottom-Links/Investment">Investment </a></li>-->
+	<li><a href="//www.policyholder.gov.in/" onclick="return confirm('This link will take you to an external site?');" target="_blank" title="IRDAI Consumer Education">IRDAI Consumer Education </a></li>
+	<li><a href="/Bottom-Links/Join-Our-Team">Join Our Team</a></li>
+	<li><a href="/Bottom-Links/Key-persons">Key-Persons </a></li>
+	<li><a href="/Bottom-Links/LIC-Act ">LIC Act </a></li>
+	<li><a href="/Bottom-Links/News">News</a></li>
+	<li><a href="/Customer-Services/NRI-Center">NRI Centre</a></li>
+</ul>
+</div>
+</div>
+
+<div class="col-lg-3">
+<div class="footer-mid-single">
+<ul>
+	<li><a href="/Media/Images">Photo Gallery</a></li>
+	<li><a href="/Bottom-Links/Policy-for-protection-of-interests">Policy for protection of interests of policyholders </a></li>
+	<li><a href="/Bottom-Links/Press-Release-(1)">Press-Release </a></li>
+	<li><a href="/Bottom-Links/Privacy-Policy">Privacy Policy </a></li>
+	<li><a href="/Bottom-Links/Property">Property</a></li>
+	<li><a href="https://microapigo.licindia.in/PensionersPortal3/login?_ga=2.108379970.1532395110.1638191771-743880248.1623827296&amp;_gac=1.16607940.1638538702.Cj0KCQiA-qGNBhD3ARIsAO_o7yljk_AeRwiB3EtgDL5ItV1Cw4jNLrcWSjFS5Is9AkY3EFyhjdKSrSAaAnTTEALw_wcB" onclick="return confirm('This link will take you to an external site?');" target="_blank" title="Retired Employees Portal">Retired Employees Portal</a></li>
+	<li><a href="/Bottom-Links/Right-To-Information ">RTI Center </a></li>
+	<li><a href="/Sitemap.aspx">Sitemap </a></li>
+	<li><a href="/Bottom-Links/Stewardship-Policy-Disclosure" target="_blank">Stewardship Policy &amp; Disclosure</a></li>
+</ul>
+</div>
+</div>
+
+<div class="col-lg-3">
+<div class="footer-mid-single">
+<ul>
+	<li><a href="/Media/Images/Swachh-Bharat-Campaign">Swachh Bharat Campaign</a></li>
+	<li><a href="/Bottom-Links/Tender-award">Tender &ndash;Award </a></li>
+	<li><a href="/Bottom-Links/Tenders">Tenders</a></li>
+	<li><a href="/Bottom-Links/Terms-and-Conditions">Terms &amp; Conditions </a></li>
+	<li><a href="https://merchant.licindia.in/LICEPS/portlets/visitor/unclaimedPolicyDues/UnclaimedPolicyDuesController.jpf" onclick="return confirm('This link will take you to an external site?');" target="_blank">Unclaimed Amounts of Policyholders</a></li>
+	<li><a href="/Bottom-Links/Underwriting-Philosophy">Underwriting Philosophy</a></li>
+	<li><a href="/Bottom-Links/Welcome-Kit">Welcome Kit</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer-bottom">
+<div class="container-fluid">
+<div class="footer-bottom-main">
+<div class="footer-bottom-left">
+<p>Copyright &copy; 2021 - All Rights Reserved - Official website of Life Insurance Corporation of India.</p>
+
+<p>Content on this website is published and managed by Life Insurance Corporation of India.</p>
+
+<p>Corporate Office : Yogakshema Building, Jeevan Bima Marg, P.O. Box No &ndash; 19953, Mumbai &ndash; 400 021 IRDAI Reg No- 512</p>
+
+<p>Life Insurance Corporation of India, Administrative Officer, Corporate Communication Dept.</p>
+
+<p><strong><span style="color:#FFFF00;">For any policy number related complaints, Please send email to co_complaints[at]licindia[dot]com</span></strong></p>
+</div>
+
+<div class="footer-bottom-right">
+<ul>
+	<li><a class="geo" href="http://india.gov.in/" onclick="return confirm('This link will take you to an external site?');" target="_blank"><img alt="Image of Government of India" height="30" src="/CorporateSiteDemo/media/newmedia/footer-icon-1.png" title="Government of India" /></a></li>
+	<li><a class="geo" href="https://www.geotrust.com" onclick="return confirm('This link will take you to an external site?');" target="_blank"><img alt="Image of GeoTrust " height="30" src="/CorporateSiteDemo/media/newmedia/footer-icon-3.png" title="GeoTrust" /></a></li>
+	<li><a class="geo" href="
+/CorporateSiteDemo/media/LIC_Media/ITQCR-LICINDIA-GIGW-FINAL-CERTIFICATE.pdf" target="_blank"><img alt="Image of STQC " height="30" src="/CorporateSiteDemo/media/newmedia/itqcr_logo.jpg" title="STQC" /></a></li>
+</ul>
+
+<p class="text-right" style="pointer-events:none"><span id="histats_counter" style="float:left;">&nbsp;</span> <a href="https://www.planetecomsolutions.com/" style="color: white;">Powered by PECS</a></p>
+<!-- Histats.com  (div with counter) --><!-- Histats.com  START  (aync)--><script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4581564,4,601,110,30,00001000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script><noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4581564&amp;101" alt="free invisible hit counter" border="0" /></a></noscript><!-- Histats.com  END  --></div>
+</div>
+</div>
+</div>
+</footer>
+
+<div class="nav-overlay">&nbsp;</div>
+
+  </div>
+  
+  <footer class="width">
+     
+  </footer>
+<div class="nav-overlay"></div>
+<script type="text/javascript">
+var s = document.createElement("script");
+s.src = "https://lic.corover.ai/sdk/chatbotlib.min.js";
+s.type = "text/javascript";
+document.getElementsByTagName("head")[0].appendChild(s);
+</script>
+  <script src="/CMSScripts/Custom/newjs/jquery-3.6.0.min.js"></script>
+  <script src="/CMSScripts/Custom/newjs/owl.carousel.min.js"></script>
+  <script src="/CMSScripts/Custom/newjs/jquery.marquee.min.js"></script>
+  <script src="/CMSScripts/Custom/newjs/bootstrap.min.js"></script>
+  <script src="/CMSScripts/Custom/newjs/custom.js"></script>
+<script>
+$(document).ready(function(){
+console.log("ready")
+  $('article table').addClass("table table-striped table-bordered table-hover")
+    $('article .table').wrap('<div class="table-responsive"></div>');
+    $('article div:contains(Last modified date)').removeAttr('style')
+      $('article div:contains(Last modified date)').css('text-align', 'right' )
+        
+        "p"
+    console.log("class-added")
+})
+</script>
+<script type="text/javascript">
+ $(document).ready(function(){
+   $("#p_lt_ctl03_SmartSearchBox_btnImageButton").on('click', function (e) {     
+    debugger;
+      var stxt= $('#p_lt_ctl03_SmartSearchBox_plcUp_txtWord').val();
+     if(stxt =="Search")
+       {
+    e.preventDefault();
+    alert('Please enter search text');
+         }
+     
+     
+      
+      
+   });
+
+$("article a").each(function(i) {
+         debugger;
+            //var anch = $(this).attr("href");
+            var anch2 = $(this).attr("href");
+            var i = anch2.slice(-8);
+            switch (i) {
+                case 'xlsx.aspx':
+                    $(this).append("&nbsp;<img style='width:16px; height:16px' alt='attached file is in Excel Format' src='/CorporateSiteDemo/media/LIC_New_Images/Excel.png' />");
+                    break;
+					 case 'xls.aspx':
+                    $(this).append("&nbsp;<img style='width:16px; height:16px' alt='attached file is in Excel Format' src='/CorporateSiteDemo/media/LIC_New_Images/Excel.png' />");
+                    break;
+                case 'doc.aspx':
+                    $(this).append("&nbsp;<img style='width:16px; height:16px' alt='attached file is in Word Document Format' src='/CorporateSiteDemo/media/LIC_New_Images/doc.png' />");
+                    break;
+                case 'pdf.aspx':
+                    $(this).append("&nbsp;<img style='width:16px; height:16px' alt='attached file is in PDF Document Format' src='/CorporateSiteDemo/media/LIC_Images/pdfIcon.png' />");
+                    break;
+                default:
+                    //this.style.color = "red";
+
+            }
+        }); 
+ //$('#p_lt_ctl03_SmartSearchBox_btnImageButton').attr('title', 'Click to search');
+  // $('#p_lt_ctl03_SmartSearchBox_plcUp_txtWord').attr('title', 'Please enter search text');
+$('#skip').click(function(e){   
+  e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $('a[name="maincontent"]').offset().top - 100
+    }, 500);
+    return false;
+});
+  });
+</script>
+    
+<script type="text/javascript">
+    var audioPlaying = false;
+    var audio_queue = [];
+    var msg_uuid;
+    var pop_up = false;
+    var AvaamoChatBot = function (t) {
+        function o(t, o) {
+            var n = document.createElement("script");
+            n.setAttribute("src", t), n.onload = o, document.body.appendChild(n)
+        }
+        return this.options = t || {}, this.load = function (t) {
+            o(this.options.url, function () {
+                window.Avaamo.addFrame(), t && "function" == typeof (t) && t(window.Avaamo)
+            })
+        }, this
+    };
+    var chatBox = new AvaamoChatBot({
+        //Prod URL
+        url: "https://c3.avaamo.com/web_channels/p-s-t-d363478c-397a-4ad0-957e-74c195ce852b?action=demo&controller=web_channels&history=false&theme=avm-blue"
+    });
+
+    let speak = (t) => {
+        let content = ""
+        if (t.attachments != null && t.attachments.default_card) {
+            // CARD
+            content = t.attachments.default_card.description;
+            if (t.attachments.default_card.links && t.attachments.default_card.links.length > 0) {
+                for (var i = 0; i < t.attachments.default_card.links.length; i++) {
+                    content += t.attachments.default_card.links[i].title + " . ";
+                }
+            }
+        } else if (t.attachments != null && t.attachments.quick_reply) {
+            // QUICK REPLY
+            content = t.content;
+            for (var i = 0; i < t.attachments.quick_reply.quick_links.length; i++) {
+                content += t.attachments.quick_reply.quick_links[i].title + " . ";
+            }
+        } else {
+            // TEXT
+            console.log("text");
+            content = t.content;
+        }
+        content = content.replace(/<br>/g, '')
+            .replace(/<b>/g, '')
+            .replace(/<\/b>/g, '')
+            .replace(/<br\/>/g, '')
+            .replace(/<table>/g, '').replace(/<\/table>/g, '').replace(/<\/tr>/g, '').replace(/<tr>/g, '')
+            .replace(/<\/td>/g, '').replace(/<td>/g, '').replace(/<\/th>/g, '').replace(/<tr>/g, '')
+            .replace(/(<((?!(\/?)say-as)[^>]+)>)/ig, '')
+            .replace(/(?:\s?)(LIC)(?:\s)/ig, '<say-as interpret-as="characters">LIC</say-as>')
+            .replace(/(?:\s?)(एलआईसी)(?:\s)/ig, '<say-as interpret-as="characters">LIC</say-as>')
+            .replace(/(?:\s?)(यह)(?:\s)/ig, 'ये ')
+            .replace(/ |/, '')
+            .replace(/\.(?!\s)/g, '. ');
+        if (hasHindiCharacters(content)) {
+            let includesNum = content.match(/[0-9\-]+/g);
+            if (includesNum) {
+                includesNum.forEach(num => {
+                    let num1;
+                    if (num.length > 6) {
+                        num1 = num.replace(/1/ig, '१ ')
+                            .replace(/2/ig, '२ ')
+                            .replace(/3/ig, '३ ')
+                            .replace(/4/ig, '४ ')
+                            .replace(/5/ig, '५ ')
+                            .replace(/6/ig, '६ ')
+                            .replace(/7/ig, '७ ')
+                            .replace(/8/ig, '८ ')
+                            .replace(/9/ig, '९ ')
+                            .replace(/0/ig, '० ')
+                            .replace(/-/ig, '- ')
+                            .replace(/-/ig, "- ")
+                    } else {
+                        num1 = num.replace(/1/ig, '१')
+                            .replace(/2/ig, '२')
+                            .replace(/3/ig, '३')
+                            .replace(/4/ig, '४')
+                            .replace(/5/ig, '५')
+                            .replace(/6/ig, '६')
+                            .replace(/7/ig, '७')
+                            .replace(/8/ig, '८')
+                            .replace(/9/ig, '९')
+                            .replace(/0/ig, '०')
+                    }
+                    console.log(num, num1)
+                    content = content.replace(num, num1)
+
+                })
+
+            }
+        }
+        console.log("content", content);
+        let payload = {
+            "ssml": `<speak>${content}</speak>`,
+            "persona": "Aditi",
+            "locale": "en"
+        }
+        fetch('https://c3.avaamo.com/web_channels/ssml_to_voice.json/', {
+            "method": "POST",
+            "body": JSON.stringify(payload),
+            "headers": {
+                "Content-Type": "application/json"
+            }
+        })
+            .then(res => res.json())
+            .then(json => {
+                // Mute mic before speaking
+                //let mic_elem = document.querySelector('.custom-mic.mic.ptr.enabled');
+                // if (mic_elem)
+                //   mic_elem.click();
+                let audio = document.querySelector("#avaamoaudio");
+                audio.src = json.location;
+                audio.play();
+                audio.onended = function () {
+                    if (audio_queue.length > 0) {
+                        speak(audio_queue.splice(0, 1)[0]);
+                    } else {
+                        audioPlaying = false;
+                    }
+                }
+            });
+    }
+    chatBox.load((a) => {
+        var currentLang = "en";
+        a.onBotMessage = (n) => {
+            if (!msg_uuid) {
+                msg_uuid = n.request_message_uuid;
+            } else if (msg_uuid && msg_uuid != n.request_message_uuid) {
+                setHints(n);
+                msg_uuid = n.request_message_uuid;
+                audioPlaying = false;
+                audio_queue = [];
+            }
+            if (n.content == "Language switched to english") {
+                console.log("Setting current language to english")
+                currentLang = "en";
+                tochangeLanguage('en');
+            } else if (n.content == "भाषा को हिंदी में बदल दिया गया") {
+                console.log("Setting current language to Hindi")
+                currentLang = "hi";
+                tochangeLanguage('hi');
+            } else if (n.content == "भाषा मराठीत बदलली") {
+                console.log("Setting current language to marathi")
+                currentLang = "mr";
+                tochangeLanguage('mr');
+            }
+            else if (n.content == "ഭാഷ മലയാളത്തിലേക്ക് മാറി") {
+                console.log("Setting current language to mala")
+                currentLang = "ml";
+                tochangeLanguage('ml');
+            }
+            if (n.attachments != null && n.attachments.default_card && n.attachments.default_card.description.indexOf(
+                'नमस्ते') != -1) {
+                currentLang = "hi";
+                tochangeLanguage('hi');
+            }
+            if (
+                n.attachments != null &&
+                n.attachments.default_card &&
+                n.attachments.default_card.description.indexOf("Hi,") != -1
+            ) {
+                currentLang = "en";
+                tochangeLanguage('en');
+            }
+            document.querySelector('.avm-icon-audio.audio.off');
+            if (!document.querySelector('.avm-icon-audio.audio.off')) {
+                if (audioPlaying) {
+                    audio_queue.push(n);
+                    return;
+                }
+                audioPlaying = true;
+                speak(n);
+            }
+        };
+        a.onChatIframeLoad = () => {
+            var textDiv = document.createElement("div");
+            var e = document.getElementById("avaamo__popup");
+            var div = document.createElement("div");
+            div.classList.add("custom-mic", "mic", "ptr");
+            div.id = "custom-mic";
+            // if(currentLang == "ml"){
+            //         div.classList.toggle("malayalam_enabled")
+            //     }
+            div.addEventListener("click", function (e) {
+                // textDiv.classList.remove("temp");
+                div.classList.toggle("enabled");
+                // if(currentLang == "ml"){
+                //
+                //     div.classList.toggle("malayalam_enabled")
+                // }
+                // setTimeout(function () {
+                // textDiv.classList.add("temp");
+                // }, 2000)
+                textDiv.classList.toggle("show");
+                //document.getElementById("ava-showText").innerHTML = "I am Listening . . .";
+                if (currentLang === "en") {
+                    document.getElementById("ava-showText").innerHTML = "I am Listening . . .";
+                } else if (currentLang === "hi") {
+                    document.getElementById("ava-showText").innerHTML = "में सुन रही हूँ . . .";
+                } else if (currentLang === "mr") {
+                    document.getElementById("ava-showText").innerHTML = "मी ऐकत आहे. . .";
+                } else if (currentLang === "ml") {
+                    document.getElementById("ava-showText").innerHTML = "ഞാൻ കേൾക്കുന്നു. . .";
+                }
+
+                let audio = document.querySelector('#avaamoaudio');
+                audio.pause();
+                audio.currentTime = 0;
+            });
+            let audio = document.createElement("audio");
+            audio.id = "avaamoaudio";
+            //enable mic automaticatically when audio/bot voice ends
+            // audio.addEventListener("ended", () => {
+            //   //div.click()
+            // });
+            e.appendChild(audio);
+            e.appendChild(div);
+            var socket_io = document.createElement("script");
+            socket_io.setAttribute('type', 'text/javascript');
+            socket_io.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js');
+            e.appendChild(socket_io);
+            setTimeout(function () {
+                var client = document.createElement("script");
+                client.setAttribute('type', 'text/javascript');
+                client.setAttribute('src', 'https://lictest26-09.firebaseapp.com/client.js');
+                e.appendChild(client);
+            }, 1000)
+            // textDiv.innerHTML =
+            //   '<span id="ava-showText" style="color: #999999;">I am Listening . . .</span>';
+            if (currentLang === "en") {
+                textDiv.innerHTML =
+                    '<span id="ava-showText" style="color: #999999;">I am Listening . . .</span>';
+            } else if (currentLang === "hi") {
+                textDiv.innerHTML = '<span id="ava-showText" style="color: #999999;">में सुन रही हूँ  . . .</span>';
+            } else if (currentLang === "mr") {
+                textDiv.innerHTML = '<span id="ava-showText" style="color: #999999;">मी ऐकत आहे  . . .</span>';
+            } else if (currentLang === "ml") {
+                textDiv.innerHTML = '<span id="ava-showText" style="color: #999999;">ഞാൻ കേൾക്കുന്നു  . . .</span>';
+            }
+            textDiv.classList.add("user-text");
+            let lang = document.createElement("select");
+            let opt_1 = document.createElement("option");
+            opt_1.text = "English";
+            opt_1.value = "en-US";
+            let opt_2 = document.createElement("option");
+            opt_2.text = "Hindi";
+            opt_2.value = "hi-IN";
+            let opt_3 = document.createElement("option");
+            opt_3.text = "Marathi";
+            opt_3.value = "mr-IN";
+            let opt_4 = document.createElement("option");
+            opt_4.text = "Malayalam";
+            opt_4.value = "ml-IN";
+            lang.add(opt_1);
+            lang.add(opt_2);
+            lang.add(opt_3);
+            lang.add(opt_4);
+
+            lang.id = "VRLanguage";
+            textDiv.appendChild(lang);
+            textDiv.id = "ResultText";
+            e.appendChild(textDiv);
+            var menu = document.createElement("div");
+            menu.classList.add("pmenu");
+            if (currentLang == "en") {
+                console.log("Inside pmenu english");
+                menu.innerHTML = `<span>
+<a href="#" class="xxx">Know Our Products</a>
+<a href="#" class="xxx">Premium Due Info</a>
+<a href="#" class="xxx">Customer Services</a>
+<a href="#" class="xxx">Home</a>
+<a href="#" class="xxx">Contact Us</a>
+<a href="#" class="xxx">Locators</a>
+</span>`;
+            } else if (currentLang == "hi") {
+                console.log("Inside pmenu Hindi");
+                menu.innerHTML = `<span>
+<a href="#" class="xxx">हमारे उत्पादों को जानें</a>
+<a href="#" class="xxx">प्रीमियम देय जानकारी</a>
+<a href="#" class="xxx">ग्राहक सेवाएं</a>
+<a href="#" class="xxx">मुख्य मेनू </a>
+<a href="#" class="xxx">संपर्क करे</a>
+<a href="#" class="xxx">लोकेटर</a>
+</span> `;
+            } else if (currentLang == "mr") {
+                console.log("Inside pmenu marathi");
+                menu.innerHTML = `<span>
+<a href="#" class="xxx">आमची उत्पादने जाणून घ्या</a>
+<a href="#" class="xxx">प्रीमियम देय माहिती</a>
+<a href="#" class="xxx">ग्राहक सेवा</a>
+<a href="#" class="xxx">मुख्यपृष्ठ</a>
+<a href="#" class="xxx">संपर्क साधा</a>
+<a href="#" class="xxx">लोकेटर</a>
+</span> `;
+            } else if (currentLang == "ml") {
+                console.log("Inside pmenu Malayalam");
+                menu.innerHTML = `<span>
+<a href="#" class="xxx">ഞങ്ങളുടെ ഉൽപ്പന്നങ്ങൾ അറിയുക</a>
+<a href="#" class="xxx">പ്രീമിയം അടയ്‌ക്കേണ്ട വിവരങ്ങൾ</a>
+<a href="#" class="xxx">ഉപഭോക്തൃ സേവനങ്ങൾ</a>
+<a href="#" class="xxx">വീട്</a>
+<a href="#" class="xxx">ഞങ്ങളെ സമീപിക്കുക</a>
+<a href="#" class="xxx">ലൊക്കേറ്റർ</a>
+</span> `;
+            }
+
+            e.appendChild(menu);
+            menu.addEventListener("click", function (e) {
+                if (e.target.innerHTML.toLowerCase() === "lic's tech-term") {
+                    Avaamo.sendMessage("What's LIC's Tech-Term");
+                }
+                if (e.target.innerHTML.toLowerCase() === "know our products") {
+                    Avaamo.sendMessage("Know Our Products");
+                }
+                if (e.target.innerHTML === "Premium Due Info") {
+                    Avaamo.sendMessage("Premium Due Info");
+                }
+                if (e.target.innerHTML === "Customer Services") {
+                    Avaamo.sendMessage("Customer Services");
+                }
+                if (e.target.innerHTML === "Home") {
+                    Avaamo.sendMessage("#clear");
+                }
+                if (e.target.innerHTML === "Contact Us") {
+                    Avaamo.sendMessage("Contact Us");
+                }
+                if (e.target.innerHTML === "Locators") {
+                    Avaamo.sendMessage("Locators");
+                }
+                if (e.target.innerHTML.toLowerCase() === "एलआईसी का टेक-टर्म") {
+                    Avaamo.sendMessage("एलआईसी के टेक-टर्म (ऑनलाइन) पर जानकारी");
+                }
+                if (e.target.innerHTML.toLowerCase() === "हमारे उत्पादों को जानें") {
+                    Avaamo.sendMessage("भारतीय जीवन बीमा मैं कौन से उत्पांद उपलब्ध  हैं ?");
+                }
+                if (e.target.innerHTML.toLowerCase() === "प्रीमियम देय जानकारी") {
+                    Avaamo.sendMessage("प्रीमियम देय जानकारी");
+                }
+                if (e.target.innerHTML.toLowerCase() === "ग्राहक सेवाएं") {
+                    Avaamo.sendMessage("ग्राहक सेवाएं");
+                }
+                if (e.target.innerHTML.toLowerCase() === "मुख्य मेनू") {
+                    Avaamo.sendMessage("#clear");
+                }
+                if (e.target.innerHTML.toLowerCase() === "संपर्क करे") {
+                    Avaamo.sendMessage("संपर्क करे");
+                }
+                if (e.target.innerHTML.toLowerCase() === "लोकेटर") {
+                    Avaamo.sendMessage("लोकेटर");
+                }
+                // >>>>>>>>>>>>>>>>>>>>>>>>>>>.
+                if (e.target.innerHTML.toLowerCase() === "आमची उत्पादने जाणून घ्या") {
+                    Avaamo.sendMessage("आमची उत्पादने जाणून घ्या");
+                }
+                if (e.target.innerHTML.toLowerCase() === "प्रीमियम देय माहिती") {
+                    Avaamo.sendMessage("प्रीमियम देय माहिती");
+                }
+                if (e.target.innerHTML.toLowerCase() === "ग्राहक सेवा") {
+                    Avaamo.sendMessage("लोग्राहक सेवाकेटर");
+                }
+                if (e.target.innerHTML.toLowerCase() === "मुख्यपृष्ठ") {
+                    // Avaamo.sendMessage("मुख्यपृष्ठ");
+                    Avaamo.sendMessage("पुन्हा सुरू करा");
+                }
+                if (e.target.innerHTML.toLowerCase() === "संपर्क साधा") {
+                    Avaamo.sendMessage("संपर्क साधा");
+                }
+                if (e.target.innerHTML.toLowerCase() === "लोकेटर") {
+                    Avaamo.sendMessage("लोकेटर");
+                }
+                if (e.target.innerHTML.toLowerCase() === "lic ന്റെ സാങ്കേതിക കാലയളവ്") {
+                    Avaamo.sendMessage("എൽഐസിയുടെ ടെക്-ടേം എന്താണ്");
+                }
+                if (e.target.innerHTML.toLowerCase() === "ഞങ്ങളുടെ ഉൽപ്പന്നങ്ങൾ അറിയുക") {
+                    Avaamo.sendMessage("ഞങ്ങളുടെ ഉൽപ്പന്നങ്ങൾ അറിയുക");
+                }
+                if (e.target.innerHTML === "പ്രീമിയം അടയ്‌ക്കേണ്ട വിവരങ്ങൾ") {
+                    Avaamo.sendMessage("പ്രീമിയം അടയ്‌ക്കേണ്ട വിവരങ്ങൾ");
+                }
+                if (e.target.innerHTML === "ഉപഭോക്തൃ സേവനങ്ങൾ") {
+                    Avaamo.sendMessage("ഉപഭോക്തൃ സേവനങ്ങൾ");
+                }
+                if (e.target.innerHTML === "വീട്") {
+                    Avaamo.sendMessage("#clear");
+                }
+                if (e.target.innerHTML === "ഞങ്ങളെ സമീപിക്കുക") {
+                    Avaamo.sendMessage("ഞങ്ങളെ സമീപിക്കുക");
+                }
+                if (e.target.innerHTML === "ലൊക്കേറ്ററുകൾ") {
+                    Avaamo.sendMessage("ലൊക്കേറ്ററുകൾ");
+                }
+
+                if (currentLang == "en") {
+                    console.log("IN ENGLISH")
+                    document.getElementsByClassName("pmenu")[0].innerHTML = `<span>
+<a href="#" class="xxx">Know Our Products</a>
+<a href="#" class="xxx">Premium Due Info</a>
+<a href="#" class="xxx">Customer Services</a>
+<a href="#" class="xxx">Home</a>
+<a href="#" class="xxx">Contact Us</a>
+<a href="#" class="xxx">Locators</a>
+</span>`;
+                } else if (currentLang == "hi") {
+                    console.log("IN HINDI")
+                    document.getElementsByClassName("pmenu")[0].innerHTML = `<span>
+<a href="#" class="xxx">हमारे उत्पादों को जानें</a>
+<a href="#" class="xxx">प्रीमियम देय जानकारी</a>
+<a href="#" class="xxx">ग्राहक सेवाएं</a>
+<a href="#" class="xxx">मुख्य मेनू </a>
+<a href="#" class="xxx">संपर्क करे</a>
+<a href="#" class="xxx">लोकेटर</a>
+</span> `;
+                } else if (currentLang == "mr") {
+                    console.log("IN MARATHI")
+                    document.getElementsByClassName("pmenu")[0].innerHTML = `<span>
+<a href="#" class="xxx">आमची उत्पादने जाणून घ्या</a>
+<a href="#" class="xxx">प्रीमियम देय माहिती</a>
+<a href="#" class="xxx">ग्राहक सेवा</a>
+<a href="#" class="xxx">मुख्यपृष्ठ</a>
+<a href="#" class="xxx">संपर्क साधा</a>
+<a href="#" class="xxx">लोकेटर</a>
+</span> `;
+                } else if (currentLang == "ml") {
+                    console.log("IN Malayalam")
+                    document.getElementsByClassName("pmenu")[0].innerHTML = `<span>
+<a href="#" class="xxx" style="font-size:11px;">ഞങ്ങളുടെ ഉൽപ്പന്നങ്ങൾ അറിയുക</a>
+<a href="#" class="xxx" style="font-size:11px;">പ്രീമിയം അടയ്‌ക്കേണ്ട വിവരങ്ങൾ</a>
+<a href="#" class="xxx">ഉപഭോക്തൃ സേവനങ്ങൾ</a>
+<a href="#" class="xxx">വീട്</a>
+<a href="#" class="xxx">ഞങ്ങളെ സമീപിക്കുക</a>
+<a href="#" class="xxx">ലൊക്കേറ്ററുകൾ</a>
+</span> `;
+                }
+                document.getElementsByClassName('pmenu')[0].style.display = "none";
+            });
+
+            var menu_icon = document.createElement("div");
+            menu_icon.classList.add("menu-icon");
+            e.appendChild(menu_icon);
+            menu_icon.addEventListener("click", function (e) {
+                document.getElementsByClassName('pmenu')[0].style.display = "block";
+            })
+            var audio_btn = document.createElement("div");
+            /*
+            //Default BOT voice
+            //audio_btn.classList.add("avm-icon-audio", "audio", "on");
+            */
+            audio_btn.classList.add("avm-icon-audio", "audio", "off");
+            e.appendChild(audio_btn);
+            audio_btn.addEventListener("click", function (e) {
+                let audioelement = document.querySelector("#avaamoaudio");
+                if (e.target.classList.contains('off')) {
+                    audio_btn.classList.remove('off');
+                    audio_btn.classList.add('on');
+                } else {
+                    audio_queue = [];
+                    audioPlaying = false;
+                    audioelement.pause();
+                    audioelement.currentTime = 0;
+                    audio_btn.classList.remove('on');
+                    audio_btn.classList.add('off');
+                }
+            });
+
+            var snackbar = document.createElement("div");
+            snackbar.id = "custom-snackbar";
+            snackbar.innerHTML =
+                "Poor Network Connection";
+            e.appendChild(snackbar);
+            var interval = setInterval(function () {
+                let mic_elem = document.querySelector('.custom-mic.mic.ptr.enabled');
+                var css_class = false;
+                console.log("interval being hit");
+                if (mic_elem) {
+                    mic_elem.addEventListener('click', function (e) {
+                        console.log("cleared interval");
+                        clearInterval(interval);
+                    });
+                }
+                if (navigator.connection && navigator.connection.effectiveType != '4g' && !pop_up &&
+                    mic_elem) {
+                    console.log("display snack bar");
+                    snackbar.className = 'show';
+                    pop_up = true;
+                    css_class = true
+                } else if (navigator.connection && navigator.connection.effectiveType != '4g' && pop_up &&
+                    mic_elem) {
+                    console.log("delete snack bar");
+                    snackbar.className = snackbar.className.replace("show", "");
+                    css_class = false
+                    pop_up = false;
+                }
+            }, 3000);
+        }
+        console.log(">>>>Before IF FOR TOGGLE")
+        var e = document.getElementById("avaamo__popup");
+        var mim_button = document.createElement("div");
+        mim_button.id = "id_minimize_btn";
+        mim_button.classList.add("minimize__btn");
+        e.appendChild(mim_button);
+        document.getElementById("id_minimize_btn").addEventListener("click", function () {
+            let audio = document.querySelector('#avaamoaudio');
+            audio.pause();
+            audio.currentTime = 0;
+            Avaamo.closeChatBox();
+            document.getElementsByClassName('avaamo__icon')[0].classList.add("minimizeState");
+        });
+        document.getElementsByClassName("avaamo_popup__close")[0].addEventListener("click", function () {
+            console.log("In the event list");
+            document.getElementsByClassName('avaamo__icon')[0].classList.remove("minimizeState");
+        });
+    });
+
+    function tochangeLanguage(currentLang) {
+        console.log("inside function lang change", currentLang);
+        if (currentLang == "en") {
+            document.getElementsByClassName("pmenu")[0].innerHTML = `<span>
+<a href="#" class="xxx">Know Our Products</a>
+<a href="#" class="xxx">Premium Due Info</a>
+<a href="#" class="xxx">Customer Services</a>
+<a href="#" class="xxx">Home</a>
+<a href="#" class="xxx">Contact Us</a>
+<a href="#" class="xxx">Locators</a>
+</span>`;
+        } else if (currentLang == "hi") {
+            document.getElementsByClassName("pmenu")[0].innerHTML = `<span>
+<a href="#" class="xxx">हमारे उत्पादों को जानें</a>
+<a href="#" class="xxx">प्रीमियम देय जानकारी</a>
+<a href="#" class="xxx">ग्राहक सेवाएं</a>
+<a href="#" class="xxx">मुख्य मेनू </a>
+<a href="#" class="xxx">संपर्क करे</a>
+<a href="#" class="xxx">लोकेटर</a>
+</span> `;
+        } else if (currentLang == "mr") {
+            document.getElementsByClassName("pmenu")[0].innerHTML = `<span>
+<a href="#" class="xxx">आमची उत्पादने जाणून घ्या</a>
+<a href="#" class="xxx">प्रीमियम देय माहिती</a>
+<a href="#" class="xxx">ग्राहक सेवा</a>
+<a href="#" class="xxx">मुख्यपृष्ठ</a>
+<a href="#" class="xxx">संपर्क साधा</a>
+<a href="#" class="xxx">लोकेटर</a>
+</span> `;
+        } else if (currentLang == "ml") {
+            document.getElementsByClassName("pmenu")[0].innerHTML = `<span>
+<a href="#" class="xxx" style="font-size:11px;">ഞങ്ങളുടെ ഉൽപ്പന്നങ്ങൾ അറിയുക</a>
+<a href="#" class="xxx" style="font-size:11px;>പ്രീമിയം അടയ്‌ക്കേണ്ട വിവരങ്ങൾ</a>
+<a href="#" class="xxx">ഉപഭോക്തൃ സേവനങ്ങൾ</a>
+<a href="#" class="xxx">വീട്</a>
+<a href="#" class="xxx">ഞങ്ങളെ സമീപിക്കുക</a>
+<a href="#" class="xxx">ലൊക്കേറ്ററുകൾ</a>
+</span> `;
+        }
+    }
+</script>
+
+
+<a href="#" class="cd-top"></a>
+ 
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+
+<script type="text/javascript">
+	//<![CDATA[
+if (typeof(Sys.Browser.WebKit) == 'undefined') {
+    Sys.Browser.WebKit = {};
+}
+if (navigator.userAgent.indexOf('WebKit/') > -1) {
+    Sys.Browser.agent = Sys.Browser.WebKit;
+    Sys.Browser.version = parseFloat(navigator.userAgent.match(/WebKit\/(\d+(\.\d+)?)/)[1]);
+    Sys.Browser.name = 'WebKit';
+}
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+WebForm_InitCallback();//]]>
+</script>
+
+<script type="text/javascript">
+	//<![CDATA[
+var predictiveSearchObject_p_lt_ctl03_SmartSearchBox = new PredictiveSearchExtender('p_lt_ctl03_SmartSearchBox', 'p_lt_ctl03_SmartSearchBox_txtWord', 'p_lt_ctl03_SmartSearchBox_pnlPredictiveResultsHolder', 1, true, 'selectedResult', 'predictiveSearchResults');
+predictiveSearchObject_p_lt_ctl03_SmartSearchBox.CallPredictiveSearch = function(arg, context) { WebForm_DoCallback('p$lt$ctl03$SmartSearchBox',arg,predictiveSearchObject_p_lt_ctl03_SmartSearchBox.RecieveSearchResults,context,null,false); }
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"p_lt_ctl03_SmartSearchBox_txtWord_exWatermark_ClientState","WatermarkText":"Search","id":"p_lt_ctl03_SmartSearchBox_txtWord_exWatermark"}, null, null, $get("p_lt_ctl03_SmartSearchBox_txtWord"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
