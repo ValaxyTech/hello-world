@@ -6,3 +6,4 @@ MAINTAINER "valaxytech@gmail.com"
 COPY ./webapp.war /usr/local/tomcat/webapps
 
 #dummy
+#test
