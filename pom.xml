@@ -21,6 +21,17 @@
     <module>webapp</module>
   </modules>
 
+    <!-- Other project configuration elements -->
+ 
+    <distributionManagement>
+        <repository>
+            <id>HelloWorld1.0</id>
+https://your-nexus-repo-url/content/repositories/releases/<http://xtech.pl.s2-eu.capgemini.com/nexus3/repository/HelloWorld1.0/>
+        </repository>
+    </distributionManagement>
+ 
+    <!-- Other project configuration elements -->
+
   <distributionManagement>
     <site>
       <id>site-server</id>
