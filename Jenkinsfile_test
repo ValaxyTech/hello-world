@@ -6,21 +6,10 @@ pipeline {
     }
 
     stages {
-        stage ('Clean') {
-            steps {
-                sh 'mvn clean'
-            }
-        }
 
-        stage ('Install') {
+        stage ('Build') {
             steps {
-                sh 'mvn install'
-            }
-        }
-
-        stage ('Deploy') {
-            steps {
-                sh 'mvn deploy'
+                sh 'mvn clean install'
             }
         }
 
@@ -36,13 +25,28 @@ pipeline {
                 sh 'mvn sonar:sonar -Dsonar.login=2c7c762b4396a75b11148e2512ef9bab2c2b4303'
             }
         }
-    }
+
+	stage('Docker Build') {
+	    steps {
+	      	sh 'docker build -t saurabh221089/hello-world-docker-container:latest .'
+	    }
+	}
+
+	stage('Docker Push') {
+	    steps {
+	      	withCredentials([usernamePassword(credentialsId: 'dockerHub', passwordVariable: 'dockerHubPassword', usernameVariable: 'dockerHubUser')]) {
+        		sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPassword}"
+	        	sh 'docker push saurabh221089/hello-world-docker-container:latest'
+	        	}
+		}
+	}
 
     post{
 	always {
 		emailext body: "STATUS: ${currentBuild.currentResult}\nJob: ${JOB_NAME}\nMore info at: ${BUILD_URL}console\n\nCheckstyle analysis: ${BUILD_URL}checkstyle\n\nRegards\nRelease Team",
-            subject: "${JOB_NAME} :Build ${BUILD_NUMBER} :${currentBuild.currentResult}",
-            to: 'saurabh.badhwar@gspann.com'
+	            subject: "${JOB_NAME} :Build ${BUILD_NUMBER} :${currentBuild.currentResult}",
+	            to: 'saurabh221089@gmail.com'
 		}
 	}    
+}
 }
