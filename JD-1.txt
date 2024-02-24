@@ -1,0 +1,119 @@
+Description
+
+This role of DevOps Platform Administrator is to design and manage a highly available containerization platform and related cloud native tools. 
+
+The DevOps Platform team is responsible for maintaining all Kubernetes clusters and underlying technology required for hosting in a private cloud.
+
+Kubernetes are taking care of creating a private cloud 
+
+ As a DevOps Platform Administrator, you will collaborate with the team on the architecture, configuration, and maintenance of all DevOps related projects, tools and processes, as well as participate in troubleshooting, remediation, documentation and onboarding of new applications.
+
+
+Responsibilities
+• Work with team to architect, deploy and manage private cloud Kubernetes platforms and related cloud native tools
+
+• Work with development and configuration management teams to identify and resolve issues with applications and application deployment pipelines
+• Configure Windows and Linux operating systems on virtual and physical servers
+• Utilize automation tools such as Terraform, Ansible, or similar
+• Work support tickets assigned to the DevOps team
+• Monitor system performance and logs and provide reports for managements awareness into the technical health of Paycom's infrastructure
+• Develop team documentation for day to day duties and team knowledge
+• Keep systems properly configured, updated, healthy, hardened and scaled to meet the needs of the business
+
+
+
+DevOps Platform Administrator  ===> Devops(developer)+operations === Experience 
+
+Tool : containerization platform ( Docker+Kubernetes)
+
+Docker == Containers ===Managing the containers is nothing but kubernetes 
+
+Containers  ===> Light weight VM == VM -- virtual machine == AWS ec2 -instance ===Virtual machine 
+
+containers == ec2-instance   Can be managed by kubernets ( Kubernetes is admin tool)
+
+design and manage====> 
+
+related cloud native tools.  === Kubernets == Open source and cloud native tool ( AWS EKS  == Elastic kubenertes service) /GKE/AKS
+
+Open source Kubernetes ===> kubeadm / kops / Minikube 
+
+private cloud ===> You are maintain a seperate network ( You are maintaining seperate IPS)
+
+
+AWS ===> VPC ====Virtual private 
+
+
+AWS will provide 2 networks 1.default network ( It is managed by aws ) 2. User defined network ( By creating a VPC ===> User / organization /Devops enginer/ Admin) = private network 
+
+
+Docker 
+
+Kubernetes 
+
+Monitoring Tools
+
+CLoud 
+
+Ticketing Tools 
+
+
+ec2 vs docker
+
+ec2-===> virtual machine  You can deploy a single   == 5 ec2 server 
+
+Docker ===> It is light VM  == You can deploy 5 application at a time 
+
+On a singlt ec2 machine we can create 5 Docker containers
+
+Kubernetes ===manage the docker containers 
+
+
+
+deploy a application 
+
+Role of a Devops engineer  deploy a application , Manage the application , Monitor the application 
+
+Deploy the application ===> 
+
+deploying your application in different platforms 
+
+1.Om premises  == Your complete servers hosted at your office location == Physical servers  ====> This is not using 
+
+Hybrid infrastructure ===> 50% on premised + 50% on cloud === Ex : banking 
+
+2. Clloud === AWs ec2 server  == ex : balluun 
+
+3. Containers  ===> 1 ec2 serer they can deploy multiple applications 
+
+4. Kubernetes  ===> Deploy in kubenetes ===> It is a advance tool of dockers used for administrative of docker containers   ex: amazon.com
+
+
+
+Java application what is 2 tier and 3 tier arch
+
+balluun === 3 tier application 
+
+3 tier arch 
+
+front end ===>Java application == Build a business logic   
+
+backend ====> Mysql Database  == it is used to store your application data
+
+Webserver  === Tomcat  ==> Host your application for access outside of the world ====> www.google.com  === Application code+ database 
+
+2 tier ===>
+
+Frontend  == Application code === Any programetical language 
+
+backend  ===> Database ===> Store all your application 
+
+MS office 
+
+
+
+
+
+
+
+
